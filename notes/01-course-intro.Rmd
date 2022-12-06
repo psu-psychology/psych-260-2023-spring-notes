@@ -17,8 +17,7 @@ knitr::opts_chunk$set(echo = FALSE,
 
 ## TA & Instructor {-}
 
-**Rick O. Gilmore**, Ph.D.  {-}
-
+**Rick O. Gilmore**, Ph.D.</br>
 Professor of Psychology
 
 ### Gilmore photo bio {-}
@@ -164,6 +163,8 @@ knitr::include_graphics("http://www.glasbergen.com/wp-content/gallery/teen/edu01
 - "Coronavirus appears to have originated in non-human animals in China."
 
 ---
+
+An example of scientific perspectives on origins...
 
 ```{r evo-tree-of-life-fig, fig.cap="<https://www.evogeneao.com>"}
 knitr::include_graphics("https://evogeneao.s3.amazonaws.com/images/tree_of_life/tree-of-life_1000.png")
