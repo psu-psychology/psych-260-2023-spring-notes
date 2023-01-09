@@ -50,7 +50,7 @@ knitr::include_graphics("https://source.wustl.edu/wp-content/uploads/2013/08/Col
 Take your own example system from earlier.
 What are the components of that system?
 What are the inputs and outputs?
-What do the components exchange?
+What do the components *exchange*?
 
 :::
 

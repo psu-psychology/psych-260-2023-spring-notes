@@ -1,5 +1,5 @@
 --- 
-title: "PSYCH 260.001 Spring 2023 notes"
+title: "PSYCH 260/BBH 203 Spring 2023 notes"
 author: "Rick O. Gilmore, Ph.D."
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -10,7 +10,7 @@ biblio-style: "apa-like"
 description: |
   Lecture notes for the course.
 link-citations: yes
-github-repo: "psu-psychology/psych-260-2023-spring-notes"
+github-repo: "psu-psychology/psych-260-2023-spring-notes/notes"
 url: 'https\://psu-psychology.github.io/psych-260-2023-spring-notes/'
 ---
 
