@@ -6,4 +6,4 @@ language:
     fig: "Figure "
     tab: "Table "
 output_dir: "../docs"
-github-repo: "psu-psychology/psych-260-2023-spring-notes"
+github-repo: "psu-psychology/psych-260-2023-spring-notes/src"
