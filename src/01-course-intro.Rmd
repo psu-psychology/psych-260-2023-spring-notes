@@ -13,6 +13,13 @@ knitr::opts_chunk$set(echo = FALSE,
 
 <https://www.youtube.com/embed/JB7jSFeVz1U>
 
+## Today's topics
+
+- Introductions
+- Structure of the course
+- What's this course about?
+- On systems
+
 ---
 
 ## People {-}
@@ -29,6 +36,13 @@ knitr::opts_chunk$set(echo = FALSE,
 ```
 
 - [PSYCH 490 -- The reproducibility crisis in science](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring)
+
+## Structure of the course
+
+- [Schedule](https://psu-psychology.github.io/psych-260-2023-spring/schedule.html)
+- [Evaluation](https://psu-psychology.github.io/psych-260-2023-spring/evaluation.html)
+
+---
 
 ## What is this course about? {-}
 
@@ -123,8 +137,8 @@ knitr::include_graphics("http://www.glasbergen.com/wp-content/gallery/teen/edu01
 - Science should be reproducible, robust, transparent
     - others can get the same answer, but see [PSYCH 490.003](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring)
 - Science
-    + has led to huge advances in human health and prosperity over the last several centuries
-    + will be essential for maintaining and extending those advances in the future
+    + led to huge advances in human health & prosperity
+    + essential for maintaining & extending those advances
     + Example: Rapid development and deployment of multiple, effective, and safe vaccines for SARS-CoV-2 that sharply reduce severe illness and death.
     
 ### Similarities among sciences {-}
