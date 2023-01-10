@@ -28,6 +28,8 @@ knitr::opts_chunk$set(echo = FALSE,
 ```{r child="rmd/gilmore-photo-bio.Rmd"}
 ```
 
+- [PSYCH 490 -- The reproducibility crisis in science](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring)
+
 ## What is this course about? {-}
 
 - What is behavior?
@@ -167,7 +169,7 @@ knitr::include_graphics("https://evogeneao.s3.amazonaws.com/images/tree_of_life/
     
 ---
 
-## Parts of nervous system {-}
+## Spatial and temporal scales in neuroscience {-}
 
 ```{r, fig.cap="[[@sejnowski2014putting]](http://doi.org/10.1038/nn.3839)"}
 knitr::include_graphics("https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg?as=webp")
