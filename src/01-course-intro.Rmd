@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = FALSE,
 
 <https://www.youtube.com/embed/JB7jSFeVz1U>
 
-## Today's topics
+## Today's topics {-}
 
 - Introductions
 - Structure of the course
@@ -37,7 +37,7 @@ knitr::opts_chunk$set(echo = FALSE,
 
 - [PSYCH 490 -- The reproducibility crisis in science](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring)
 
-## Structure of the course
+## Structure of the course {-}
 
 - [Schedule](https://psu-psychology.github.io/psych-260-2023-spring/schedule.html)
 - [Evaluation](https://psu-psychology.github.io/psych-260-2023-spring/evaluation.html)

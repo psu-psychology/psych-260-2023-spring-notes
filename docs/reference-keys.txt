@@ -87,8 +87,6 @@ fig:unnamed-chunk-66
 fig:unnamed-chunk-67
 fig:unnamed-chunk-68
 course-intro
-todays-topics
-structure-of-the-course
 systems
 history
 rené-descartes-mid-1600s
