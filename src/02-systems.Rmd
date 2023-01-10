@@ -47,15 +47,6 @@ What makes it a system?
 knitr::include_graphics("https://source.wustl.edu/wp-content/uploads/2013/08/ColeCoverFlexHub470x340.jpg")
 ```
 
-::: {.infobox}
-
-Take your own example system from earlier.
-What are the *components* of that system?
-What are the *inputs and outputs*?
-What do the components *exchange*?
-
-:::
-
 ## Why is studying systems so hard? {-}
 
 - Single parts -> multiple functions
@@ -65,3 +56,14 @@ What do the components *exchange*?
 - What is being exchanged/processed? 
     - Answer (often): Information
 - What is being controlled?
+
+::: {.infobox}
+
+Take your own example system from earlier.
+What are the *components* of that system?
+What are the *inputs and outputs*?
+What do the components *exchange*?
+
+**Send a 1 page write-up describing your system and answers to these questions to Megan via Canvas by Friday, January 13, 2023 at 5:00 PM for 2 extra credit points.**
+
+:::
