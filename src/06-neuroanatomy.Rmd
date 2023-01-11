@@ -11,6 +11,10 @@
 [[@Kids_Learning_Tube2015-pb]](https://www.youtube.com/watch?v=Qw8E9WnZTQk)
 <!-- I'm your brain...part of the nervous system (song) -->
 
+<iframe id="reddit-embed" src="https://www.redditmedia.com/r/cogsci/comments/108fdvl/all_the_layers_in_your_brain/?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="598" width="640" scrolling="no"></iframe>
+[[@noauthor_undated-uu]](https://www.redditmedia.com/r/cogsci/comments/108fdvl/all_the_layers_in_your_brain/)
+<!-- The layers in your brain from Reddit -->
+
 ## Warm-up {-}
 
 ### What kind of brain imaging technique does this image represent? {-}
