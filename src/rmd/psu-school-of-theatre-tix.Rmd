@@ -1,0 +1,7 @@
+## Announcement {-}
+
+Penn State School of Theatre **Free tickets**
+
+```{r fig-psu-school-of-theatre-tix, fig.cap="https://theatre.psu.edu/centrestage", out.width="25%"}
+knitr::include_graphics("include/img/psu-school-of-theatre-free-tixs.png")
+```

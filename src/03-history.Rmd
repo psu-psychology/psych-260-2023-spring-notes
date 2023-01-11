@@ -6,6 +6,9 @@
 knitr::include_url("https://www.youtube.com/embed/0fKBhvDjuy0")
 ```
 
+```{r child="rmd/psu-school-of-theatre-tix.Rmd"}
+```
+
 ## Warm-up {-}
 
 ### Neuroscience is harder than physics because...{-}
