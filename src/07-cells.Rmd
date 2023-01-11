@@ -1,0 +1,252 @@
+# Cells of the nervous system {- #cells}
+
+## Prelude {-}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t-8bxeWqSV4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[[@Bbscottvids2009-ad]](https://www.youtube.com/watch?v=t-8bxeWqSV4)
+
+<!-- Migrating neuron -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zMmjGExpDP8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<http://eyewire.org>
+
+## A quantitative perspective {-}
+
+### Human vs. non-human cells {-}
+
+- ~ 37 trillion (10^9) [[@Roy2018-wo]](http://dx.doi.org/10.1091/mbc.E18-04-0260) cells
+- 10-100 trillion non-human cells (gut, skin/hair, bloodstream, etc.)
+- Human bodies are a community
+
+### How many neurons and glia? {-}
+
+- Old "lore": ~100 billion neurons
+- New estimate [@azevedo2009equal]
+    + ~86 +/- 8 billion neurons
+    + ~85 +/- 9 billion glia
+- 100-500 trillion synapses, 1 billion/mm^3
+
+- How many years to count to 170 billion?
+- 60 s/min x 60 min/hr x 24 hrs/day x 365 days/ yr = 31,536,000 s/yr
+- 1.7e11/31,536,000 = 5,390 years
+
+### Mass of neurons and non-neurons {-}
+
+```{r, fig.cap="[[@azevedo2009equal]](http://doi.org/10.1002/cne.21974)"}
+knitr::include_graphics("include/img/azevedo-et-al-fig-1.jpg")
+```
+
+```{r, echo=FALSE, fig.align='center', fig.cap="Non-neurons: Mass vs. number of cells"}
+# data from Azevedo
+suppressPackageStartupMessages("tidyverse")
+library(tidyverse)
+
+mass_g <- c(1232.93, 154.02, 117.66)
+portion <- c("cerebral ctx", "cerebellum", "rest")
+b_neurons <- c(16.34, 69.03, 0.69)
+b_nonneurons <- c(60.84, 16.04, 7.73)
+brain <- data.frame(portion, mass_g, b_neurons, b_nonneurons)
+
+brain %>% ggplot() +
+  aes(x=mass_g, b_nonneurons, color=portion) +
+  geom_point(size = 5) +
+  xlab("Mass in g") +
+  ylab("Billions of cells")
+```
+
+```{r echo=FALSE, fig.align='center', fig.cap="Neurons: Mass vs. number of cells"}
+brain %>% ggplot() +
+  aes(x=mass_g, b_neurons, color=portion) +
+  geom_point(size = 5) +
+  xlab("Mass in g") +
+  ylab("Billions of cells")
+```
+
+- \# of glial cells scales with brain size/mass
+- \# of neurons doesn't scale with brain size/mass
+    - cerebellum small but \# of neurons large
+
+> *"These findings challenge the common view that humans stand out from other primates in their brain composition and indicate that, with regard to numbers of neuronal and nonneuronal cells, the human brain is an isometrically scaled-up primate brain."*
+>
+> [[@azevedo2009equal]](http://doi.org/10.1002/cne.21974)
+
+```{r fig-human-advantage, fig.cap="The Human Advantage"}
+knitr::include_graphics("https://mitpress.mit.edu/sites/default/files/styles/large_book_cover/http/mitp-content-server.mit.edu%3A18180/books/covers/cover/%3Fcollid%3Dbooks_covers_0%26isbn%3D9780262034258%26type%3D.jpg?itok=cF8pgUnB")
+```
+
+## Glia (neuroglia) {-}
+
+- "Glia" means glue
+- Functions
+	+ Structural support
+	+ Metabolic support
+	+ Brain development
+	+ Neural plasticity?
+- Several types of glial cells
+
+### Astrocytes {-}
+
+- "Star-shaped"
+- Physical and metabolic support
+	+ Blood/brain barrier
+	+ Regulate concentration of key ions (Ca++/K+) for neural communication
+	+ Regulate concentration of key neurotransmitters (e.g., glutamate)
+
+- Shape brain development, [synaptic plasticity](https://en.wikipedia.org/wiki/Synaptic_plasticity)
+- Regulate local blood flow (part of fMRI's blood oxygen-dependent BOLD response)
+- Regulate/influence communication between neurons, [[@bazargani_astrocyte_2016]](http://doi.org/10.1038/nn.4201)
+- Disruption linked to cognitive impairment, disease [[@chung_glia_2015]](http://doi.org/10.1038/nn.4142)
+
+```{r fig-astrocyte, fig.cap="Human astrocyte: Wikipedia"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/5/56/Human_astrocyte.png")
+```
+
+### Myelinating cells {-}
+
+- Produce [myelin](https://en.wikipedia.org/wiki/Myelin) or myelin sheath
+  + White, fatty substance
+  + Surrounds many neurons
+  + The "white" in white matter
+- Provide electrical/chemical insulation
+- Make neuronal messages faster, less susceptible to noise
+  
+### [Oligodendrocytes](https://en.wikipedia.org/wiki/Oligodendrocyte) {-}
+
++ In brain and spinal cord (Central Nervous System or CNS)
++ 1:many neurons
+
+
+```{r fig-oligodendrocyte, fig.cap="Oligodendrocyte: Wikipedia"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Oligodendendrocytes_in_rat_brain.tif/lossy-page1-800px-Oligodendendrocytes_in_rat_brain.tif.jpg")
+```
+	
+### [Schwann cells](https://en.wikipedia.org/wiki/Schwann_cell) {-}
+
++ In Peripheral Nervous System (PNS)
++ 1:1 neuron
++ Facilitate neuro-regeneration
+- Mnemonics: COPS/SPOC
+	
+```{r fig-schwann-cell, fig.cap="Schwann Cell"}
+knitr::include_graphics("http://medcell.med.yale.edu/systems_cell_biology/nervous_system_lab/images/myelinated_axon_em_labels.jpg")
+```
+
+### Microglia {-}
+
+- Clean-up damaged, dead tissue
+    - [Phagocytosis](https://en.wikipedia.org/wiki/Phagocytosis)
+- Prune synapses in normal development and disease
+- Disruptions in microglia pruning -> impaired functional brain connectivity and social behavior, [[@zhan_deficient_2014]](http://doi.org/10.1038/nn.3641)
+
+```{r fig-microglia, fig.cap="Microglia (red): http://faculty.sites.uci.edu/kimgreen/bio/microglia-in-the-healthy-brain/"}
+knitr::include_graphics("http://faculty.sites.uci.edu/kimgreen/files/2012/03/Lesion-mouse-NeuN-Iba-cool-DG-300x300.jpg")
+```
+
+## [Neurons](https://en.wikipedia.org/wiki/Neuron) {-}
+
+```{r fig-neurons-hippocampus, fig.cap="Neurons in mouse hippocampus: http://www.extremetech.com/wp-content/uploads/2012/03/a-mouse-hippocampus-640x353.jpg"}
+knitr::include_graphics("http://www.extremetech.com/wp-content/uploads/2012/03/a-mouse-hippocampus-640x353.jpg")
+```
+
+### Fun facts about [neurons](https://en.wikipedia.org/wiki/Neuron) {-}
+
+- Specialized for electrical & chemical communication
+- Post-mitotic -- don't divide
+- Most [born early in life](http://www.ninds.nih.gov/disorders/brain_basics/ninds_neuron.htm), [[@bhardwaj_neocortical_2006]](http://doi.org/10.1073/pnas.0605177103)
+- Among longest-lived cells in body, may scale with organism lifespan [[@magrassi_lifespan_2013]](http://doi.org/10.1073/pnas.1217505110)
+- Can extend over long distances
+
+### Macrostructure of [neurons](https://en.wikipedia.org/wiki/Neuron) {-}
+
+- [Dendrites](https://en.wikipedia.org/wiki/Dendrite)
+- [Soma (cell body)](https://en.wikipedia.org/wiki/Soma_(biology))
+- [Axons](https://en.wikipedia.org/wiki/Axon)
+- [Terminal buttons (boutons)](https://en.wikipedia.org/wiki/Axon_terminal)
+
+```{r fig-neuron-structure, fig.cap="Neuron structure: Wikipedia"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Complete_neuron_cell_diagram_en.svg/1280px-Complete_neuron_cell_diagram_en.svg.png")
+```
+
+### [Dendrites](https://en.wikipedia.org/wiki/Dendrite) {-}
+
+- Branch-like "extrusions" from cell body
+- Majority of input to neuron
+- Cluster close to cell body/soma
+- Usually receive info
+- Passive (do not regenerate electrical signal) vs. active (regenerate signal)
+
+```{r fig-dendrites, fig.cap="Dendrites: https://i.stack.imgur.com/kfriB.jpg"}
+knitr::include_graphics("https://i.stack.imgur.com/kfriB.jpg")
+```
+
+- Dendritic Spines (protrusions from dendrites)
+
+```{r fig-dendritic-spines, fig.cap="Dendritic spines: https://upload.wikimedia.org/wikipedia/commons/b/b1/Dendritic_spines.jpg"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b1/Dendritic_spines.jpg")
+```
+
+### [Soma (cell body)](https://en.wikipedia.org/wiki/Soma_(biology)) {-}
+
+- Varied shapes
+- Nucleus
+	+ Chromosomes (genetic material)
+- Organelles
+	+ Mitochonrdria
+	+ Smooth and Rough Endoplasmic reticulum (ER)
+	
+```{r fig-soma, fig.cap="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Complete_neuron_cell_diagram_en.svg/1280px-Complete_neuron_cell_diagram_en.svg.png"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Complete_neuron_cell_diagram_en.svg/1280px-Complete_neuron_cell_diagram_en.svg.png")
+```
+
+### [Axons](https://en.wikipedia.org/wiki/Axon) {-}
+
+- Another branch-like "extrusion" from soma
+- Extend farther than dendrites
+- Usually transmit info
+- Parts
+    + **Initial segment** (closest to soma, unmyelinated)
+    + **Nodes of Ranvier** (unmyelinated segments along axon)
+    + Terminals, axon terminals, terminal buttons, synaptic terminals, synaptic boutons
+
+```{r fig-axons, fig.cap="Axon: http://droualb.faculty.mjc.edu/Course%20Materials/Physiology%20101/Chapter%20Notes/Fall%202007/figure_07_02_labeled.jpg"}
+knitr::include_graphics("http://droualb.faculty.mjc.edu/Course%20Materials/Physiology%20101/Chapter%20Notes/Fall%202007/figure_07_02_labeled.jpg")
+```
+
+### [Synaptic bouton (terminal button)](https://en.wikipedia.org/wiki/Axon_terminal) {-}
+
+- [Synapse](https://en.wikipedia.org/wiki/Chemical_synapse#Structure) (~5-10K per neuron) 
+- Presynaptic membrane (sending cell) and postsynaptic (receiving cell) membrane
+- Synaptic cleft -- space between cells
+- [Synaptic vesicles](https://en.wikipedia.org/wiki/Synaptic_vesicle)
+    + Pouches of neurotransmitters
+- [Autoreceptors](https://en.wikipedia.org/wiki/Autoreceptor) (detect NTs); [transporters](https://en.wikipedia.org/wiki/Neurotransmitter_transporter) (transport NTs across membrane)
+
+```{r fig-synapse, fig.cap="http://antranik.org/wp-content/uploads/2012/04/synapse.jpg"}
+knitr::include_graphics("http://antranik.org/wp-content/uploads/2012/04/synapse.jpg")
+```
+
+### Classifying neurons {-}
+
+- Functional role
+    + Input (sensory), output (motor/secretory), interneurons 
+- Anatomy of axons
+    + Unipolar
+    + Bipolar
+    + Multipolar
+
+```{r fig-neuron-types, fig.cap="Types of neurons: Wikipedia"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Neurons_uni_bi_multi_pseudouni.svg/2000px-Neurons_uni_bi_multi_pseudouni.svg.png")
+```
+
+- By specific anatomy
+    + Pyramidal cells
+    + Stellate cells 
+    + Purkinje cells 
+    + Granule cells
+    
+```{r fig-neuron-anatomy-types, fig.cap="Neuronal subtypes: http://biodrawing.com/Neurology_modules/NervousSystemSite/Neuroanatomy/figures/Cytology-Neurons_types_small.png"}
+knitr::include_graphics("http://biodrawing.com/Neurology_modules/NervousSystemSite/Neuroanatomy/figures/Cytology-Neurons_types_small.png")
+```
+
