@@ -2,15 +2,39 @@
 
 ## Spatial resolution {- #spatial-resolution-fig}
 
-<div class="centered">
-<img src="img/churchland-levels-of-analysis.gif" height=500px/>
-</div>
+```{r img-spatial-resolution, fig.cap="Spatial levels of analysis (Churchland)"}
+knitr::include_graphics("include/img/churchland-levels-of-analysis.gif")
+```
 
 ## Spatial and Temporal Resolution {- #spatial-temporal-resolution}
 
-```{r spatial-temp-resolution-fig, include=FALSE, fig.cap="[[@sejnowski2014putting]](https://doi.org/10.1038/nn.3839)"}
+```{r, fig.cap="[[@sejnowski2014putting]](http://doi.org/10.1038/nn.3839)"}
 knitr::include_graphics("https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg?as=webp")
 ```
+
+::: {.infobox}
+
+**Your turn**
+
+- What's a micro (spatially small) influence on/aspect of behavior?
+- What's a macro (spatially large)...
+- What's a micro (temporally short)...
+- What's a macro (temporally long)...
+
+:::
+
+## Why does this matter? {-}
+
+- Different methods, different levels of analysis
+- Challenge of linking phenomena across levels
+    + How does the micro affect macro or vice versa?
+- Challenge of interpretation
+
+::: {.infobox}
+
+**Important skills**: Being able to think about spatial and temporal levels of analysis inside and outside of neuroscience.
+
+:::
 
 ## Spatial Resolution in Detail {-}
 
@@ -66,17 +90,3 @@ knitr::include_graphics("https://media.springernature.com/lw685/springer-static/
         * cultural changes
     + Millenia
         * Natural & sexual selection
-
-## Your turn {-}
-
-- What's a micro (spatially small) influence on/aspect of behavior?
-- What's a macro (spatially large)...
-- What's a micro (temporally short)...
-- What's a macro (temporally long)...
-     
-## Why does this matter? {-}
-
-- Different methods, different levels of analysis
-- Challenge of linking phenomena across levels
-    + How does the micro affect macro or vice versa?
-- Challenge of interpretation

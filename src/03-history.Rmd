@@ -32,7 +32,6 @@ knitr::include_url("https://www.youtube.com/embed/0fKBhvDjuy0")
 - Vital role of *tools/methods/techniques* in discovery
 - *"If I have seen further, it is by standing on the shoulders of giants."* -- Isaac Newton, 1676
 
-
 ```{r hist-of-neuro, fig.cap="[[@NeuroBriefs2011-pd]](https://www.youtube.com/watch?v=S0HKupSZq8k)"}
 knitr::include_url("https://www.youtube.com/embed/S0HKupSZq8k")
 ```
@@ -57,10 +56,11 @@ knitr::include_graphics("http://faculty.washington.edu/chudler/gif/papybr.gif")
 
 ### [Beer-making (~5,000 BCE)](https://en.wikipedia.org/wiki/History_of_beer)  {-}
 
-<div class="centered">
-<a href="http://www.beerintheworld.com/images/history/history001.gif"><img src="http://www.beerintheworld.com/images/history/history001.gif" height=550px>
-</a>
-</div>
+```{r fig-beer-making, fig.cap="Alulu beer receipt – This records a purchase of 'best' beer from a brewer, c. 2050 BC from the Sumerian city of Umma in ancient Iraq"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/f/f7/Alulu_Beer_Receipt.jpg")
+```
+
+- What does beer-making have to do with the neurological bases of human behavior?
 
 ### Greek and Roman era  {-}
 
@@ -100,9 +100,9 @@ knitr::include_graphics("http://www.cerebromente.org.br/n06/historia/am1.gif")
 
 ### Why didn't they know more? {-}
 
-- A. Limited technology.
-- B. Limited cultural support for systematic observation & description. = **SCIENCE**
-- C. Lack of ability to use knowledge even if it were acquired.
+- Limited technology.
+- Limited cultural support for systematic observation & description. = **SCIENCE**
+- Lack of ability to use knowledge even if it were acquired.
 
 ## The "dark" ages (in Europe, not elsewhere) {-}
 
@@ -130,7 +130,7 @@ knitr::include_graphics("https://dana.org/wp-content/uploads/2019/09/Leonardo-2m
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/a/a7/Vesalius_609c.png")
 ```
 
-### René Descartes -- mid 1600’s
+### René Descartes -- mid 1600’s {-}
 
 - Reflexes “reflect” sensory events in the world
 - Not the same as voluntary functions
@@ -145,21 +145,29 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/8/8a/Des
     - Physical + spiritual
 - Soul controls body via *pineal gland*
     - Causes muscles to “inflate”
+    
+::: {.infobox}
+
+Descartes is an important figure for this class.
+
+:::
 
 ## Pineal gland  {-}
 
-<div class="centered">
-<a href="http://images.fineartamerica.com/images-medium-large-5/descartes-pineal-gland-granger.jpg">
-<img src="http://images.fineartamerica.com/images-medium-large-5/descartes-pineal-gland-granger.jpg" height=450px/>
-</a>
-</div>
+```{r fig-pineal, fig.cap="Figure of the pineal gland by Descartes: http://images.fineartamerica.com/images-medium-large-5/descartes-pineal-gland-granger.jpg"}
+knitr::include_graphics("http://images.fineartamerica.com/images-medium-large-5/descartes-pineal-gland-granger.jpg")
+```
 
-## Do you agree with Descartes?  {-}
+::: {.infobox}
+
+**Do you agree with Descartes?**
 
 - **Yes**, human minds are fundamentally different from animal minds. The human mind is influenced by both physical and extraphysical processes.
 - **No**, human minds are similar to animal minds. The human mind arises solely from physical processes.
 
-## How would you *scientifically* test Descartes idea about the role of the pineal gland? {-}
+:::
+
+**How would you _scientifically_ test Descartes idea about the role of the pineal gland?**
 
 ## Other milestones  {-}
 
@@ -168,7 +176,7 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/8/8a/Des
 - Recording of electrical activity of nerves, [Luigi Galvani](https://en.wikipedia.org/wiki/Luigi_Galvani)
 - [Magnetic resonance imaging (MRI)](https://en.wikipedia.org/wiki/Magnetic_resonance_imaging)
 
-## The lessons from history {-}
+## Some lessons from early history {-}
 
 - Neuroscience shaped by new methods, tools
 - If you can't see it/measure it, you can't say much about it

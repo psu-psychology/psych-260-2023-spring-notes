@@ -35,10 +35,10 @@
 
 ### Cell/axon stains  {-}
 
-#### Golgi stain
+#### Golgi stain {-}
 
-- Complete nerve cells, but only 1-5\% of total
 - [Camillo Golgi](https://en.wikipedia.org/wiki/Camillo_Golgi)
+- <span color="blue>Complete nerve cells, but only 1-5\% of total</span>
 - Soak tissue in Potassium Dichromate ($K_2Cr_2O_7$) then apply Silver Nitrate ($AgNO_3$)
 - Santiago Ramon y Cajal argued for *neuron doctrine*, shared 1906 Nobel Prize with Golgi
 
@@ -121,7 +121,7 @@ knitr::include_url("https://www.youtube.com/embed/nvXuq9jRWKE")
 
 <div class="centered">
 <a href="http://img.tfd.com/mk/T/X2604-T-22.png">
-<img src="img/ct-scanner.png" height="450px"/>
+<img src="include/img/ct-scanner.png" height="450px"/>
 </a>
 </div>
 
@@ -135,7 +135,7 @@ knitr::include_url("https://www.youtube.com/embed/nvXuq9jRWKE")
 
 <div class="centered">
 <a href="http://1.bp.blogspot.com/-I5AIwDp1jJM/UF9gqPEw4vI/AAAAAAAB77M/VfLRw2JDEiY/s1600/mca+inferior+division+infarct+ct+brain.JPG">
-<img src="img/mca-inferior-division-infarct-ct-brain.jpg" height=500px>
+<img src="include/img/mca-inferior-division-infarct-ct-brain.jpg" height=500px>
 </a>
 </div>
 
@@ -187,7 +187,7 @@ knitr::include_graphics("https://www.nap.edu/openbook/13373/xhtml/images/p26.jpg
 knitr::include_graphics("https://prod-images-static.radiopaedia.org/images/556479/0dc08a48892084b4c3b717feb9dfa4_big_gallery.jpg")
 ```
 
-##### Voxel-based morphometry (VBM)](https://en.wikipedia.org/wiki/Voxel-based_morphometry) {-}
+##### [Voxel-based morphometry (VBM)](https://en.wikipedia.org/wiki/Voxel-based_morphometry) {-}
 
 ```{r, fig.cap="[[@Williamson2012-uj]](http://dx.doi.org/10.3389/fnhum.2012.00184)", out.height="500px"}
 knitr::include_graphics("http://www.frontiersin.org/files/Articles/18691/fnhum-06-00184-HTML/image_m/fnhum-06-00184-g003.jpg")
@@ -198,7 +198,7 @@ knitr::include_graphics("http://www.frontiersin.org/files/Articles/18691/fnhum-0
 - Morphometry, measure ("metry") form/morphology
 - How does brain size or thickness vary by age, disease status, etc.?
 
-## Functional methods  {-}
+## Functional methods {-}
 
 ### Types of functional methods {-}
 
@@ -273,7 +273,7 @@ knitr::include_graphics("https://media.springernature.com/w300/springer-static/i
 
 <div class="centered">
 <a href="https://doi.org/10.1167/3.10.1">
-<img src="img/doughtery-retinotopy-m_jov-3-10-1-fig001.jpg" height=500px>
+<img src="include/img/doughtery-retinotopy-m_jov-3-10-1-fig001.jpg" height=500px>
 </a>
 </div>
 
@@ -346,7 +346,6 @@ knitr::include_graphics("https://cdn.hswstatic.com/gif/brain-computer-interface-
 ```{r meg, fig.cap="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/NIMH_MEG.jpg/580px-NIMH_MEG.jpg"}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/NIMH_MEG.jpg/580px-NIMH_MEG.jpg")
 ```
-
 
 ### Manipulating the brain  {-}
 
