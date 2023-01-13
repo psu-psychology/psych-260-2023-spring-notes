@@ -25,10 +25,9 @@ knitr::write_bib(c(
 ), 'include/bib/packages.bib')
 ```
 
-
 ```{r set-up, include = FALSE}
 # Defaults for chunks, especially figures
 knitr::opts_chunk$set(echo = FALSE, cache=TRUE, 
                       fig.align = "center",
-                      out.width = "800px")
+                      out.width = "75%")
 ```
