@@ -72,7 +72,7 @@ knitr::include_graphics("https://www.brainfacts.org/-/media/Brainfacts2/In-the-L
 
 <!-- 2023-01-12 ended here -->
 
-#### Large-scale cellular techniques {-}
+#### Large-scale cellular techniques {- #lichtman}
 
 > *"If understanding everything we need to know about the brain is a mile, how far have we walked?"*
 > -- J. Lichtman
@@ -90,7 +90,7 @@ knitr::include_url("https://www.youtube.com/embed/nvXuq9jRWKE")
 #### Evaluating cellular techniques {-}
 
 - Pros:
-  - High spatial resolution
+  - High spatial resolution (resolve small details)
 - Cons:
   - Poor temporal resolution
   - Invasive
@@ -371,7 +371,7 @@ knitr::include_graphics("https://media.springernature.com/full/springer-static/i
 
 #### [Deep brain stimulation (DBS)](https://en.wikipedia.org/wiki/Deep_brain_stimulation) {-}
 
-```{r, fig.cap="https://www.nimh.nih.gov/health/topics/brain-stimulation-therapies/brain-stimulation-therapies", out.height="400px"}
+```{r, fig.cap="https://www.nimh.nih.gov/health/topics/brain-stimulation-therapies/brain-stimulation-therapies"}
 knitr::include_graphics("https://www.nimh.nih.gov/sites/default/files/images/health-and-outreach/mental-health-topic-brain-stimulation-therapies/vns-200.jpg")
 ```
 
@@ -402,4 +402,3 @@ knitr::include_graphics("https://viso.ai/wp-content/uploads/2021/04/multilayer-p
 ```{r, out.width="600px", fig.cap="[[@sejnowski2014putting]](https://doi.org/10.1038/nn.3839)"}
 knitr::include_graphics("https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg?as=webp")
 ```
-
