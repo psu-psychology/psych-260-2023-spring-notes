@@ -124,6 +124,8 @@ fig:unnamed-chunk-78
 fig:unnamed-chunk-79
 fig:unnamed-chunk-81
 fig:unnamed-chunk-82
+fig:video-powers-of-ten
+fig:suppl-lichtman-video
 course-intro
 systems
 history
@@ -133,4 +135,5 @@ neuroanatomy
 brain-anatomy-through-dance
 frontal-lobe
 cells
+supplemental
 lingo

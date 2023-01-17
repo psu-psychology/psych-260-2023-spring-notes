@@ -143,6 +143,7 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/8/8a/Des
 - Human mind is not machine-like
     - “Dual” influences on behavior
     - Physical + spiritual
+    - Descartes a *philosophical dualist*
 - Soul controls body via *pineal gland*
     - Causes muscles to “inflate”
     

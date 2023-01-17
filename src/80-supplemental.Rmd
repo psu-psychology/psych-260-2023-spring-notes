@@ -1,0 +1,54 @@
+# Supplemental
+
+## 2023-01-12 {-}
+
+```{r video-powers-of-ten, fig.cap="[[@Eames_Office2010-xd]](https://www.youtube.com/watch?v=0fKBhvDjuy0)"}
+knitr::include_url("https://www.youtube.com/embed/0fKBhvDjuy0")
+```
+
+### Neuroscience is harder than physics because...{-}
+
+- A. The brain has more parts than any other physical entity we know about.
+- B. Physicists have largely ignored biology.
+- C. Nervous systems are influenced by multiple factors we can't (yet) measure effectively.
+- D. Physicists only study "toy" problems.
+
+### Systems have all of the following components EXCEPT: {-}
+
+- A. Boundaries
+- B. Components
+- C. Interactions among components
+- D. Inputs and outputs
+- E. Readily predictable behavior
+
+## 2023-01-17 {- #suppl_2023_01_17}
+
+> *"If understanding everything we need to know about the brain is a mile, how far have we walked?"*
+> -- J. Lichtman
+
+```{r suppl-lichtman-video, fig.cap="[[@National_Geographic2014-gv]](https://www.youtube.com/watch?v=nvXuq9jRWKE)"}
+knitr::include_url("https://www.youtube.com/embed/nvXuq9jRWKE")
+```
+
+### Leonardo da Vinci created wax casts of which fluid-filled structure in the forebrain? {-}
+
+a. Pineal gland
+b. Cerebral cortex
+c. Cerebral ventricles
+d. Hippocampus
+
+### Decartes was a philosophical *dualist*. This means he believed that... {-}
+
+a. Philosophers should engage in armed combat over their ideas
+b. *Human* behavior is influenced by physical and extra-physical (spiritual) forces
+c. The pineal gland is both an input and output structure
+
+### This cell stain fills entire neurons, but only a small fraction of the total number {-}
+
+a. Nissl stain
+b. Retrograde tracer
+c. Golgi stain
+
+### Structural methods have high/low *temporal* resolution {-}
+
+- Justify your answer
