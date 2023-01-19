@@ -1,63 +1,12 @@
 # Neuroanatomy
 
-## Prelude {-}
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XujOMf2hlRA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[[@Neural_Academy2020-yp]](https://www.youtube.com/watch?v=XujOMf2hlRA)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Qw8E9WnZTQk" frameborder="0" allowfullscreen></iframe>
-
-[[@Kids_Learning_Tube2015-pb]](https://www.youtube.com/watch?v=Qw8E9WnZTQk)
-<!-- I'm your brain...part of the nervous system (song) -->
-
-<iframe id="reddit-embed" src="https://www.redditmedia.com/r/cogsci/comments/108fdvl/all_the_layers_in_your_brain/?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="598" width="640" scrolling="no"></iframe>
-[[@noauthor_undated-uu]](https://www.redditmedia.com/r/cogsci/comments/108fdvl/all_the_layers_in_your_brain/)
-<!-- The layers in your brain from Reddit -->
-
-## Warm-up {-}
-
-### What kind of brain imaging technique does this image represent? {-}
-
-```{r, echo=FALSE, fig.align='center', out.width="75%"}
-knitr::include_graphics("https://www.researchgate.net/profile/Deryk_Beal/publication/228097899/figure/fig2/AS:302272379670529@1449078759253/A-structural-MRI-namely-a-T1-weighted-scan-of-the-human-brain-A-midsagittal-slice-is.png")
-```
-
-### What kind of structural brain imaging technique does this image represent? {-}
-
-- A. Magnetic Resonance Imaging (MRI)
-- B. Positron Emission Tomography
-- C. Event-related potentials (ERP)
-
-### Which of the following functional methods has *temporal* resolution on the order of seconds? {-}
-
-- A. functional MRI
-- B. EEG
-- C. MEG
-- D. single-unit recording
-
-### Which of the following methods has high/fine *spatial* resolution? {-}
-
-- A. functional MRI
-- B. PET
-- C. EEG
-- D. single-unit recording
-
-### Which measure(s) would you use to map connections between brain areas? {-}
-
-- A. retrograde/anterograde cell tracers
-- B. diffusion tensor imaging (DTI)
-- C. PET neuroimaging
-- E. both A & B.
-
-
 ## Finding our way around {-}
 
-### Brain anatomy through dance
+### Brain anatomy through dance {-}
 
 <div class="centered">
 <audio controls>
-  <source src="snd/brain_boxing-2.m4a" type="audio/mpeg">
+  <source src="include/snd/brain_boxing-2.m4a" type="audio/mpeg">
   Your browser does not support the audio tag.
 </audio>
 </div>
@@ -137,6 +86,12 @@ knitr::include_graphics("https://www.researchgate.net/profile/Yohannes_Mamo/publ
 - *Circle of Willis*
 - anterior, middle, & posterior cerebral
 
+::: {.infobox}
+
+Circle of Willis helps equalize blood pressures among the ascending arteries from the heart.
+
+:::
+
 #### Blood/brain barrier {-}
 
 - Isolates CNS from blood stream
@@ -176,29 +131,25 @@ knitr::include_graphics("https://media.springernature.com/lw685/springer-static/
 |                | Third                | Diencephalon       | [*Thalamus*](https://www.brainfacts.org/3D-Brain?__hstc=177771770.77b16463fbc715940e874d00368bdb13.1643137967770.1643137967770.1643137967770.1&__hssc=177771770.2.1643137967771&__hsfp=799304230#intro=false&focus=Brain-thalamus)        |
 |                |                      |                    | [*Hypothalamus*](https://www.brainfacts.org/3D-Brain?__hstc=177771770.77b16463fbc715940e874d00368bdb13.1643137967770.1643137967770.1643137967770.1&__hssc=177771770.2.1643137967771&__hsfp=799304230#intro=false&focus=Brain-limbic_system-hypothalamus)    |
 | [*Midbrain*](https://www.brainfacts.org/3D-Brain?__hstc=177771770.77b16463fbc715940e874d00368bdb13.1643137967770.1643137967770.1643137967770.1&__hssc=177771770.2.1643137967771&__hsfp=799304230#intro=false&focus=Brain-brain_stem-midbrain)   | Cerebral Aqueduct    | Mesencephalon      | *Tectum*, *Tegmentum* |
-
-| Major division | Ventricular Landmark | Embryonic Division | Structure         |
-|----------------|----------------------|--------------------|-------------------|
 | *Hindbrain*  | 4th                  | Rhombencephalon    | *Cerebellum*, [*pons*](https://www.brainfacts.org/3D-Brain?__hstc=177771770.77b16463fbc715940e874d00368bdb13.1643137967770.1643137967770.1643137967770.1&__hssc=177771770.2.1643137967771&__hsfp=799304230#intro=false&focus=Brain-brain_stem-pons)  |
 |                | --                   |                    | [*Medulla oblongata*](https://www.brainfacts.org/3D-Brain?__hstc=177771770.77b16463fbc715940e874d00368bdb13.1643137967770.1643137967770.1643137967770.1&__hssc=177771770.2.1643137967771&__hsfp=799304230#intro=false&focus=Brain-brain_stem-medulla_oblongata) |
 
-```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/c/c8/6_week_embryo_brain.jpg", out.height="500px"}
+```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/c/c8/6_week_embryo_brain.jpg"}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/c/c8/6_week_embryo_brain.jpg")
 ```
-
 
 ## Components of the brain {-}
 ### Hindbrain {-}
 
 - Structures adjacent to 4th ventricle
 
-```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Gray708.svg/500px-Gray708.svg.png", out.height="500px"}
+```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Gray708.svg/500px-Gray708.svg.png"}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Gray708.svg/500px-Gray708.svg.png")
 ```
 
 #### Medulla oblongata  {-}
 
-```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Gray708.svg/500px-Gray708.svg.png", out.height="500px"}
+```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Gray708.svg/500px-Gray708.svg.png"}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Gray708.svg/500px-Gray708.svg.png")
 ```
 
@@ -213,7 +164,7 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/b/
 - Dorsal to pons
 - Movement coordination, classical conditioning (associative learning), + ???
 
-```{r, fig.cap="https://en.wikipedia.org/wiki/Cerebellum", out.height="400px"}
+```{r, fig.cap="https://en.wikipedia.org/wiki/Cerebellum"}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/1/14/Cerebellum_animation_small.gif")
 ```
 
@@ -228,17 +179,17 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/1/14/Cer
 - Relay to cerebellum
 - Cranial nerve V
 
-```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Gray708.svg/500px-Gray708.svg.png", out.height="500px"}
+```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Gray708.svg/500px-Gray708.svg.png"}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Gray708.svg/500px-Gray708.svg.png")
 ```
 
 ### Midbrain {-}
 
-```{r, fig.cap="http://antranik.org/wp-content/uploads/2011/11/the-brain-stem-mid-brain-left-lateral-view-superior-colliculus-inferior-cerebellar-peduncle.jpg", out.height="450px"}
+```{r, fig.cap="http://antranik.org/wp-content/uploads/2011/11/the-brain-stem-mid-brain-left-lateral-view-superior-colliculus-inferior-cerebellar-peduncle.jpg"}
 knitr::include_graphics("http://antranik.org/wp-content/uploads/2011/11/the-brain-stem-mid-brain-left-lateral-view-superior-colliculus-inferior-cerebellar-peduncle.jpg")
 ```
 
-```{r, out.height="500px", fig.cap="https://vignette.wikia.nocookie.net/brain-for-ai/images/b/bd/Tectum.png/revision/latest?cb=20170613125935"}
+```{r, fig.cap="https://vignette.wikia.nocookie.net/brain-for-ai/images/b/bd/Tectum.png/revision/latest?cb=20170613125935"}
 knitr::include_graphics("https://vignette.wikia.nocookie.net/brain-for-ai/images/b/bd/Tectum.png/revision/latest?cb=20170613125935")
 ```
 
@@ -260,19 +211,19 @@ knitr::include_graphics("https://vignette.wikia.nocookie.net/brain-for-ai/images
 
 ### Forebrain {-}
 
-```{r, fig.cap="[[@Samanthi2019-jt]](https://www.differencebetween.com/difference-between-forebrain-midbrain-and-hindbrain/)", out.height="450px"}
+```{r, fig.cap="[[@Samanthi2019-jt]](https://www.differencebetween.com/difference-between-forebrain-midbrain-and-hindbrain/)"}
 knitr::include_graphics("https://i2.wp.com/www.differencebetween.com/wp-content/uploads/2019/05/Difference-Between-Forebrain-Midbrain-and-Hindbrain_Figure-1-e1557922693725.png?w=724&ssl=1")
 ```
 
 ### Diencephalon ("between" brain) {-}
 
-```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/a/a0/1310_Diencephalon.jpg", out.height="450px"}
+```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/a/a0/1310_Diencephalon.jpg"}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/a/a0/1310_Diencephalon.jpg")
 ```
 
 #### Thalamus  {-}
 
-```{r, fig.cap="http://neurobiologychapter3.weebly.com/uploads/1/4/1/8/1418733/5118342.jpg?401x231", out.height="500px"}
+```{r, fig.cap="http://neurobiologychapter3.weebly.com/uploads/1/4/1/8/1418733/5118342.jpg?401x231"}
 knitr::include_graphics("http://neurobiologychapter3.weebly.com/uploads/1/4/1/8/1418733/5118342.jpg?401x231")
 ```
 
@@ -293,7 +244,7 @@ knitr::include_graphics("http://neurobiologychapter3.weebly.com/uploads/1/4/1/8/
         - *Oxytocin*
         - *Vasopressin* 
 
-```{r, fig.cap="http://higheredbcs.wiley.com/legacy/college/tortora/0470565101/hearthis_ill/pap13e_ch14_illustr_audio_mp3_am/simulations/figures/hypothalamus.jpg", out.width="800px"}
+```{r, fig.cap="http://higheredbcs.wiley.com/legacy/college/tortora/0470565101/hearthis_ill/pap13e_ch14_illustr_audio_mp3_am/simulations/figures/hypothalamus.jpg"}
 knitr::include_graphics("http://higheredbcs.wiley.com/legacy/college/tortora/0470565101/hearthis_ill/pap13e_ch14_illustr_audio_mp3_am/simulations/figures/hypothalamus.jpg")
 ```
 
@@ -310,7 +261,7 @@ knitr::include_graphics("http://higheredbcs.wiley.com/legacy/college/tortora/047
 - Sequencing of movement
 - Example: Parkinson’s Disease
 
-```{r, fig.cap="http://humanphysiology.academy/Neurosciences%202015/Images/5/basalganglia%20sehati_org.jpeg", out.height="450px"}
+```{r, fig.cap="http://humanphysiology.academy/Neurosciences%202015/Images/5/basalganglia%20sehati_org.jpeg"}
 knitr::include_graphics("http://humanphysiology.academy/Neurosciences%202015/Images/5/basalganglia%20sehati_org.jpeg")
 ```
 
@@ -326,7 +277,7 @@ knitr::include_graphics("http://humanphysiology.academy/Neurosciences%202015/Ima
 
 #### [Hippocampus](https://en.wikipedia.org/wiki/Hippocampus) {-}
 
-```{r, echo=FALSE, out.width='750px', fig.align='center'}
+```{r}
 knitr::include_graphics("https://static1.squarespace.com/static/52ec8c1ae4b047ccc14d6f29/t/5750f2a32fe1315b8d98018d/1526033957297/hippocampus.jpg?format=1500w")
 ```
 
@@ -346,7 +297,7 @@ knitr::include_graphics("http://static1.squarespace.com/static/52ec8c1ae4b047ccc
 
 #### Amygdala {-}
 
-```{r, fig.cap="https://3.bp.blogspot.com/-DLYYDLYHSKc/WsV2203SrdI/AAAAAAAADwE/2K3dvkV9rporkTwHFmeeLQ1w4yGZk6xEwCLcBGAs/s1600/Amygdala.png", out.height="450px"}
+```{r, fig.cap="https://3.bp.blogspot.com/-DLYYDLYHSKc/WsV2203SrdI/AAAAAAAADwE/2K3dvkV9rporkTwHFmeeLQ1w4yGZk6xEwCLcBGAs/s1600/Amygdala.png"}
 knitr::include_graphics("https://3.bp.blogspot.com/-DLYYDLYHSKc/WsV2203SrdI/AAAAAAAADwE/2K3dvkV9rporkTwHFmeeLQ1w4yGZk6xEwCLcBGAs/s1600/Amygdala.png")
 ```
 
@@ -372,7 +323,7 @@ knitr::include_graphics("https://3.bp.blogspot.com/-DLYYDLYHSKc/WsV2203SrdI/AAAA
 
 [Medial longitudinal fissure (longitudinal fissure)](https://en.wikipedia.org/wiki/Medial_longitudinal_fissure)
 
-```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/0/04/Human_brain_longitudinal_fissure.png", out.height="450px"}
+```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/0/04/Human_brain_longitudinal_fissure.png"}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/0/04/Human_brain_longitudinal_fissure.png")
 ```
 
@@ -384,13 +335,13 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/4/41/Lat
 
 [Central sulcus](https://en.wikipedia.org/wiki/Central_sulcus)
 
-```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/8/88/Central_sulcus_diagram.png", out.height="450px"}
+```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/8/88/Central_sulcus_diagram.png"}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/8/88/Central_sulcus_diagram.png")
 ```
 
 ##### Lobes of the Cerebral Cortex {-}
 
-```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Lobes_of_the_brain_NL.svg/1024px-Lobes_of_the_brain_NL.svg.png", out.height="450px"}
+```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Lobes_of_the_brain_NL.svg/1024px-Lobes_of_the_brain_NL.svg.png"}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Lobes_of_the_brain_NL.svg/1024px-Lobes_of_the_brain_NL.svg.png")
 ```
 
@@ -401,7 +352,7 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/0/
     - Superior to lateral fissure
     - Dorsal to temporal lobe
     
-```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Lobes_of_the_brain_NL.svg/1024px-Lobes_of_the_brain_NL.svg.png", out.height="450px"}
+```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Lobes_of_the_brain_NL.svg/1024px-Lobes_of_the_brain_NL.svg.png"}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Lobes_of_the_brain_NL.svg/1024px-Lobes_of_the_brain_NL.svg.png")
 ```
 
@@ -409,7 +360,7 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/0/
     - Pre-central gyrus (pre/anterior to central sulcus)
         - [Primary motor cortex (M1)](https://www.brainfacts.org/3d-brain#intro=true&focus=Brain-cerebral_hemisphere-frontal_lobe-motor_cortex) 
 
-```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Blausen_0103_Brain_Sensory%26Motor.png/1200px-Blausen_0103_Brain_Sensory%26Motor.png", out.height="450px"}
+```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Blausen_0103_Brain_Sensory%26Motor.png/1200px-Blausen_0103_Brain_Sensory%26Motor.png"}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Blausen_0103_Brain_Sensory%26Motor.png/1200px-Blausen_0103_Brain_Sensory%26Motor.png")
 ```
 
@@ -428,19 +379,15 @@ knitr::include_graphics("http://cis.jhu.edu/data.sets/cortical_segmentation_vali
 
 Inferior Frontal Gyrus (IFG)
 
-<div class="centered">
-<a href="https://upload.wikimedia.org/wikipedia/commons/b/b2/Gray726_inferior_frontal_gyrus.png">
-<img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Gray726_inferior_frontal_gyrus.png" height="450px"/>
-</a>
-</div>
+```{r fig-ifg, fig.cap="Inferior frontal gyrus: https://upload.wikimedia.org/wikipedia/commons/b/b2/Gray726_inferior_frontal_gyrus.png"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b2/Gray726_inferior_frontal_gyrus.png")
+```
 
-Middle Frontal Gyrus (MFG) {.smaller}
+Middle Frontal Gyrus (MFG)
 
-<div class="centered">
-<a href="https://upload.wikimedia.org/wikipedia/commons/7/7f/Gray726_middle_frontal_gyrus.png">
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Gray726_middle_frontal_gyrus.png" height="450px"/>
-</a>
-</div>
+```{r fig-mfg, fig.cap="Middle frontal gyrus: https://upload.wikimedia.org/wikipedia/commons/7/7f/Gray726_middle_frontal_gyrus.png"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/7/7f/Gray726_middle_frontal_gyrus.png")
+```
 
 ##### [Temporal lobe](https://www.brainfacts.org/3d-brain#intro=true&focus=Brain-cerebral_hemisphere-temporal_lobe) {-}
 
@@ -462,23 +409,17 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/0/
 
 Inferior Temporal Gyrus (ITG)
 
-<div class="centered">
-<a href="https://upload.wikimedia.org/wikipedia/commons/1/18/Gray726_inferior_temporal_gyrus.png">
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Gray726_inferior_temporal_gyrus.png" height="450px"/>
-</a>
-</div>
+```{r fig-itg, fig.cap="Inferior temporal gyrus: https://upload.wikimedia.org/wikipedia/commons/1/18/Gray726_inferior_temporal_gyrus.png"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/1/18/Gray726_inferior_temporal_gyrus.png")
+```
 
 ---
 
 Entorhinal Cortex (ER)
 
-<div class="centered">
-<a href="https://upload.wikimedia.org/wikipedia/commons/1/15/Medial_surface_of_cerebral_cortex_-_entorhinal_cortex.png">
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Medial_surface_of_cerebral_cortex_-_entorhinal_cortex.png" height="450px"/>
-</a>
-</div>
-
----
+```{r fig-entorhinal-ctx, fig.cap="Entorhinal cortex: https://upload.wikimedia.org/wikipedia/commons/1/15/Medial_surface_of_cerebral_cortex_-_entorhinal_cortex.png"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/1/15/Medial_surface_of_cerebral_cortex_-_entorhinal_cortex.png")
+```
 
 ##### [Parietal lobe](https://www.brainfacts.org/3d-brain#intro=true&focus=Brain-cerebral_hemisphere-pareital_lobe) {-}
 
@@ -503,23 +444,17 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/c/
 
 ---
 
-Inferior Parietal Lobule
-
-<div class="centered">
-<a href="https://upload.wikimedia.org/wikipedia/commons/e/e3/Gray726_inferior_parietal_lobule.png">
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Gray726_inferior_parietal_lobule.png" height="450px"/>
-</a>
-</div>
+```{r fig-inferior-parietal-lobule, fig.cap="Inferior Parietal Lobule: https://upload.wikimedia.org/wikipedia/commons/e/e3/Gray726_inferior_parietal_lobule.png"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/e/e3/Gray726_inferior_parietal_lobule.png")
+```
 
 ---
 
-Superior Parietal Lobule {.smaller}
+Superior Parietal Lobule
 
-<div class="centered">
-<a href="https://upload.wikimedia.org/wikipedia/commons/9/9d/Gray726_superior_parietal_lobule.png">
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Gray726_superior_parietal_lobule.png" height="450px"/>
-</a>
-</div>
+```{r fig-superior-parietal-lobule, fig.cap="Superior Parietal Lobule: https://upload.wikimedia.org/wikipedia/commons/e/e3/Gray726_inferior_parietal_lobule.png"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/e/e3/Gray726_inferior_parietal_lobule.png")
+```
 
 ##### [Occipital lobe](https://www.brainfacts.org/3d-brain#intro=true&focus=Brain-cerebral_hemisphere-occipital_lobe) {-}
 

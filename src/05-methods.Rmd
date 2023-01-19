@@ -385,6 +385,8 @@ knitr::include_graphics("https://www.nimh.nih.gov/sites/default/files/images/hea
 
 [[@Understanding_Animal_Research2009-vq]](https://www.youtube.com/watch?v=KDjWdtDyz5I)
 
+[2023-01-19 start](supplemental.html#suppl_2023_01_19)
+
 ### *Sim*ulating the brain  {-}
 
 - Computer/mathematical models of brain function

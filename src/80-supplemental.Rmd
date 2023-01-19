@@ -52,3 +52,56 @@ c. Golgi stain
 ### Structural methods have high/low *temporal* resolution {-}
 
 - Justify your answer
+
+## 2023-01-19 {- #suppl_2023_01_19}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XujOMf2hlRA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[[@Neural_Academy2020-yp]](https://www.youtube.com/watch?v=XujOMf2hlRA)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qw8E9WnZTQk" frameborder="0" allowfullscreen></iframe>
+
+[[@Kids_Learning_Tube2015-pb]](https://www.youtube.com/watch?v=Qw8E9WnZTQk)
+<!-- I'm your brain...part of the nervous system (song) -->
+
+<iframe id="reddit-embed" src="https://www.redditmedia.com/r/cogsci/comments/108fdvl/all_the_layers_in_your_brain/?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="598" width="640" scrolling="no"></iframe>
+[[@noauthor_undated-uu]](https://www.redditmedia.com/r/cogsci/comments/108fdvl/all_the_layers_in_your_brain/)
+<!-- The layers in your brain from Reddit -->
+
+### What kind of structural brain imaging technique does this image represent? {-}
+
+```{r, echo=FALSE, fig.align='center', out.width="75%"}
+knitr::include_graphics("https://www.researchgate.net/profile/Deryk_Beal/publication/228097899/figure/fig2/AS:302272379670529@1449078759253/A-structural-MRI-namely-a-T1-weighted-scan-of-the-human-brain-A-midsagittal-slice-is.png")
+```
+
+a. Magnetic Resonance Imaging (MRI)
+b. Positron Emission Tomography
+c. Event-related potentials (ERP)
+
+---
+
+### Which of the following functional methods has *temporal* resolution on the order of seconds? {-}
+
+a. functional MRI
+b. EEG
+c. MEG
+d. single-unit recording
+
+---
+
+### Which of the following methods has high/fine *spatial* resolution? {-}
+
+a. functional MRI
+b. PET
+c. EEG
+d. single-unit recording
+
+---
+
+### Which measure(s) would you use to map connections between brain areas? {-}
+
+a. retrograde/anterograde cell tracers
+b. diffusion tensor imaging (DTI)
+c. PET neuroimaging
+d. both A & B.
+
