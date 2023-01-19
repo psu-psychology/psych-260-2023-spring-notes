@@ -395,7 +395,7 @@ knitr::include_graphics("https://www.nimh.nih.gov/sites/default/files/images/hea
 
 #### Application: AI {-}
 
-```{r, fig.cap="https://viso.ai/deep-learning/deep-neural-network-three-popular-types/", out.height="480px"}
+```{r, fig.cap="https://viso.ai/deep-learning/deep-neural-network-three-popular-types/"}
 knitr::include_graphics("https://viso.ai/wp-content/uploads/2021/04/multilayer-perceptrons-MLP-concept-1.jpg")
 ```
 

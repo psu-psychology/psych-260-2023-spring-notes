@@ -1,17 +1,5 @@
 # Cells of the nervous system {#cells}
 
-**Prelude**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/t-8bxeWqSV4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[[@Bbscottvids2009-ad]](https://www.youtube.com/watch?v=t-8bxeWqSV4)
-
-<!-- Migrating neuron -->
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zMmjGExpDP8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<http://eyewire.org>
-
 ## How many cells in the nervous system? {-}
 
 ### Human vs. non-human cells {-}

@@ -132,6 +132,8 @@ fig:unnamed-chunk-80
 fig:unnamed-chunk-81
 fig:video-powers-of-ten
 fig:suppl-lichtman-video
+fig:video-neural-migration
+fig:video-eyewire
 course-intro
 systems
 history

@@ -105,3 +105,20 @@ b. diffusion tensor imaging (DTI)
 c. PET neuroimaging
 d. both A & B.
 
+[Back to Methods notes](https://psu-psychology.github.io/psych-260-2023-spring-notes/methods.html#simulating-the-brain)
+
+## 2023-01-24 {- #suppl_2023_01_24}
+
+## 2023-01-26 {- #suppl_2023_01_26}
+
+## 2023-01-31 {- #suppl_2023_01_31}
+
+<!-- Migrating neuron -->
+```{r video-neural-migration, fig.cap="Neuronal migration from [[@Bbscottvids2009-ad]](https://www.youtube.com/watch?v=t-8bxeWqSV4)"}
+knitr::include_url("https://www.youtube.com/embed/t-8bxeWqSV4")
+```
+
+<!-- EyeWire.org -->
+```{r video-eyewire, fig.cap="EyeWire.org: [[@noauthor_undated-zu]](https://www.youtube.com/embed/zMmjGExpDP8)"}
+knitr::include_graphics("https://www.youtube.com/embed/zMmjGExpDP8")
+```
