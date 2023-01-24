@@ -64,10 +64,6 @@ c. Golgi stain
 [[@Kids_Learning_Tube2015-pb]](https://www.youtube.com/watch?v=Qw8E9WnZTQk)
 <!-- I'm your brain...part of the nervous system (song) -->
 
-<iframe id="reddit-embed" src="https://www.redditmedia.com/r/cogsci/comments/108fdvl/all_the_layers_in_your_brain/?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="598" width="640" scrolling="no"></iframe>
-[[@noauthor_undated-uu]](https://www.redditmedia.com/r/cogsci/comments/108fdvl/all_the_layers_in_your_brain/)
-<!-- The layers in your brain from Reddit -->
-
 ### What kind of structural brain imaging technique does this image represent? {-}
 
 ```{r, echo=FALSE, fig.align='center', out.width="75%"}
@@ -109,7 +105,47 @@ d. both A & B.
 
 ## 2023-01-24 {- #suppl_2023_01_24}
 
+<iframe id="reddit-embed" src="https://www.redditmedia.com/r/cogsci/comments/108fdvl/all_the_layers_in_your_brain/?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="598" width="640" scrolling="no"></iframe>
+[[@noauthor_undated-uu]](https://www.redditmedia.com/r/cogsci/comments/108fdvl/all_the_layers_in_your_brain/)
+<!-- The layers in your brain from Reddit -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fgJPnQCJ9eE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+[[@McGee2011-ew]](https://www.youtube.com/watch?v=fgJPnQCJ9eE)
+
+### Announcements {-}
+
+- Quiz 1 this Thursday, January 26, 2023. Available on Canvas _after_ class and until 10 PM.
+    - 10 questions + bonus (worth 10 points)
+- Neuroscience colloquium: March 1, 2023, Jennifer Rinker, Department of Neuroscience at The Medical University of South Carolina (MUSC)
+    
+### What substance is generated in and flows through the cerebral ventricles and the central canal of the spinal cord? {-}
+
+a. Cerebrospinal Fluid (CSF)
+b. Blood plasma
+c. Neuromodulators
+
+### Which of the cerebral ventricles is adjacent to the hindbrain (cerebellum, pons, and medulla)? {-}
+
+a. Cerebral aqueduct
+b. Lateral ventricles
+c. 4th ventricle
+
+### The brain and spinal cord are both part of the _____ nervous system; unlike the ______ nervous system, they are ______ in bone. {-}
+
+a. peripheral; central; not encased
+b. peripheral; central; encased
+c. central; peripheral; encased
+
+[Back to lecture notes](neuroanatomy.html#midbrain)
+
 ## 2023-01-26 {- #suppl_2023_01_26}
+
+### Announcements {-}
+
+- Quiz 1 **TODAY** Thursday, January 26, 2023. Available on Canvas _after_ class and until 10 PM.
+    - 10 questions + bonus (worth 10 points)
+- Neuroscience colloquium: March 1, 2023, Jennifer Rinker, Department of Neuroscience at The Medical University of South Carolina (MUSC)
 
 ## 2023-01-31 {- #suppl_2023_01_31}
 

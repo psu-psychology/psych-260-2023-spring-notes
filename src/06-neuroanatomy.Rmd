@@ -183,6 +183,8 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/1/14/Cer
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Gray708.svg/500px-Gray708.svg.png")
 ```
 
+[2023-01-24 start](supplemental.html#suppl_2023_01_24)
+
 ### Midbrain {-}
 
 ```{r, fig.cap="http://antranik.org/wp-content/uploads/2011/11/the-brain-stem-mid-brain-left-lateral-view-superior-colliculus-inferior-cerebellar-peduncle.jpg"}
@@ -208,6 +210,12 @@ knitr::include_graphics("https://vignette.wikia.nocookie.net/brain-for-ai/images
     + *Dopamine (DA)*
     + *Norepinephrine (NE)*
     + *Serotonin (5-HT)*
+    
+#### Pineal gland {-}
+
+```{r fig-pineal-gland, fig.cap="Pineal gland: http://www.vivo.colostate.edu/hbooks/pathphys/endocrine/otherendo/pineal.html"}
+knitr::include_graphics("http://www.vivo.colostate.edu/hbooks/pathphys/endocrine/otherendo/pinealgland.jpg")
+```
 
 ### Forebrain {-}
 
@@ -242,7 +250,8 @@ knitr::include_graphics("http://neurobiologychapter3.weebly.com/uploads/1/4/1/8/
     + *Anterior pituitary* (indirect release of hormones)
     + *Posterior* (direct release of hormones)
         - *Oxytocin*
-        - *Vasopressin* 
+        - *Vasopressin*
+- Regulates circadian rhythms (via Suprachiasmatic Nucleus)
 
 ```{r, fig.cap="http://higheredbcs.wiley.com/legacy/college/tortora/0470565101/hearthis_ill/pap13e_ch14_illustr_audio_mp3_am/simulations/figures/hypothalamus.jpg"}
 knitr::include_graphics("http://higheredbcs.wiley.com/legacy/college/tortora/0470565101/hearthis_ill/pap13e_ch14_illustr_audio_mp3_am/simulations/figures/hypothalamus.jpg")
@@ -559,7 +568,7 @@ knitr::include_graphics("https://www.nap.edu/openbook/0309095859/xhtml/images/p2
 - Cranial nerves
 - Spinal nerves
 
-## Cranial nerves {-}
+### Cranial nerves {-}
 
 - Afferents (input/sensory), efferents (output/motor), or mixed/both
   - On Old Olympus' Towering Top...
@@ -569,13 +578,21 @@ knitr::include_graphics("https://www.nap.edu/openbook/0309095859/xhtml/images/p2
 vagus (X), etc. 
 - Spinal nerves
 
-## Cranial nerves  {-}
-
-```{r, fig.cap="http://media-1.web.britannica.com/eb-media/44/54244-004-892C5169.jpg", out.height="450px"}
-knitr::include_graphics("http://media-1.web.britannica.com/eb-media/44/54244-004-892C5169.jpg")
+```{r, fig.cap="Cranial nerves: https://www.britannica.com/science/cranial-nerve"}
+knitr::include_graphics("https://cdn.britannica.com/44/54244-004-892C5169/nerves-pairs-muscles-region-head-sense-organs.jpg")
 ```
 
-## Autonomic nervous system (ANS) {-}
+```{r fig-cranial-nerve-mnemonic, fig.cap="Cranial nerve mnemonic: https://medizzy.com/feed/2893188"}
+knitr::include_graphics("https://cdn.medizzy.com/9SJexHlhe2JlTL7hd0x4DQRIMjE=/680x936/img/posts/db0159b7-36fc-41a2-8159-b736fcc1a2d0")
+```
+
+::: {.infobox}
+
+You will have to memorize the cranial nerves in other classes, but not this one.
+
+:::
+
+### Autonomic nervous system (ANS) {-}
 
 - CNS & PNS components
 - Controls "vegetative functions""
@@ -584,26 +601,24 @@ knitr::include_graphics("http://media-1.web.britannica.com/eb-media/44/54244-004
     + Sympathetic
     + Parasympathetic
 		
-## ANS  {-}
-
 ```{r, fig.cap="http://humanphysiology.academy/Neurosciences%202015/Images/2/NEU_autonomic_nervous_system%20Merck%20Manuals.gif", out.height="750px"}
 knitr::include_graphics("http://humanphysiology.academy/Neurosciences%202015/Images/2/NEU_autonomic_nervous_system%20Merck%20Manuals.gif")
 ```
 
-## Sympathetic division {-}
+#### Sympathetic division {-}
 
 - Prepares body for action
 - "Fight or flight""
 - Spinal cord
     + ganglion chain along spinal column to End organs
-- NTs
-    + Preganglionic: ACh 
-    + Post: NE
+- Neurotransmitters
+    + Preganglionic: Acetylcholine (ACh) 
+    + Post: Norepinephrine (NE_
 
-## Parasympathetic division {-}
+#### Parasympathetic division {-}
 
 - Para -> "around"
 - Restorative function
 - "Rest & digest"
 - Spinal cord -> ganglia near end organs -> end organ
-    + NT: ACh
+    + Neurotransmitter: ACh

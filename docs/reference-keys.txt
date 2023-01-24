@@ -74,6 +74,7 @@ fig:unnamed-chunk-40
 fig:unnamed-chunk-41
 fig:unnamed-chunk-42
 fig:unnamed-chunk-43
+fig:fig-pineal-gland
 fig:unnamed-chunk-44
 fig:unnamed-chunk-45
 fig:unnamed-chunk-46
@@ -105,6 +106,7 @@ fig:unnamed-chunk-66
 fig:unnamed-chunk-67
 fig:unnamed-chunk-68
 fig:unnamed-chunk-69
+fig:fig-cranial-nerve-mnemonic
 fig:unnamed-chunk-70
 fig:unnamed-chunk-71
 fig:unnamed-chunk-72
