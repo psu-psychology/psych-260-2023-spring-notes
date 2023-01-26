@@ -143,12 +143,36 @@ c. central; peripheral; encased
 
 ## 2023-01-26 {- #suppl_2023_01_26}
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uLGz15DXwjc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[[@Abdikareem2017-uh]](https://www.youtube.com/watch?v=uLGz15DXwjc)
+<!-- Cranial nerves song -->
+
+## Prelude (1:22)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aLagODygcbs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- Cats chasing laser pointers -->
+
 ### Announcements {-}
 
 - Quiz 1 **TODAY** Thursday, January 26, 2023. Available on Canvas _after_ class and until 10 PM.
     - 10 questions + bonus (worth 10 points)
 - Neuroscience colloquia
     - March 1, 2023, Jennifer Rinker, Department of Neuroscience at The Medical University of South Carolina (MUSC)
+
+### What hindbrain area's name means 'little brain'? {-}
+
+- A. Pons
+- B. 4th ventricle
+- C. Cerebellum
+- D. Tegmentum
+
+### What part of the midbrain is especially activated when a cat chases a laser pointer? {-}
+
+- A. Hypothalamus
+- B. Hippocampus
+- C. Tectum
+- D. Medulla oblongata
 
 ## 2023-01-31 {- #suppl_2023_01_31}
 

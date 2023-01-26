@@ -477,11 +477,11 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/e/e3/Gra
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Lobes_of_the_brain_NL.svg/1024px-Lobes_of_the_brain_NL.svg.png")
 ```
 
-<div class="centered">
-<a href="http://bethycotter.wdfiles.com/local--files/introducingtheeye/Screen%20Shot%202012-08-24%20at%2011.36.20%20PM.png">
-<img src="http://bethycotter.wdfiles.com/local--files/introducingtheeye/Screen%20Shot%202012-08-24%20at%2011.36.20%20PM.png"height=450px/>
-</a>
-</div>
+- Multiple visual areas in occipital lobe
+
+```{r, fig.cap="Visual areas: https://bethycotter.wdfiles.com/local--files/introducingtheeye/Screen%20Shot%202012-08-24%20at%2011.36.20%20PM.png"}
+knitr::include_graphics("https://bethycotter.wdfiles.com/local--files/introducingtheeye/Screen%20Shot%202012-08-24%20at%2011.36.20%20PM.png")
+```
 
 ##### [Insular cortex (insula)](https://en.wikipedia.org/wiki/Insular_cortex) {-}
 
@@ -523,21 +523,22 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b4/Sob
 
 #### Brodmann Areas {-}
 
-- Regions of cerebral cortex that differ in cellular architecture
+- Regions of cerebral cortex that differ in cellular architecture.
+- Numbering scheme--Brodmann Area 3 (BA3)
 
-```{r, fig.cap="http://www.spektrum.de/lexika/images/bio/fff1209_w.jpg", out.height="400px"}
+```{r, fig.cap="http://www.spektrum.de/lexika/images/bio/fff1209_w.jpg"}
 knitr::include_graphics("http://www.spektrum.de/lexika/images/bio/fff1209_w.jpg")
 ```
 
-```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/0/09/Brodmann-areas.png", out.width="800px"}
+```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/0/09/Brodmann-areas.png"}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/0/09/Brodmann-areas.png")
 ```
 
-```{r, fig.cap="http://www.brain-maps.com/gehirn/brodmann_areale.jpg", out.height="450px"}
+```{r, fig.cap="http://www.brain-maps.com/gehirn/brodmann_areale.jpg"}
 knitr::include_graphics("http://www.brain-maps.com/gehirn/brodmann_areale.jpg")
 ```
 
-## Spinal cord{-}
+## Spinal cord {-}
 
 - Rostral/Caudal axis
     - Spinal column w/ vertebrae
@@ -610,10 +611,10 @@ knitr::include_graphics("http://humanphysiology.academy/Neurosciences%202015/Ima
 - Prepares body for action
 - "Fight or flight""
 - Spinal cord
-    + ganglion chain along spinal column to End organs
+    + ganglion chain along spinal column to end organs
 - Neurotransmitters
     + Preganglionic: Acetylcholine (ACh) 
-    + Post: Norepinephrine (NE_
+    + Post: Norepinephrine (NE)
 
 #### Parasympathetic division {-}
 
