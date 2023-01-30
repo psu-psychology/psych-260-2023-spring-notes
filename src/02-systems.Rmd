@@ -57,6 +57,8 @@ knitr::include_graphics("https://source.wustl.edu/wp-content/uploads/2013/08/Col
     - Answer (often): Information
 - What is being controlled?
 
+## Extra credit assignment {-}
+
 ::: {.infobox}
 
 Take your own example system from earlier.

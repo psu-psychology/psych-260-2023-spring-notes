@@ -16,9 +16,18 @@
     + ~85 +/- 9 billion glia
 - 100-500 trillion synapses, 1 billion/mm^3
 
-- How many years to count to 170 billion?
+::: {.infobox}
+
+How long would it take you to count 170 billion cells?
+
+How would you estimate how long?
+
 - 60 s/min x 60 min/hr x 24 hrs/day x 365 days/ yr = 31,536,000 s/yr
 - 1.7e11/31,536,000 = 5,390 years
+
+"Back of the envelope" calculations/guess-timates are extremely useful--in science and in other aspects of life.
+
+:::
 
 ### Mass of neurons and non-neurons {-}
 
@@ -61,7 +70,7 @@ brain %>% ggplot() +
 > [[@azevedo2009equal]](http://doi.org/10.1002/cne.21974)
 
 ```{r fig-human-advantage, fig.cap="The Human Advantage"}
-knitr::include_graphics("https://mitpress.mit.edu/sites/default/files/styles/large_book_cover/http/mitp-content-server.mit.edu%3A18180/books/covers/cover/%3Fcollid%3Dbooks_covers_0%26isbn%3D9780262034258%26type%3D.jpg?itok=cF8pgUnB")
+knitr::include_graphics("https://mit-press-us.imgix.net/covers/9780262034258.jpg?auto=format&w=298&dpr=1&q=20")
 ```
 
 ## Glia (neuroglia) {-}
@@ -105,7 +114,6 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/5/56/Hum
 + In brain and spinal cord (Central Nervous System or CNS)
 + 1:many neurons
 
-
 ```{r fig-oligodendrocyte, fig.cap="Oligodendrocyte: Wikipedia"}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Oligodendendrocytes_in_rat_brain.tif/lossy-page1-800px-Oligodendendrocytes_in_rat_brain.tif.jpg")
 ```
@@ -120,6 +128,24 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/8/
 ```{r fig-schwann-cell, fig.cap="Schwann Cell"}
 knitr::include_graphics("http://medcell.med.yale.edu/systems_cell_biology/nervous_system_lab/images/myelinated_axon_em_labels.jpg")
 ```
+
+::: {.infobox}
+
+A (TV-show-inspired) mnemonic for remembering which myelinating glia are found where:
+
+```{r, fig.cap="Law & Order: Special Victims Unit", out.width="40%"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/SVU_Logo.webp/250px-SVU_Logo.webp.png")
+```
+
+**C**entral **O**ligodendrocytes  **S**chwann cells
+
+```{r, fig.cap="Spock: https://www.syfy.com/sites/syfy/files/styles/blog-post-embedded--tablet/public/2022/05/stangenewworlds_29_spockenviro_jd_3422_v2_fnl_f.jpg", out.width="40%"}
+knitr::include_graphics("https://www.syfy.com/sites/syfy/files/styles/blog-post-embedded--tablet/public/2022/05/stangenewworlds_29_spockenviro_jd_3422_v2_fnl_f.jpg")
+```
+
+**S**chwann cells **P**eripheral **O**ligodendrocytes **C**entral
+
+:::
 
 ### Microglia {-}
 
@@ -198,8 +224,8 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/a/
     + **Nodes of Ranvier** (unmyelinated segments along axon)
     + Terminals, axon terminals, terminal buttons, synaptic terminals, synaptic boutons
 
-```{r fig-axons, fig.cap="Axon: http://droualb.faculty.mjc.edu/Course%20Materials/Physiology%20101/Chapter%20Notes/Fall%202007/figure_07_02_labeled.jpg"}
-knitr::include_graphics("http://droualb.faculty.mjc.edu/Course%20Materials/Physiology%20101/Chapter%20Notes/Fall%202007/figure_07_02_labeled.jpg")
+```{r fig-axons, fig.cap="Axon: https://commons.wikimedia.org/wiki/File:Blausen_0657_MultipolarNeuron.png#/media/File:Blausen_0657_MultipolarNeuron.png"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Blausen_0657_MultipolarNeuron.png/1920px-Blausen_0657_MultipolarNeuron.png")
 ```
 
 ### [Synaptic bouton (terminal button)](https://en.wikipedia.org/wiki/Axon_terminal) {-}
@@ -260,7 +286,9 @@ knitr::include_graphics("http://biodrawing.com/Neurology_modules/NervousSystemSi
     - Chloride, $Cl^-$
     - Organic anions, $A^-$
 - Ion channels
+    - Molecular gateways or doors
 - Separation between charges
+    - Positive and negative charges spatially separated
 - A balance of forces
     + *Force of diffusion*
     + *Electrostatic force*
@@ -295,7 +323,7 @@ knitr::include_graphics("http://biodrawing.com/Neurology_modules/NervousSystemSi
     + *Ligand-gated (chemically-gated)*
     + *Transporters/pumps*
     
-```{r, fig.cap="http://www.zoology.ubc.ca/~gardner/F21-08.GIF"}
+```{r, fig.cap="http://www.zoology.ubc.ca/~gardner/F21-08.GIF", out.width="80%"}
 knitr::include_graphics("http://www.zoology.ubc.ca/~gardner/F21-08.GIF")
 ```
 
@@ -313,9 +341,15 @@ knitr::include_graphics("http://www.zoology.ubc.ca/~gardner/F21-08.GIF")
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Diffusion.en.svg/1000px-Diffusion.en.svg.png")
 ```
 
-```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/1/12/Bubble_bath.jpg", out.height="500px"}
+::: {.infobox}
+
+A practical illustration of the force of diffusion.
+
+```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/1/12/Bubble_bath.jpg", out.width="50%"}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/1/12/Bubble_bath.jpg")
 ```
+
+:::
 
 - Organic anions ($A^-$) too large to move outside of cell
 - $A^-$ and $K^+$ largely in balance == no net internal charge
@@ -326,11 +360,11 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/1/12/Bub
 
 ### The resting potential {-}
 
-<div class="centered">
-<img src="include/img/350px-Membrane_potential_ions_en.svg.png" height=450px>
-</div>
+```{r, fig.cap="The resting potential"}
+knitr::include_graphics("include/img/350px-Membrane_potential_ions_en.svg.png")
+```
 
-### Balance of forces in the neuron at rest {-}
+#### Balance of forces in the neuron at rest {-}
 
 - **Force of diffusion**
     + $K^+$ moves from high concentration (inside) to low (outside)
@@ -340,13 +374,16 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/1/12/Bub
     + $K^+$ positive, so equilibrium potential negative (w/ respect to outside)
     + Equilibrium potential close to neuron's resting potential
 
-### Equilibrium potential and Nernst equation {-}
 
-<div class="centered">
-<a href="http://www.physiologyweb.com/lecture_notes/resting_membrane_potential/figs/nernst_equation_v_k.gif">
-<img src="http://www.physiologyweb.com/lecture_notes/resting_membrane_potential/figs/nernst_equation_v_k.gif" width=700px>
-</a>
-</div>
+::: {.infobox}
+
+In PSYCH 260, we do not emphasize the calculation of equilibrium potentials and the Nernst equation or the Goldman-Hodgkin-Katz equation.
+
+We provide information about this, and the equivalent circuit model, for your reference.
+
+:::
+
+#### Equilibrium potential and Nernst equation {-}
 
 [Equilibrium potentials calculated](http://www.physiologyweb.com/calculators/nernst_potential_calculator.html) under typical conditions
 
@@ -360,7 +397,7 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/1/12/Bub
 knitr::include_graphics("http://www.physiologyweb.com/lecture_notes/resting_membrane_potential/figs/nernst_equation_v_k.gif")
 ```
 
-### Neuron resting potential ≠ $K^+$ [equilibrium potential](https://courses.washington.edu/conj/membpot/equilpot.htm) {-}
+#### Neuron resting potential ≠ $K^+$ [equilibrium potential](https://courses.washington.edu/conj/membpot/equilpot.htm) {-}
 
 - Resting potential not just due to $K^+$
 - Other ions flow
@@ -371,7 +408,7 @@ knitr::include_graphics("http://www.physiologyweb.com/lecture_notes/resting_memb
 knitr::include_graphics("http://www.physiologyweb.com/calculators/figs/ghk_equation.gif")
 ```
 
-### $Na^+$ role {-}
+#### $Na^+$ role {-}
 
 - $Na^+$ concentrated **outside** neuron
 - Membrane at rest not very permeable to $Na^+$
@@ -384,7 +421,7 @@ knitr::include_graphics("http://www.physiologyweb.com/calculators/figs/ghk_equat
 knitr::include_graphics("include/img/350px-Membrane_potential_ions_en.svg.png")
 ```
 
-### Electrical circuit model {-}
+#### Electrical circuit model {-}
 
 ```{r, fig.cap="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/MembraneCircuit.jpg/500px-MembraneCircuit.jpg", out.width="700px"}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/MembraneCircuit.jpg/500px-MembraneCircuit.jpg")
@@ -392,10 +429,10 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/3/
 
 ### Summary of forces in neuron at rest {-}
 
-| Ion | Concentration gradient | Electrostatic force | Permeability |
-|-----|------------------------|---------------------|--------------|
-| $K^+$  | Inside >> Outside      | - (pulls $K^+$ **in**)     | Higher       |
-| $Na^+$ | Outside >> Inside      | - (pulls $Na^+$ **in**)    | Lower        |
+| Ion | Concentration gradient | Effect of ion flow | Flow effect on membrane voltage | Effect of negative membrane potential |
+|-----|------------------------|---------------------|---------------------------|--------------------|
+| $K^+$  | Inside >> Outside   | pushes $K^+$ **out**  | more - | pulls $K^+$ **in**       |
+| $Na^+$ | Outside >> Inside   | pushes $Na^+$ **in** | more + | pulls  $Na^+$ **in**       |
 
 ### What happens if something changes? {-}
 
@@ -406,11 +443,9 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/3/
 
 ## Action potential {-}
 
-<div class="centered">
-<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Action_potential.svg/300px-Action_potential.svg.png">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Action_potential.svg/300px-Action_potential.svg.png" height=450px>
-</a>
-</div>
+```{r, fig.cap="The action potential: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Action_potential.svg/300px-Action_potential.svg.png"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Action_potential.svg/300px-Action_potential.svg.png")
+```
 
 ### Phases of the action potential {-}
 

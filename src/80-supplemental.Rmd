@@ -181,7 +181,45 @@ c. central; peripheral; encased
 knitr::include_url("https://www.youtube.com/embed/t-8bxeWqSV4")
 ```
 
-<!-- EyeWire.org -->
-```{r video-eyewire, fig.cap="EyeWire.org: [[@noauthor_undated-zu]](https://www.youtube.com/embed/zMmjGExpDP8)"}
-knitr::include_graphics("https://www.youtube.com/embed/zMmjGExpDP8")
-```
+<!-- <!-- EyeWire.org --> -->
+<!-- ```{r video-eyewire, fig.cap="EyeWire.org: [[@noauthor_undated-zu]](https://www.youtube.com/embed/zMmjGExpDP8)"} -->
+<!-- knitr::include_graphics("https://www.youtube.com/embed/zMmjGExpDP8") -->
+<!-- ``` -->
+
+### The somatosensory cortex (S-I) is located in which lobe of the cerebral cortex?
+
+a. Frontal
+b. Insular
+c. Parietal
+d. Occipital
+
+### If sympathetic nervous system activation is like the accelerator pedal in a car, parasympathetic activation is like the _______?
+
+a. clutch pedal
+b. gear shift
+c. turn signal
+d. brake
+
+### The cauda equina is the region in the spine where...
+
+a. There are nerve fibers, but no spinal cord.
+b. Nerves exit the spine and connect with the head and neck region.
+c. The medulla oblongata connects with the spinal cord.
+
+### Some good examples of [systems](https://psu-psychology.github.io/psych-260-2023-spring-notes/systems.html#why-is-studying-systems-so-hard)
+
+>"“An example of a system can be a bus system found on the Penn State campus. There are different buses within the system that transport individuals to different areas via various routes. There can be many other components involved in the bus system such as: the bus drivers, how many stops there are on each route, the funding for maintenance of the buses, how the routes are determined, and the maximum capacity of the buses. the inputs of the system are the students at their original location, and the outputs of the system are the students at their desired location."
+
+> "“A vending machine is a system used to dispense food after a payment has been given… The input of the system includes the form of payment, whether it be in bills or coins, and the location of the food/drink as given by the push of a button. The outputs of the system are the change given back and the food/drink that is dispensed.”
+
+> “For the muscular system, the inputs would be the ability to contract the muscles and the individual components of the thick and thin filaments working in conjunction to create this motion. In addition to the inputs that act on and make the muscle contract, the output would be the action of the muscle and its function/what it performs.”
+ 
+> “Toasters would be categorized as an open system because they freely exchange energy and matter with their surroundings. The input would be electrical energy from whatever outlet it is plugged into, the mechanical energy used to press the lever downwards and start the cooking, as well as the untoasted piece of bread you place into it. The output would be the result of the electrical energy transferred into heat which then toasts the bread, so we have thermal energy and a now-toasted piece of bread.”
+ 
+>“A subway system can be defined as an electric railway that operates underground. The components of this system include an area of land underground, train tracks, train, cars, and subway stations. These components include seats within train cars, electrical wires along the tracks and throughout the subway tunnels, ticket booths within the subway station, etc.”
+>
+>“The input for [a subway system] is power supplied to the train cars through electricity from wires or an electrified rail. The output is the movement of the trains. Once the electricity is received by the train car, it can begin moving in order to fulfill its purpose of moving people from one place to another throughout the area in which it operates.”
+ 
+>“Some components of the digestive system include the mouth, the stomach, the small and large intestine, and the colon. The inputs are the food and drink that we put into our bodies to gain nutrients for energy to use… The output is urination and defecation.”
+
+[Back to lecture notes](cells.html)
