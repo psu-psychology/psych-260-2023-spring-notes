@@ -148,8 +148,6 @@ c. central; peripheral; encased
 [[@Abdikareem2017-uh]](https://www.youtube.com/watch?v=uLGz15DXwjc)
 <!-- Cranial nerves song -->
 
-## Prelude (1:22)
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aLagODygcbs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <!-- Cats chasing laser pointers -->
 
@@ -176,37 +174,32 @@ c. central; peripheral; encased
 
 ## 2023-01-31 {- #suppl_2023_01_31}
 
-<!-- Migrating neuron -->
-```{r video-neural-migration, fig.cap="Neuronal migration from [[@Bbscottvids2009-ad]](https://www.youtube.com/watch?v=t-8bxeWqSV4)"}
-knitr::include_url("https://www.youtube.com/embed/t-8bxeWqSV4")
-```
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T5TdD3eZjnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<!-- <!-- EyeWire.org --> -->
-<!-- ```{r video-eyewire, fig.cap="EyeWire.org: [[@noauthor_undated-zu]](https://www.youtube.com/embed/zMmjGExpDP8)"} -->
-<!-- knitr::include_graphics("https://www.youtube.com/embed/zMmjGExpDP8") -->
-<!-- ``` -->
+[[@Byrne2018-lo]](https://www.youtube.com/watch?v=T5TdD3eZjnM)
+<!-- "Here", David Byrne -->
 
-### The somatosensory cortex (S-I) is located in which lobe of the cerebral cortex?
+### The somatosensory cortex (S-I) is located in which lobe of the cerebral cortex?  {-}
 
 a. Frontal
 b. Insular
 c. Parietal
 d. Occipital
 
-### If sympathetic nervous system activation is like the accelerator pedal in a car, parasympathetic activation is like the _______?
+### If sympathetic nervous system activation is like the accelerator pedal in a car, parasympathetic activation is like the _______?  {-}
 
 a. clutch pedal
 b. gear shift
 c. turn signal
 d. brake
 
-### The cauda equina is the region in the spine where...
+### The cauda equina is the region in the spine where... {-}
 
 a. There are nerve fibers, but no spinal cord.
 b. Nerves exit the spine and connect with the head and neck region.
 c. The medulla oblongata connects with the spinal cord.
 
-### Some good examples of [systems](https://psu-psychology.github.io/psych-260-2023-spring-notes/systems.html#why-is-studying-systems-so-hard)
+### Some good examples of [systems](https://psu-psychology.github.io/psych-260-2023-spring-notes/systems.html#why-is-studying-systems-so-hard)  {-}
 
 >"“An example of a system can be a bus system found on the Penn State campus. There are different buses within the system that transport individuals to different areas via various routes. There can be many other components involved in the bus system such as: the bus drivers, how many stops there are on each route, the funding for maintenance of the buses, how the routes are determined, and the maximum capacity of the buses. the inputs of the system are the students at their original location, and the outputs of the system are the students at their desired location."
 
@@ -223,3 +216,65 @@ c. The medulla oblongata connects with the spinal cord.
 >“Some components of the digestive system include the mouth, the stomach, the small and large intestine, and the colon. The inputs are the food and drink that we put into our bodies to gain nutrients for energy to use… The output is urination and defecation.”
 
 [Back to lecture notes](cells.html)
+
+## 2023-02-02 {- #suppl_2023_02_02}
+
+<!-- Migrating neuron -->
+```{r video-neural-migration, fig.cap="Neuronal migration from [[@Bbscottvids2009-ad]](https://www.youtube.com/watch?v=t-8bxeWqSV4)"}
+knitr::include_url("https://www.youtube.com/embed/t-8bxeWqSV4")
+```
+
+<!-- EyeWire.org -->
+```{r video-eyewire, fig.cap="EyeWire.org: [[@noauthor_undated-zu]](https://www.youtube.com/embed/zMmjGExpDP8)"}
+knitr::include_url("https://www.youtube.com/embed/zMmjGExpDP8")
+```
+
+## 2023-02-14 {- #suppl_2023_02_14}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f8FAJXPBdOg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[[@Acapellascience2017-sr]](https://www.youtube.com/watch?v=f8FAJXPBdOg)
+<!-- Molecular shape of you -->
+
+## 2023-02-16 {- #suppl_2023_02_16}
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/NZR64EF3OpA" frameborder="0" allowfullscreen></iframe>
+<!-- Wizard of Oz -- pay no attention -->
+
+### Monoamine Song {-}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y5W60VwDkas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<https://en.wikipedia.org/wiki/Mah_Nà_Mah_Nà>
+
+Monoamines, do-do do do-do</br>
+Monoamines, do do do-do</br>
+Monoamines, do do do do-do do do-do do do-do do do do do-do do
+
+Monoamines, do-pa-mine is one</br>
+Monoamines, norepi, too</br>
+Monoamines, sero-tonin e-pinephrine, dop-a-mine, nor-epinephrine, melatonin, whoo!
+
+Monoamines, mod-u-late neurons </br>
+Monoamines, throughout the brain</br>
+Monoamines, keep people happy, brains snappy, not sleepy, not sappy, do-do do-do do-do do
+
+### The *presynaptic influx* of which ion triggers the release of neurotransmitters from the axon terminal? {-}
+
+- Na+
+- K+
+- Ca++
+- Cl-
+
+### This type of postsynaptic receptor does **NOT** contain its own ion channel. {-}
+
+- Ionotropic
+- Metabotropic
+- Ligand-gated
+
+## 2023-02-21 {- #suppl_2023_02_21}
+
+<!-- Voles and Oxytocin study -->
+```{r}
+knitr::include_url("http://dx.doi.org/10.1038/d41586-023-00197-9")
+```
