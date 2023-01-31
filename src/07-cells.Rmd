@@ -81,7 +81,7 @@ knitr::include_graphics("https://mit-press-us.imgix.net/covers/9780262034258.jpg
 	+ Metabolic support
 	+ Brain development
 	+ Neural plasticity?
-- Several types of glial cells
+- Multiple types of glial cells
 
 ### Astrocytes {-}
 
@@ -123,7 +123,6 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/8/
 + In Peripheral Nervous System (PNS)
 + 1:1 neuron
 + Facilitate neuro-regeneration
-- Mnemonics: COPS/SPOC
 	
 ```{r fig-schwann-cell, fig.cap="Schwann Cell"}
 knitr::include_graphics("http://medcell.med.yale.edu/systems_cell_biology/nervous_system_lab/images/myelinated_axon_em_labels.jpg")
@@ -133,11 +132,11 @@ knitr::include_graphics("http://medcell.med.yale.edu/systems_cell_biology/nervou
 
 A (TV-show-inspired) mnemonic for remembering which myelinating glia are found where:
 
-```{r, fig.cap="Law & Order: Special Victims Unit", out.width="40%"}
-knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/SVU_Logo.webp/250px-SVU_Logo.webp.png")
+```{r, fig.cap="Law & Order", out.width="40%"}
+knitr::include_graphics("https://images.fineartamerica.com/images-medium-large-5/law-and-order-logo-brand-a.jpg")
 ```
 
-**C**entral **O**ligodendrocytes  **S**chwann cells
+**C**entral **O**ligodendrocytes  **Peripheral** **S**chwann cells
 
 ```{r, fig.cap="Spock: https://www.syfy.com/sites/syfy/files/styles/blog-post-embedded--tablet/public/2022/05/stangenewworlds_29_spockenviro_jd_3422_v2_fnl_f.jpg", out.width="40%"}
 knitr::include_graphics("https://www.syfy.com/sites/syfy/files/styles/blog-post-embedded--tablet/public/2022/05/stangenewworlds_29_spockenviro_jd_3422_v2_fnl_f.jpg")
@@ -207,7 +206,7 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b1/Den
 - Nucleus
 	+ Chromosomes (genetic material)
 - Organelles
-	+ Mitochonrdria
+	+ Mitochondria
 	+ Smooth and Rough Endoplasmic reticulum (ER)
 	
 ```{r fig-soma, fig.cap="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Complete_neuron_cell_diagram_en.svg/1280px-Complete_neuron_cell_diagram_en.svg.png"}
@@ -268,8 +267,8 @@ knitr::include_graphics("http://biodrawing.com/Neurology_modules/NervousSystemSi
 
 ### Two communication 'modes' {-}
 
-- Chemical
 - Electrical
+- Chemical
   
 ### Types of neural electrical potentials {-}
 
