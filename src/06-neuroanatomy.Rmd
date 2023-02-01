@@ -120,6 +120,12 @@ knitr::include_graphics("https://media.springernature.com/lw685/springer-static/
     - Everything encased in bone
 - PNS
     - Everything else!
+    
+### Interactive brain atlas {-}
+
+```{r, fig.cap="Interactive brain atlas: https://www.med.harvard.edu/aanlib/cases/caseNA/pb9.htm", out.width="100%"}
+knitr::include_url("https://www.med.harvard.edu/aanlib/cases/caseNA/pb9.htm", height="400px")
+```
 
 ### Organization of the brain {-}
 
@@ -327,8 +333,8 @@ knitr::include_graphics("https://3.bp.blogspot.com/-DLYYDLYHSKc/WsV2203SrdI/AAAA
 | Landmark | Identifies/separates |
 |----------|----------------------|
 | [Medial longitudinal fissure (longitudinal fissure)](https://en.wikipedia.org/wiki/Medial_longitudinal_fissure) | Divides hemispheres |
-| [Lateral sulcus/fissure](https://en.wikipedia.org/wiki/Lateral_sulcus) | Divides temporal lobe from frontal & parietal |
-| [Central sulcus](https://en.wikipedia.org/wiki/Central_sulcus) | Divides frontal from parietal lobe |
+| [Lateral sulcus/fissure](https://en.wikipedia.org/wiki/Lateral_sulcus) *aka Sylvian Fissure* | Divides temporal lobe from frontal & parietal |
+| [Central sulcus](https://en.wikipedia.org/wiki/Central_sulcus) *aka Rolandic Fissure* | Divides frontal from parietal lobe |
 
 [Medial longitudinal fissure (longitudinal fissure)](https://en.wikipedia.org/wiki/Medial_longitudinal_fissure)
 
