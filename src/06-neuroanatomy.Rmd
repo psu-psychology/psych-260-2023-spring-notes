@@ -96,6 +96,7 @@ Circle of Willis helps equalize blood pressures among the ascending arteries fro
 
 - Isolates CNS from blood stream
 - Active transport of molecules typically required
+    - Astrocytes contribute to
 - (endothelial) cells forming blood vessel walls are tightly packed
 - Exception is *Area Postrema*
     - In brainstem (see AP in the figure below)
