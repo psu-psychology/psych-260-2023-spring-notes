@@ -550,13 +550,20 @@ knitr::include_graphics("http://www.brain-maps.com/gehirn/brodmann_areale.jpg")
 knitr::include_graphics("http://www.fauxpress.com/kimball/med/sensory/spinaldivisions.jpg")
 ```
 
+<p><a href="https://commons.wikimedia.org/wiki/File:Human_caudal_spinal_cord_anterior_view_description.jpg#/media/File:Human_caudal_spinal_cord_anterior_view_description.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Human_caudal_spinal_cord_anterior_view_description.jpg" alt="Human caudal spinal cord anterior view description.jpg"></a><br>By John A Beal, PhD Dep't. of Cellular Biology &amp;amp; Anatomy, Louisiana State University Health Sciences Center Shreveport - &lt;a rel="nofollow" class="external free" href="http://www.healcentral.org/healapp/showMetadata?metadataId=40566"&gt;http://www.healcentral.org/healapp/showMetadata?metadataId=40566&lt;/a&gt;, <a href="https://creativecommons.org/licenses/by/2.5" title="Creative Commons Attribution 2.5">CC BY 2.5</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=1020191">Link</a></p>
+
 - Organization of the spinal cord
     - Dorsal/Ventral
         + Dorsal root (sensory)
         + Ventral root (mostly motor)
     - Grey (interior) vs. white matter (exterior)
-    
-```{r, fig.cap="https://www.nap.edu/openbook/0309095859/xhtml/images/p2000d3bdg31001.jpg", out.height="450px"}
+
+
+```{r, fig.cap="Cross-section of spinal cord: https://www.britannica.com/science/spinal-cord"}
+knitr::include_graphics("https://cdn.britannica.com/75/2975-050-0D5D3A36/views-cross-section-Photograph-cord-segment-drawing.jpg?w=400&h=300&c=crop")
+```
+
+```{r, fig.cap="Schematic of spinal cord (grey/white shading reversed from actual spinal cord): https://www.nap.edu/openbook/0309095859/xhtml/images/p2000d3bdg31001.jpg", out.height="450px"}
 knitr::include_graphics("https://www.nap.edu/openbook/0309095859/xhtml/images/p2000d3bdg31001.jpg")
 ```
 
