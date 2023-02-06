@@ -1,11 +1,65 @@
-# Neural communication
+# Neural communication {-}
 
-## Types {-}
+## What good are brains? {-}
 
+### Why brains? {-}
+
+- [*Escherichia Coli (E. Coli)*](https://en.wikipedia.org/wiki/Escherichia_coli)
+- [*Paramecium*](https://en.wikipedia.org/wiki/Paramecium)
+- [*Caenorhabditis Elegans (C. Elegans)*](https://en.wikipedia.org/wiki/Caenorhabditis_elegans)
+
+[Sterling & Laughlin, 2015](https://mitpress.mit.edu/neuraldesign%20)
+
+### [*Escherichia Coli (E. Coli)*](https://en.wikipedia.org/wiki/Escherichia_coli) {-}
+
+- Tiny, single-celled bacterium
+- Feeds on glucose
+- Chemosensory ("taste") receptors on surface membrane
+- Flagellum for movement
+- Food concentration regulates duration of "move" phase
+- ~4 ms for chemical signal to diffuse from anterior/posterior
+
+```{r, fig.cap="https://www.youtube.com/embed/QGAm6hMysTA?rel=0"}
+knitr::include_url("https://www.youtube.com/embed/QGAm6hMysTA?rel=0")
+```
+
+### [*Paramecium*](https://en.wikipedia.org/wiki/Paramecium) {-}
+
+- 300K larger than E. Coli
+- Propulsion through coordinated beating of cilia
+- Diffusion from head to tail ~40 s!
+- Use *electrical* signaling instead
+    - $Na^+$ channel opens (e.g., when stretched)
+    - Voltage-gated $Ca^{++}$ channels open, $Ca^{++}$ enters, triggers cilia movement
+    - Voltage propagates along cell membrane within ms
+
+### [*Caenorhabditis Elegans (C. Elegans)*](https://en.wikipedia.org/wiki/Caenorhabditis_elegans) {-}
+
+- ~$10x$ larger than paramecium
+- multi-cellular ($n=959$ cells total)
+- $n=302$ are neurons & $n=56$ are glia
+- nervous system 37% of cells vs. ~0.5% in humans
+- Can swim, forage, mate
+
+```{r, fig.cap="https://www.youtube.com/embed/GgZHziFWR7M?rel=0"}
+knitr::include_url("https://www.youtube.com/embed/GgZHziFWR7M?rel=0")
+```
+
+- Bigger bodies (need to process specific info, move through water, air, on land)
+- For neurons (point to point communication)
+- Live longer
+- Do more, do it faster, over larger distances & longer time periods
+
+### Nervous systems are communication systems {-}
+
+- Chemical communication : short distances
+    - Cheap, energy-efficient, "compute with chemistry"
+- Electrical communication : long distances
+    - More "expensive"/less energy-efficient
 - Synaptic communication
     - Chemical (via neurotransmitters)
     - Electrical (via ion flow)
-- Hormonal communication
+- Endocrine communication (chemical via hormones)
 
 ## Synaptic communication {-}
 

@@ -474,15 +474,24 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/4/
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/a/a5/Scheme_sodium-potassium_pump-en.svg")
 ```
 
-### Refractory periods {-}
+### Refractory phases (periods) {-}
 
-- *Absolute*
-    + Cannot generate action potential (AP) no matter the size of the stimulus
-    + Voltage-gated $Na^+$ channels inactivated, reactivate in time.
-- *Relative*
-    + Can generate AP with larg(er) stimulus
-    + Some voltage-gated $K^+$ channels still open
-- Refractory periods put 'spaces' between APs
+#### Absolute {-}
+   
+- Voltage-gated $K^+$ channels closing
+    - Driving force on $K^+$ tiny or absent
+- $Na^+$/$K^+$ pump restoring concentration balance
+
+<div class="centered">
+<img src="http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif" height=500px>
+</div>
+
+#### *Relative* {-}
+
+- Can generate AP with larg(er) stimulus
+- Some voltage-gated $Na^+$ 'de-inactivate', can open if
+    - Larger input
+    - Membrane potential is more negative than resting potential
 
 ### Generating action potentials {-}
 
@@ -506,3 +515,81 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/a/a5/Sch
 - $Na^+$ and $K^+$ channels exposed to extracellular environment
 - Between Nodes of Ranvier, ions can't move out, so move along
 - Nodes of Ranvier -> Action potentials faster & reliable for a given diameter
+
+## How action potentials propagate {-}
+
+- Propagation
+    + move down axon, away from soma, toward axon terminals.
+
+### Axon is like an electrical cable {-}
+
+```{r, fig.cap="http://pittmedneuro.com/synaptic.html"}
+knitr::include_graphics("http://pittmedneuro.com/img/Cable.jpg")
+```
+
+### Propagation in unmyelinated axon {-}
+
++ Each segment "excites" the next
+    
+```{r, fig.cap="World record for the wave: https://www.youtube.com/watch?v=H0K2dvB-7WY"}
+knitr::include_url("https://www.youtube.com/watch?v=H0K2dvB-7WY")
+```
+
+### Propagation in myelinated axon {-}
+
++ AP "jumps" between *Nodes of Ranvier* via *saltatory conduction*
++ Nodes of Ranvier == unmyelinated sections of axon
+    + voltage-gated $Na^+$, $K^+$ channels exposed
+    + current flows through/down myelinated segments
+    
+#### Why does AP flow in one direction, away from soma? {-}
+
++ Soma does not have (many) voltage-gated $Na^+$ channels.
++ Soma is not myelinated.
++ Refractory periods mean polarization only in one direction.
+
+#### Why does AP flow in one direction, away from soma? {-}
+
++ **Soma does not have (many) voltage-gated $Na^+$ channels.**
++ Soma is not myelinated.
+  + **Refractory periods mean polarization only in one direction.**
+
+### Conduction velocities {-}
+
+<iframe width="600" height="450" src="https://en.wikipedia.org/wiki/Nerve_conduction_velocity" frameborder="0" allowfullscreen></iframe>
+
+- Axons carry information at different rates
+    - More myelin -> faster
+    - Larger diameter axon -> faster
+- PNS seems to prioritize
+    - Somatosensory information & muscle control
+
+### Information processing {-}
+
+- AP amplitudes don't vary (much)
+    + All or none
+    + $Na^+$/$K^+$ pumps working all the time
+    + $[K^+]$ & $[Na^+]$ don't vary much, so
+    + $V_{K^+}$ & $V_{Na^+}$ don't vary much
+- AP frequency and timing vary
+    + Rate vs. timing codes
+    + Neurons use both
+
+::: {.infobox}
+
+```{r fig.cap="Hodgkin-Huxley: https://www.youtube.com/watch?v=k48jXzFGMc8"}
+knitr::include_url("https://www.youtube.com/watch?v=k48jXzFGMc8")
+```
+
+**The Hodgkin-Huxley (HH) model**
+
+<p><a href="https://commons.wikimedia.org/wiki/File:Hodgkin-Huxley.svg#/media/File:Hodgkin-Huxley.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Hodgkin-Huxley.svg/1200px-Hodgkin-Huxley.svg.png" height="500px" alt="Hodgkin-Huxley.svg"></a><br>By <a href="//commons.wikimedia.org/wiki/User:Krishnavedala" title="User:Krishnavedala">Krishnavedala</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" title="Creative Commons Zero, Public Domain Dedication">CC0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=21725464">Link</a></p>
+
+**HH model: Membrane as simple circuit**
+
+- Membrane as capacitor (C): stores charge
+- Ion channels: resistors that can vary in conductance ($g=\frac{1}{R}$)
+- Ion flows create current (I)
+- Ohms Law: $V=\frac{I}{g}$ or $Vg=I$
+
+:::

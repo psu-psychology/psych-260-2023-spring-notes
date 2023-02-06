@@ -229,21 +229,49 @@ knitr::include_url("https://www.youtube.com/embed/t-8bxeWqSV4")
 knitr::include_url("https://www.youtube.com/embed/zMmjGExpDP8")
 ```
 
+## 2023-02-06 {- #suppl_2023_02_06}
+
+*Propagation* is the way...
+
+```{r, fig.cap="Superstition: https://www.youtube.com/watch?v=7_tmeHCO1IM"}
+knitr::include_url("https://www.youtube.com/embed/7_tmeHCO1IM")
+```
+
+### The neuron's *resting potential* is approximately what voltage? {-}
+
+a. +50mV
+b. 0mV
+c. -70mV
+
+### If only potassium ions $K^+$ and organic anions $A^-$ were in a neuron, what would the voltage across the neuron (its membrane potential) be? {-}
+
+a. -90mV, the equilibrium potential for $K^+$.
+b. +55mv, the equilibrium potential for $Na^+$.
+c. 0mv, the equilibrium potential for solutions with equal concentrations of + and - ions.
+
+### At the *peak* of the action potential, the force of diffusion pushes $K^+$ _______ and the electrostatic force pushes $K^+$ ______. {-}
+
+a. in; in.
+b. out; out.
+c. in; out.
+
 ## 2023-02-14 {- #suppl_2023_02_14}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/f8FAJXPBdOg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[[@Acapellascience2017-sr]](https://www.youtube.com/watch?v=f8FAJXPBdOg)
-<!-- Molecular shape of you -->
+```{r, fig.cap="[[@Acapellascience2017-sr]](https://www.youtube.com/watch?v=f8FAJXPBdOg)"}
+knitr::include_url("https://www.youtube.com/embed/f8FAJXPBdOg")
+```
 
 ## 2023-02-16 {- #suppl_2023_02_16}
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/NZR64EF3OpA" frameborder="0" allowfullscreen></iframe>
-<!-- Wizard of Oz -- pay no attention -->
+```{r, fig.cap="Wizard of Oz: https://www.youtube.com/embed/NZR64EF3OpA"}
+knitr::include_url("https://www.youtube.com/embed/NZR64EF3OpA")
+```
 
 ### Monoamine Song {-}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y5W60VwDkas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```{r, fig.cap="https://www.youtube.com/watch?v=y5W60VwDkas"}
+knitr::include_url("https://www.youtube.com/embed/y5W60VwDkas")
+```
 
 <https://en.wikipedia.org/wiki/Mah_Nà_Mah_Nà>
 

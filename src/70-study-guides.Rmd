@@ -1,0 +1,51 @@
+# Exam study guides
+
+## Exam 1 {-}
+
+### Neuroanatomy {-}
+
+- Meninges
+- Lobes of the cerebral cortex
+- Components of the
+    - Forebrain
+        - hypothalamus != hippocampus
+    - Midbrain
+    - Hindbrain
+    - What ventricles are landmarks
+- Planes of section
+    - Axial/horizontal
+    - Sagittal
+    - Coronal/frontal
+- CNS vs. PNS
+- Components of the ANS
+    - Sympathetic
+    - Parasympathetic
+
+### Methods {-}
+
+- Functional vs. structural
+- Spatial vs. temporal resolution
+
+### Cells {-}
+
+- Neuron anatomy
+- Resting potential
+    - What ions, concentrated where
+    - Force of diffusion
+    - Electrostatic force
+- Action potential
+    - Voltage-gated channels
+    - What's happening in
+        - Rising phase
+        - Falling phase
+- Glia
+    - Astrocytes
+    - Myelinating cells
+        - Cell types
+        - Function of
+
+## Exam 2 {-}
+
+## Exam 3 {-}
+
+## Exam 4 {-}
