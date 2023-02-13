@@ -261,6 +261,10 @@ c. in; out.
 knitr::include_url("https://www.youtube.com/embed/f8FAJXPBdOg")
 ```
 
+### Announcements
+
+- Exam 1 scores will be released later this week.
+
 ## 2023-02-16 {- #suppl_2023_02_16}
 
 ```{r, fig.cap="Wizard of Oz: https://www.youtube.com/embed/NZR64EF3OpA"}

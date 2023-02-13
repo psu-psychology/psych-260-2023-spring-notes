@@ -182,6 +182,8 @@ methods
 neuroanatomy
 frontal-lobe
 cells
+amino-acids
 exam-study-guides
 supplemental
+announcements-2
 lingo

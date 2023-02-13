@@ -73,22 +73,21 @@ knitr::include_url("https://www.youtube.com/embed/GgZHziFWR7M?rel=0")
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/1224_Post_Synaptic_Potential_Summation.jpg/512px-1224_Post_Synaptic_Potential_Summation.jpg")
 ```
 
-
 ### Action potential arrival at synapse triggersneurotransmitter (NT) release {-}
 
 - *Voltage-gated calcium Ca++ channels* open
 - Ca++ causes *synaptic vesicles* to bind with presynaptic membrane & merge with it
 - NTs released via *exocytosis*
 
-```{r, fig.cap="[[@Hastoy2017-it]](https://doi.org/10.1016/j.ceca.2017.10.005)",  out.width="900px"}
+```{r, fig.cap="[[@Hastoy2017-it]](https://doi.org/10.1016/j.ceca.2017.10.005)"}
 knitr::include_graphics("https://ars.els-cdn.com/content/image/1-s2.0-S0143416017301495-fx1.jpg")
 ```
 
-```{r, fig.cap="[[@Hastoy2017-it]](https://doi.org/10.1016/j.ceca.2017.10.005)", out.height="500px"}
+```{r, fig.cap="[[@Hastoy2017-it]](https://doi.org/10.1016/j.ceca.2017.10.005)"}
 knitr::include_graphics("https://ars.els-cdn.com/content/image/1-s2.0-S0143416017301495-gr1_lrg.jpg")
 ```
 
-```{r, out.height="500px"}
+```{r}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Junctional_complex_and_pinocytotic_vesicles_-_embryonic_brain-TEM.jpg/1502px-Junctional_complex_and_pinocytotic_vesicles_-_embryonic_brain-TEM.jpg")
 ```
 
@@ -102,22 +101,21 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/1/
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/SynapseSchematic_en.svg/512px-SynapseSchematic_en.svg.png")
 ```
 
-```{r, fig.cap="[[@Haucke2011-ub]](http://dx.doi.org/10.1038/nrn2948)",  out.height="500px"}
+```{r, fig.cap="[[@Haucke2011-ub]](http://dx.doi.org/10.1038/nrn2948)"}
 knitr::include_graphics("https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn2948/MediaObjects/41583_2011_Article_BFnrn2948_Fig1_HTML.jpg?as=webp")
 ```
 
-::: {.infonote}
+::: {.infobox}
 
 **Why do NTs move from presynaptic terminal toward postsynaptic cell?**
 
-- Electrostatic force pulls them
+- ~~Electrostatic force pulls them~~
 - Force of diffusion
-
 
 - Neural membrane ~8 nm
 - Synaptic vesicles ~40-60 or ~90-120 nm
 - Synaptic cleft ~15-50 nm
-- Cleft small relative to vesicles, so diffusion time short (< 0.5 ms)
+- Synaptic cleft small relative to vesicles, so diffusion time short (< 0.5 ms)
 
 :::
 
@@ -167,13 +165,15 @@ knitr::include_graphics("http://pittmedneuro.com/img/Psp.png")
 - *Enzymatic* degradation
     + e.g., Acetylcholinesterase (AChE) degrades acetylcholine (ACh)
     
-::: {.infonote}
+::: {.infobox}
     
 **Why must NTs be inactivated?**
 
 :::
 
-::: {.infonote}
+---
+
+::: {.infobox}
 
 **What sort of PSP would *opening* a Na+ channel produce?**
 
@@ -184,8 +184,9 @@ knitr::include_graphics("http://pittmedneuro.com/img/Psp.png")
 
 :::
 
+---
 
-:::
+::: {.infobox}
 
 **What sort of PSP would *opening* a Cl- channel produce?**
 
@@ -233,6 +234,8 @@ knitr::include_graphics("https://i0.wp.com/www.compoundchem.com/wp-content/uploa
 - Send messages (have physiological effect on target cells)
 - Inactivated after release
 
+### Amino acids
+
 | Family      | Neurotansmitter                         |
 |-------------|-----------------------------------------|
 | Amino acids | Glutamate (Glu)                     |
@@ -255,7 +258,7 @@ knitr::include_graphics("https://i0.wp.com/www.compoundchem.com/wp-content/uploa
 |              | **NMDA**       | Ca++              |
 | Metabotropic | mGlu       |                  |
 
-### $\gamma$-aminobutyric Acid (GABA) {-}
+#### $\gamma$-aminobutyric Acid (GABA) {-}
 
 - Primary inhibitory NT in CNS
 - Excitatory in developing CNS, [Cl-] in >> [Cl-] out
@@ -272,7 +275,7 @@ knitr::include_graphics("https://i0.wp.com/www.compoundchem.com/wp-content/uploa
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/GABAA-receptor-protein-example.png/1200px-GABAA-receptor-protein-example.png")
 ```
 
-### Other amino acid NTs {-}
+#### Other amino acid NTs {-}
 
 - *Glycine*
     + Spinal cord interneurons
@@ -289,8 +292,8 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/4/
     + Parasympathetic branch: pre/postganglionic
 - Inactivation by acetylcholinesterase (AChE)
 
-```{r, fig.cap="Acetylcholine receptor: http://myzone.hrvfitltd.netdna-cdn.com/wp-content/uploads/2014/09/Image-1.jpg"}
-knitr::include_graphics("http://myzone.hrvfitltd.netdna-cdn.com/wp-content/uploads/2014/09/Image-1.jpg")
+```{r, fig.cap="Acetylcholine receptor: https://cdn.britannica.com/41/54741-004-8E4F81CC/acetylcholine-receptor-channel-subunits-diffusion-ions-sodium.jpg?w=300&h=300"}
+knitr::include_graphics("https://cdn.britannica.com/41/54741-004-8E4F81CC/acetylcholine-receptor-channel-subunits-diffusion-ions-sodium.jpg?w=300&h=300")
 ```
 
 
@@ -324,7 +327,7 @@ knitr::include_graphics("https://s3.amazonaws.com/higherlogicdownload/AAPOS/Cont
 | Pesticides | Impede AChE |
 | Tetanus toxin | Blocks release of GABA, glycine |
 
-## Monoamine neurotransmitters {-}
+### Monoamines {-}
 
 | Family      | Neurotansmitter                         |
 |-------------|-----------------------------------------|
@@ -335,7 +338,7 @@ knitr::include_graphics("https://s3.amazonaws.com/higherlogicdownload/AAPOS/Cont
 |             | **Melatonin**                               |
 |             | **Histamine**                               |
 
-### Dopamine (DA) {-}
+#### Dopamine (DA) {-}
 
 - Released by two pathways that originate in the midbrain tegmentum
     + Substantia nigra -> striatum, *meso-striatal projection*
@@ -366,7 +369,7 @@ knitr::include_graphics("https://ars.els-cdn.com/content/image/1-s2.0-S008367291
 | Metabotropic | *D1-like (D1 and D5)*  | more prevalent                |
 |              | *D2-like (D2, D3, D4)* | target of many antipsychotics (drugs that treat schizophrenia symptoms) |
 
-### Norepinephrine (NE) {-}
+#### Norepinephrine (NE) {-}
 
 - Role in arousal, mood, eating, sexual behavior
 - Released by 
@@ -396,7 +399,7 @@ knitr::include_graphics("https://www.nrronline.org/articles/2020/15/6/images/Neu
 | Metabotropic | $\alpha$ (1,2)       | antagonists treat anxiety, panic   |
 |              | $\beta$ (1,2,3)      | 'beta blockers' in cardiac disease |
 
-### Serotonin (5-HT) {-}
+#### Serotonin (5-HT) {-}
 
 - Released by *raphe nuclei* in brainstem
 - Role in mood, sleep, eating, pain, nausea, cognition, memory
@@ -424,7 +427,7 @@ knitr::include_graphics("https://media.springernature.com/full/springer-static/i
     + Treats depression, panic, eating disorders, others
 - 5-HT3 receptor antagonists are anti-mimetics used in treating nausea
 
-### Melatonin {-}
+#### Melatonin {-}
 
 - Hormone released by pineal gland into bloodstream
 - Concentrations vary over the day, peak near bedtime
@@ -438,7 +441,7 @@ knitr::include_graphics("http://www.vivo.colostate.edu/hbooks/pathphys/endocrine
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/6/6d/Pineal_gland.gif")
 ```
 
-### Histamine {-}
+#### Histamine {-}
 
 - In brain, released by hypothalamus, projects to whole brain
     + Metabotropic receptors
@@ -488,7 +491,7 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/b/
     + bind to receptor
     + block/impede action of endogenous chemical
     
-::: {.infonote}
+::: {.infobox}
 
 **Valium is a GABA-A receptor agonist. This means:**
 
