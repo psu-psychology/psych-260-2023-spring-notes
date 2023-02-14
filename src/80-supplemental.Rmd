@@ -261,9 +261,22 @@ c. in; out.
 knitr::include_url("https://www.youtube.com/embed/f8FAJXPBdOg")
 ```
 
-### Announcements
+### Announcements {-}
 
-- Exam 1 scores will be released later this week.
+- Exam 1 scores will be released tonight
+- Next Tuesday, February 21
+    - **Blog post 1 (of 3) due**. [Assignment details](https://psu-psychology.github.io/psych-260-2023-spring/evaluation.html#blog_assignment)
+    - **Quiz 2**, available on Canvas *after* class.
+    
+### EyeWire extra credit opportunity  {-}
+
+```{r, fig.cap="EyeWire [@EyeWire2021-at](https://www.youtube.com/watch?v=nTriVlWCnQM)"}
+knitr::include_url("https://www.youtube.com/embed/nTriVlWCnQM")
+```
+
+Tag one cube of neuron segments from [EyeWire](https://eyewire.org/explore). Take a screenshot of your completed section. Submit it to via Canvas Megan for five (5) extra credit points. **Due: Thursday, March 2, 2023**.
+    
+[Back to lecture slides](neural-communication.html)
 
 ## 2023-02-16 {- #suppl_2023_02_16}
 

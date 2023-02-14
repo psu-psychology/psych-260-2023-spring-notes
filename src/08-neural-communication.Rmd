@@ -1,8 +1,8 @@
 # Neural communication {-}
 
-## What good are brains? {-}
+## Why nervous systems? {-}
 
-### Why brains? {-}
+### From 0 to 37%
 
 - [*Escherichia Coli (E. Coli)*](https://en.wikipedia.org/wiki/Escherichia_coli)
 - [*Paramecium*](https://en.wikipedia.org/wiki/Paramecium)
@@ -218,13 +218,13 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/3/
     - axons 
         + usually modulatory (change *p*(fire))
     
-```{r, fig.cap="https://www.britannica.com/science/neurotransmitter", out.height="500px"}
+```{r, fig.cap="https://www.britannica.com/science/neurotransmitter"}
 knitr::include_graphics("https://cdn.britannica.com/37/54737-050-013849FC/nerve-impulse-transmission-synapse-arrival-neurotransmitter-release.jpg")
 ```
 
 ## Neurotransmitters {-}
 
-```{r, fig.cap="https://www.compoundchem.com/2015/07/30/neurotransmitters/",  out.height="500px"}
+```{r, fig.cap="https://www.compoundchem.com/2015/07/30/neurotransmitters/"}
 knitr::include_graphics("https://i0.wp.com/www.compoundchem.com/wp-content/uploads/2015/07/Chemical-Structures-of-Neurotransmitters-2015.png?w=1323&ssl=1")
 ```
 
@@ -234,7 +234,7 @@ knitr::include_graphics("https://i0.wp.com/www.compoundchem.com/wp-content/uploa
 - Send messages (have physiological effect on target cells)
 - Inactivated after release
 
-### Amino acids
+### Amino acids {-}
 
 | Family      | Neurotansmitter                         |
 |-------------|-----------------------------------------|
