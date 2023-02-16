@@ -1,10 +1,10 @@
-fig:unnamed-chunk-127
 fig:unnamed-chunk-128
 fig:unnamed-chunk-129
 fig:unnamed-chunk-130
 fig:unnamed-chunk-131
 fig:unnamed-chunk-132
 fig:unnamed-chunk-133
+fig:unnamed-chunk-134
 fig:unnamed-chunk-4
 fig:unnamed-chunk-5
 fig:unnamed-chunk-6
@@ -186,4 +186,9 @@ cells
 from-0-to-37
 exam-study-guides
 supplemental
+these-images-are-examples-of-what-structural-imaging-technique
+what-maintains-the-intracellular-insideextracellular-outside-concentration-differences-of-k-and-na-ions
+which-ventral-midbrain-region-is-one-of-the-main-sites-for-neurons-that-release-neuromodulators-e.g.-dopamine-norepinephrine-and-serotonin
+which-of-the-following-marks-the-medial-boundary-of-the-frontal-lobes
+nodes-of-ranvier-or-gaps-in-the-myelination-of-an-axon-serve-which-purpose
 lingo
