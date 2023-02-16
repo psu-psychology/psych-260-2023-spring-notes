@@ -306,7 +306,7 @@ Monoamines, keep people happy, brains snappy, not sleepy, not sappy, do-do do-do
 
 ---
 
-### These images are examples of what structural imaging technique? 
+### These images are examples of what structural imaging technique? {-}
 
 a.	Positron Emission Tomography (PET)
 b.	Single unit recording
@@ -317,28 +317,28 @@ d.	Computed Axial Tomography (CAT)
 knitr::include_graphics("include/img/exam-01-mri.png")
 ```
 
-### What maintains the intracellular (inside)/extracellular (outside) concentration differences of K+ and Na+ ions? 
+### What maintains the intracellular (inside)/extracellular (outside) concentration differences of K+ and Na+ ions? {-}
 
 a.	The myelin sheath.
 b.	The force of diﬀusion.
 c.	Ion ﬂow through passive/leak channels.
 d.	Action of the Na+/K+ pump (ATPase).
 
-### Which ventral midbrain region is one of the main sites for neurons that release neuromodulators (e.g., dopamine, norepinephrine, and serotonin)? 
+### Which ventral midbrain region is one of the main sites for neurons that release neuromodulators (e.g., dopamine, norepinephrine, and serotonin)? {-}
 
 a.	Tegmentum. 
 b.	Basal ganglia. 
 c.	Lateral geniculate nucleus. 
 d.	Tectum.
 
-### Which of the following marks the medial boundary of the frontal lobe(s)? 
+### Which of the following marks the medial boundary of the frontal lobe(s)? {-}
 
 a.	Longitudinal ﬁssure. 
 b.	Lateral ﬁssure. 
 c.	Central sulcus. 
 d.	Inferior temporal gyrus.
 
-### Nodes of Ranvier, or gaps in the myelination of an axon, serve which purpose? 
+### Nodes of Ranvier, or gaps in the myelination of an axon, serve which purpose? {-}
 
 a.	Allow space in the axon for neurotransmitter release. 
 b.	Increase the speed of propagation. 
