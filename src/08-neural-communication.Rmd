@@ -1,4 +1,4 @@
-# Neural communication {-}
+# Neural communication
 
 ## Why nervous systems? {-}
 
