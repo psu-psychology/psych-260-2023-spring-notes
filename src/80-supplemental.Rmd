@@ -362,7 +362,38 @@ d.	Combine input from diﬀerent dendrites
 
 ## 2023-02-21 {- #suppl_2023_02_21}
 
-<!-- Voles and Oxytocin study -->
-```{r}
-knitr::include_url("http://dx.doi.org/10.1038/d41586-023-00197-9")
-```
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UqEgTUlG8FU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[[@OrchdorkNo2013-en]](https://www.youtube.com/watch?v=UqEgTUlG8FU)
+
+### Announcements {-}
+
+- Quiz 2 today (on Canvas, after class)
+- Blog post 1 (of 3) due today by 5:00 PM
+- Exam 2 *next* Tuesday, February 28, **in-class**
+
+### Black widow spider venom causes paralysis by impeding the normal function of which neurotransmitter system? {-}
+
+b. GABA (GABA)
+c. Dopamine (DA)
+d. Acetylcholine (ACh)
+
+### With one exception, the monoamine neurotransmitters bind to what type of receptors?  {-}
+
+a. ionotropic
+b. voltage-gated
+c. nicotinic
+d. metabotropic
+
+### The *outward* flow of this ion across the neural membrane creates what kind of PSP? {-}
+
+a. Cl-; IPSP
+b. K+; IPSP
+c. Glutamate; EPSP
+d. GABA; EPSP
+
+[Back to lecture](hormones-and-the-brain.html)
+
+## 2023-02-23 {- #suppl_2023_02_23}
+
+## 2023-03-02 {- #suppl_2023_03_02}
