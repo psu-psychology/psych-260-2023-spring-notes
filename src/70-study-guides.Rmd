@@ -46,6 +46,81 @@
 
 ## Exam 2 {-}
 
+### Methods {-}
+
+- Structural vs. functional
+
+### Neuroanatomy {-}
+
+- Hypothalamus
+  - Anterior/posterior pituitary
+- Sympathetic/Parasympathetic nervous system
+- Adrenal gland
+  - Medulla
+  - Cortex
+- Cerebral cortex
+- Cerebellum
+- Midbrain
+  - Tectum
+  - Tegmentum
+    - Ventral Tegmental Area
+    - Substantia Nigra
+
+- Glial cell types
+
+### Resting & action potentials {-}
+
+- What ions are concentrated where (inside/outside)
+  - Na+
+  - K+
+  - A-
+  - Cl-
+- Steps/phases of action potential (what's happening to ions & channels)
+  - Onset at threshold
+  - Rising phase
+  - Peak
+  - Falling phase
+  - Reset
+
+### Neurotransmitters {-}
+
+- Steps in neurotransmitter release
+
+- Amino acids
+  - Glutamate
+  - GABA
+- Acetylcholine
+- Monoamines
+  - Dopamine (DA)
+  - Norepinephrine (NE)/Noradrenaline (NA)
+  - Serotonin/5-HT
+  - Histamine
+  - Melatonin
+
+- Anatomy (where released)
+- Disorders/conditions linked to specific neurotransmitter systems
+
+- Ionotropic vs. metabotropic receptors
+- Excitatory Post-Synaptic Potentials (EPSPs)/Inhibitory Post-Synaptic Potentials
+
+### Hormones {-}
+
+- Hormones, where released and function of
+  - Cortisol
+  - Oxytocin
+  - Melatonin
+  - AVP/ADH
+  
+- HPA axis, SAM axis
+  - Anatomy
+  - Hormones and neurotransmitters released
+
+### Evolution {-}
+  
+- Principles of evolution; evidence for
+- Milestones of history of life on Earth
+- Humans vs. other animals brain size, structure, composition
+  
 ## Exam 3 {-}
 
 ## Exam 4 {-}

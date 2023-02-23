@@ -397,15 +397,33 @@ d. GABA; EPSP
 ## 2023-02-23 {- #suppl_2023_02_23}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/j6y1o6woVaY" frameborder="0" allowfullscreen></iframe>
-
 <!-- Gentle Arms of Eden -->
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/QMshTTIp7SA" frameborder="0" allowfullscreen></iframe>
-
 <!-- Simpson evolution -->
 
-### Announcements
+### The SAM axis consists of all of the following components except: {-}
+
+a. Sympathetic Nervous System
+b. Adrenal medulla
+c. Midbrain
+
+### The HPA axis consists of all of the following components except: {-}
+
+a. Adrenal cortex
+b. Anterior pituitary
+c. Posterior pituitary
+d. Hypothalamus
+
+### Oxytocin is often called the 'love' hormone because: {-}
+
+a. Animals without oxytocin receptors fail to form pair-bonds, mate, or care for their young.
+b. The oxytocin system is activated when animals respond to external threats from mating rivals.
+c. Oxytocin release occurs during orgasm and triggers the milk let-down reflex in nursing mothers.
+
+### Announcements {-}
 
 - Exam 2 next Tuesday (in-class)
+  - [Study guide](exam-study-guides.html#exam-2)
 
 ## 2023-03-02 {- #suppl_2023_03_02}
