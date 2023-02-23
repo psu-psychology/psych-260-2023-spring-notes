@@ -75,9 +75,21 @@ Dobzhansky, T. (1973). Nothing in biology makes sense except in the light of evo
 
 #### History is our story {-}
 
-```{r}
+```{r, fig.cap="Hubble Deep Field"}
 knitr::include_graphics("https://cdn.spacetelescope.org/archives/images/large/heic0916a.jpg")
 ```
+
+```{r, fig.cap="JWST deep field in infrared from https://www.nasa.gov/sites/default/files/thumbnails/image/main_image_deep_field_smacs0723-5mb.jpg"}
+knitr::include_graphics("https://www.nasa.gov/sites/default/files/thumbnails/image/main_image_deep_field_smacs0723-5mb.jpg")
+```
+
+```{r, fig.cap="From story in PSU newswire about [@Labbe2023-zp](http://dx.doi.org/10.1038/s41586-023-05786-2)"}
+knitr::include_graphics("include/img/labbe-galaxy-nature-2023.png")
+```
+
+>"*Using the first dataset released from NASA's James Webb Space Telescope, the international team of scientists discovered objects as mature as the Milky Way when the universe was only 3% of its current age, about 500-700 million years after the Big Bang. The telescope is equipped with infrared-sensing instruments capable of detecting light that was emitted by the most ancient stars and galaxies. Essentially, the telescope allows scientists to see back in time roughly 13.5 billion years, near the beginning of the universe as we know it, Leja explained.*"
+>
+>-- [@Berard_undated-et](https://www.psu.edu/news/research/story/discovery-massive-early-galaxies-defies-prior-understanding-universe/)
 
 ```{r, fig.cap="Timeline evolution of life: Wikimedia"}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Timeline_evolution_of_life.svg/774px-Timeline_evolution_of_life.svg.png?20181024035001")
