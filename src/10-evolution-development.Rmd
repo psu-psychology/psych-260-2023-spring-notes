@@ -276,3 +276,303 @@ knitr::include_graphics("https://ars.els-cdn.com/content/image/1-s2.0-S235215461
 >The brain of modern humans has evolved remarkable computational abilities that enable higher cognitive functions. These capacities are tightly linked to an increase in the size and connectivity of the cerebral cortex, which is thought to have resulted from evolutionary changes in the mechanisms of cortical development. Convergent progress in evolutionary genomics, developmental biology and neuroscience has recently enabled the identification of genomic changes that act as human-specific modifiers of cortical development. These modifiers influence most aspects of corticogenesis, from the timing and complexity of cortical neurogenesis to synaptogenesis and the assembly of cortical circuits. Mutations of human-specific genetic modifiers of corticogenesis have started to be linked to neurodevelopmental disorders, providing evidence for their physiological relevance and suggesting potential relationships between the evolution of the human brain and its sensitivity to specific diseases.
 >
 >-- [@Vanderhaeghen2023-ay](http://dx.doi.org/10.1038/s41583-023-00675-z)
+
+## Development {-}
+
+### What must develop {-}
+
+- Brain ~ 2.5% of body mass
+    - consumes 18% of $O_2$ at rest, [[@Kety1948-ty]](http://dx.doi.org/10.1172/JCI101994)
+    - about 20 W
+- CNS among earliest-developing, last to finish organ systems
+    - Prolonged developmental period (==childhood) makes CNS especially vulnerable
+
+#### Neurons {-}
+
+- ~ 86 billion neurons in adult CNS
+    - similar # of glia
+- In cortex, about 16 (14-32) billion
+    - 80/20% Glu/GABA
+- Development generates millions neurons/hr
+    
+#### Synapses {-}
+
+- 7-80K synapses/cortical neuron
+- ~ $10^{15}$ (quadrillion) synapses in CNS
+- 164 trillion synapses in cerebral cortex, [[@DeFelipe2002-xz]](http://dx.doi.org/10.1023/a:1024130211265)
+
+#### Axons {-}
+
+- 145-175 km (90-109 mi) of myelinated axons, [[@Marner2003-qu]](http://dx.doi.org/10.1002/cne.10714)
+
+### Timeline of milestones {-}
+
+```{r, fig.cap="[[@Silbereis2016-la]](http://dx.doi.org/10.1016/j.neuron.2015.12.008)", out.width="95%"}
+knitr::include_graphics("https://ars.els-cdn.com/content/image/1-s2.0-S0896627315010806-gr1_lrg.jpg")
+```
+    
+#### Prenatal period {-}
+
+- 38 weeks from conception/fertilization on average
+- Embryonic period (weeks 1-8), fetal period (weeks 9+)
+- Divided into 3 12-13 week trimesters
+
+#### Insemination {-}
+
+- Can occur 3-4 days before or up to 1-2 days after...ovulation
+- Some animals signal ovulation; humans do not
+
+#### Fertilization {-}
+
+- Within ~ 24 hrs of ovulation
+
+#### Implantation {-}
+
+- Fertilized ovum implants in wall of uterus
+- ~ 6 days after fertilization
+
+#### Early embryogenesis {-}
+
+::: {.infobox}
+
+Video for more info:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dAOWQC-OBv0" frameborder="0" allowfullscreen></iframe>
+
+:::
+
+```{r, out.width="75%"}
+knitr::include_graphics("https://as1.ftcdn.net/jpg/02/52/77/94/500_F_252779434_4Hr3vF8H3wDOH0RslaVw5nLnYoKACiP6.jpg")
+```
+
+- Embryonic layers: ectoderm, mesoderm, endoderm
+    - Neural tube forms ~ 23 pcd (postconceptual days)
+- Neural tube closes in middle, moves toward rostral & caudal ends, closing by 29 - 30 pcd.
+- Failures of neural tube closure
+    + Anencephaly (rostral neuraxis)
+    + Spina bifida (caudal neuraxis)
+ 
+```{r, fig.cap='https://www.mayoclinic.org/diseases-conditions/spina-bifida/symptoms-causes/syc-20377860'}
+knitr::include_graphics("https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2013/08/26/11/10/ds00417_im03493_r7_spinabifidababythu_jpg-popup.jpg")
+```
+
+- Neural tube becomes...
+    + Ventricles & cerebral aqueduct
+    + Central canal of spinal cord
+  
+```{r, out.width="50%"}
+knitr::include_graphics("https://www.mussenhealth.us/growth-cones/images/2009_48_104-neural-tube-tion.jpg")
+```
+
+- Rostro-caudal patterning via differential growth into vesicles
+    - Forebrain (prosencephalon)
+    - Midbrain (mesencephalon)
+    - Hindbrain (rhombencephalon)
+
+#### Neurogenesis and gliogenesis {-}
+
+- Neuroepithelium cell layer adjacent to neural tube 
+    - creating ventricular zone (VZ) and subventricular zone (SVZ)
+- Pluripotent stem and progenitor cells divide, produce new neurons & glia
+
+```{r, fig.cap="[[@Gotz2005-yj]](https://doi.org/10.1038/nrm1739)"}
+knitr::include_graphics("https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrm1739/MediaObjects/41580_2005_Article_BFnrm1739_Fig1_HTML.jpg?as=webp")
+```
+
+- Neurogenesis (of excitatory Glu neurons) observed by 27 pcd (7 pcw; post-conceptual week)
+    - complete by 191 pcd (27 pcw), [[@Silbereis2016-la]](http://dx.doi.org/10.1016/j.neuron.2015.12.008)
+- Most cortical and striatal neurons generated prenatally, but
+    - Cerebellum continues neurogenesis ~ 18 mos postnatal mos
+
+::: {.infobox}
+
+Can 'old' brains make new neurons?
+
+- In some animals, yes == songbirds, birds that store food caches
+- Humans, on much more limited scale
+  - hippocampus (especially dentate gyrus)
+  - striatum
+  - olfactory bulb (minimally)
+  - not much, if any, in cerebral cortex
+- Most neurogenesis occurs near ventricles
+
+:::
+
+```{r, fig.cap='[Ernst & Frisen 2015](https://doi.org/10.1371/journal.pbio.1002045)', out.width="90%"}
+knitr::include_graphics("https://journals.plos.org/plosbiology/article/figure/image?size=large&id=10.1371/journal.pbio.1002045.g001")
+```
+
+- Neural progenitor/stem cells
+    - Undergo *symmetric* & *asymmetric* cell division
+    - Generate glia, neurons, and basal progenitor cells
+
+- Radial glia and cell migration
+
+```{r, out.width="75%"}
+knitr::include_graphics("include/img/radial-glia.jpg")
+```
+
+```{r, out.width="75%"}
+knitr::include_graphics("include/img/neural-tube.jpg")
+```
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/ZRF-gKZHINk" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/t-8bxeWqSV4" frameborder="0" allowfullscreen></iframe>
+
+- Migration aided by axon growth cones
+- Growth cones guided by
+    - Chemoattractants
+        + e.g., Nerve Growth Factor (NGF)
+    - Chemorepellents
+    - Chemical receptors in growth cone detect spatial/temporal patterns
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/Fgmt2RBow0I" frameborder="0" allowfullscreen></iframe>
+
+<iframe id="reddit-embed" src="https://www.redditmedia.com/r/interestingasfuck/comments/s7fyga/single_brain_cell_looking_for_connections/?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="620" width="640" scrolling="no"></iframe>
+
+```{r, fig.cap="Figure 4 from [@Kang2011-ex](https://doi.org/10.1038/nature10523), in https://doi.org/10.1371/journal.pbio.1002045.g004", out.width="100%"}
+knitr::include_graphics("https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pbio.1002045/1/pbio.1002045.g004.PNG_L?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20230227%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230227T153304Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=b2a1a3eb31a62ade3d50937c07fc72219896d8f6e5697ec2f4bdfd2f9cb6544646b38253b161a3a3c9faea3c3ad60eaa3fa4f39eed3d6cfe9563182e78531069e169d95c2e494cab330acfacf8d514c2dc11540a793fa461580979fda4d2e44a11b27bd82340faa8719fd53adf03e0f18111a9bf9dab197f50bb3a0e4d9e48244370e15b650252b4fef3ce0458e277632fca82597633b46b155d7b76b24054e10b0d3c752232e1b21ac3a7fd3f7535885272c557e7b5ea907a6a03a0a73c27e067ab027ece73321ff0e351d2fd6546bb7be61662b2297b9bffbd8d4ecd0624d07d06d44d7b78a8279bbf10ae5efb203e97b605cf1bdb32347f5d615ae2f429b0")
+```
+
+- Glia migrate, too
+
+```{r, fig.cap="[[@Baumann2001-nw]](http://dx.doi.org/10.1152/physrev.2001.81.2.871)", out.width="100%"}
+knitr::include_graphics("https://www.physiology.org/na101/home/literatum/publisher/physio/journals/content/physrev/2001/physrev.2001.81.issue-2/physrev.2001.81.2.871/production/images/medium/9j0210133004.jpeg")
+```
+
+#### Differentiation {-}
+
+- Neuron vs. glial cell
+- Cell type
+    - myelin-producing vs. astrocyte vs. microglia
+    - pyramidal cell vs. stellate vs. Purkinje vs. ...
+- NTs released
+- Where to connect
+
+### Human infancy & early childhood {-}
+
+#### Synaptogenesis {-}
+
+- Begins prenatally (~ 18 pcw)
+- Peak density ~ 15 mos postnatal
+- Spine density in prefrontal cortex ~ 7 yrs postnatal
+- 700K synapses/s on average
+
+```{r, out.width="75%"}
+knitr::include_graphics("include/img/synaptic-density-infant.jpg")
+```
+
+- Synaptic proliferation, pruning
+    - Early proliferation (make many synapses)
+    - Later pruning
+    - Rates, peaks differ by area
+
+#### Apoptosis (programmed cell death) {-}
+
+<iframe src="https://preview.redd.it/6dvk3gw8qik71.gif?format=mp4&s=41d7a053554d502f4ada44d7d512147e50924a22"></iframe>
+
+- 20-80% of all cells, varies by area
+- Spinal cord >> cortex
+- Quantity of nerve growth factors (NGF) influences
+
+#### Synaptic rearrangement {-}
+
+```{r, out.width="75%"}
+knitr::include_graphics("include/img/huttenlocher.jpg")
+```
+
+- Progressive phase: growth rate >> loss rate
+- Regressive phase: growth rate << loss rate
+
+#### Myelination  {-}
+
+```{r, fig.cap="[[@Baumann2001-nw]](http://dx.doi.org/10.1152/physrev.2001.81.2.871)", out.width="75%"}
+knitr::include_graphics("https://www.physiology.org/na101/home/literatum/publisher/physio/journals/content/physrev/2001/physrev.2001.81.issue-2/physrev.2001.81.2.871/production/images/medium/9j0210133006.jpeg")
+```
+
+- Neonatal brain largely unmyelinated
+- Gradual myelination, peaks <span color="red">in mid-20s</span>
+- Non-uniform pattern
+    - Spinal cord before brain
+    - Sensory before motor
+    
+```{r, fig.cap="[[@Hagmann02112010]](http://doi.org/10.1073/pnas.1009073107)", out.width="75%"}
+knitr::include_graphics("https://www.pnas.org/cms/10.1073/pnas.1009073107/asset/ff27c87e-3ed0-4a67-96a2-19ec4ea4c327/assets/graphic/pnas.1009073107fig01.jpeg")
+```    
+
+#### Structural/morphometric development {-}
+
+<div class="centered">
+<img src="http://www.jneurosci.org/content/jneuro/28/47/12176/F2.large.jpg" height=450px>
+
+[[@Knickmeyer2008-vl]](http://doi.org/10.1523/JNEUROSCI.3479-08.2008)
+</div>
+    
+##### Gyri & sulci {-}
+
+*(12-19 pcw)*
+
+```{r, fig.cap="[[@Chi1977-hm]](http://doi.org/10.1002/ana.410010109)", out.width="75%"}
+knitr::include_graphics("include/img/chi-77-1.jpg")
+```
+
+*(20-27 pcw)*
+
+```{r, fig.cap="[[@Chi1977-hm]](http://doi.org/10.1002/ana.410010109)", out.width="75%"}
+knitr::include_graphics("include/img/chi-77-2.jpg")
+```
+
+*(28-35 pcw)*
+
+```{r, fig.cap="[[@Chi1977-hm]](http://doi.org/10.1002/ana.410010109)", out.width="75%"}
+knitr::include_graphics("include/img/chi-77-3.jpg")
+```
+
+*(36-44 pcw)*
+
+```{r, fig.cap="[[@Chi1977-hm]](http://doi.org/10.1002/ana.410010109)", out.width="75%"}
+knitr::include_graphics("include/img/chi-77-4.jpg")
+```
+
+
+#### Functional brain development {-}
+
+##### Changes in brain glucose use  {-}
+
+```{r, fig.cap="Figure 1 from [@Kuzawa2014-qd](http://doi.org/10.1073/pnas.1323099111)", out.width="100%"}
+knitr::include_graphics("https://www.pnas.org/cms/10.1073/pnas.1323099111/asset/36abb8b8-6e1f-4a61-b5db-718340542d99/assets/graphic/pnas.1323099111fig01.jpeg")
+```
+
+##### Gene expression across development {-}
+
+```{r, fig.cap="[[@Kang2011-ex]](http://doi.org/10.1038/nature10523)", out.width="100%"}
+knitr::include_graphics("https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnature10523/MediaObjects/41586_2011_Article_BFnature10523_Fig5_HTML.jpg?as=webp")
+```
+
+### Summary of developmental milestones {-}
+
+#### Prenatal {-}
+
++ Neuro- and gliogenesis
++ Migration
++ Synaptogenesis begins
++ Differentiation
++ Apoptosis
++ Myelination begins
+
+#### Postnatal {-}
+
++ Synaptogenesis
++ Cortical expansion, activity-dependent change
+- Then cubic, quadratic, or linear declines in cortical thickness
++ Myelination
++ Prolonged period of postnatal/pre-reproductive development [[@konner_evolution_2011]](http://www.hup.harvard.edu/catalog.php?isbn=9780674062016)
+- Neurogenesis in selected areas (cerebellum; basal ganglia; hippocampus)
+
+#### Timeline of milestones {-}
+
+```{r, fig.cap="[[@Silbereis2016-la]](http://dx.doi.org/10.1016/j.neuron.2015.12.008)", out.width="95%"}
+knitr::include_graphics("https://ars.els-cdn.com/content/image/1-s2.0-S0896627315010806-gr1_lrg.jpg")
+```
+
