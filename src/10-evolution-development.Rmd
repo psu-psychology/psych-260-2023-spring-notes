@@ -299,15 +299,15 @@ knitr::include_graphics("https://ars.els-cdn.com/content/image/1-s2.0-S235215461
 
 - 7-80K synapses/cortical neuron
 - ~ $10^{15}$ (quadrillion) synapses in CNS
-- 164 trillion synapses in cerebral cortex, [[@DeFelipe2002-xz]](http://dx.doi.org/10.1023/a:1024130211265)
+- 164 trillion synapses in cerebral cortex, [@DeFelipe2002-xz](http://dx.doi.org/10.1023/a:1024130211265)
 
 #### Axons {-}
 
-- 145-175 km (90-109 mi) of myelinated axons, [[@Marner2003-qu]](http://dx.doi.org/10.1002/cne.10714)
+- 145-175 km (90-109 mi) of myelinated axons, [@Marner2003-qu](http://dx.doi.org/10.1002/cne.10714)
 
 ### Timeline of milestones {-}
 
-```{r, fig.cap="[[@Silbereis2016-la]](http://dx.doi.org/10.1016/j.neuron.2015.12.008)", out.width="95%"}
+```{r, fig.cap="[@Silbereis2016-la](http://dx.doi.org/10.1016/j.neuron.2015.12.008)", out.width="95%"}
 knitr::include_graphics("https://ars.els-cdn.com/content/image/1-s2.0-S0896627315010806-gr1_lrg.jpg")
 ```
     
@@ -337,7 +337,9 @@ knitr::include_graphics("https://ars.els-cdn.com/content/image/1-s2.0-S089662731
 
 Video for more info:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dAOWQC-OBv0" frameborder="0" allowfullscreen></iframe>
+```{r, fig.cap="[@Khan_Academy_undated-gx](https://www.youtube.com/embed/dAOWQC-OBv0)"}
+knitr::include_url("https://www.youtube.com/embed/dAOWQC-OBv0")
+```
 
 :::
 
@@ -380,7 +382,7 @@ knitr::include_graphics("https://media.springernature.com/full/springer-static/i
 ```
 
 - Neurogenesis (of excitatory Glu neurons) observed by 27 pcd (7 pcw; post-conceptual week)
-    - complete by 191 pcd (27 pcw), [[@Silbereis2016-la]](http://dx.doi.org/10.1016/j.neuron.2015.12.008)
+    - complete by 191 pcd (27 pcw), [@Silbereis2016-la](http://dx.doi.org/10.1016/j.neuron.2015.12.008)
 - Most cortical and striatal neurons generated prenatally, but
     - Cerebellum continues neurogenesis ~ 18 mos postnatal mos
 
@@ -416,9 +418,13 @@ knitr::include_graphics("include/img/radial-glia.jpg")
 knitr::include_graphics("include/img/neural-tube.jpg")
 ```
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/ZRF-gKZHINk" frameborder="0" allowfullscreen></iframe>
+```{r, fig.cap="[@Bui2006-gy](https://www.youtube.com/watch?v=ZRF-gKZHINk)"}
+knitr::include_url("https://www.youtube.com/embed/ZRF-gKZHINk")
+```
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/t-8bxeWqSV4" frameborder="0" allowfullscreen></iframe>
+```{r, fig.cap="[@Bbscottvids2009-ad](https://www.youtube.com/watch?v=t-8bxeWqSV4)"}
+knitr::include_url("https://www.youtube.com/embed/t-8bxeWqSV4")
+```
 
 - Migration aided by axon growth cones
 - Growth cones guided by
@@ -427,9 +433,13 @@ knitr::include_graphics("include/img/neural-tube.jpg")
     - Chemorepellents
     - Chemical receptors in growth cone detect spatial/temporal patterns
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/Fgmt2RBow0I" frameborder="0" allowfullscreen></iframe>
+```{r, fig.cap="[@Moore2009-db](https://www.youtube.com/watch?v=Fgmt2RBow0I)"}
+knitr::include_url("https://www.youtube.com/embed/Fgmt2RBow0I")
+```
 
-<iframe id="reddit-embed" src="https://www.redditmedia.com/r/interestingasfuck/comments/s7fyga/single_brain_cell_looking_for_connections/?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="620" width="640" scrolling="no"></iframe>
+```{r, fig.align='center'}
+knitr::include_url("https://www.redditmedia.com/r/interestingasfuck/comments/s7fyga/single_brain_cell_looking_for_connections/?ref_source=embed&amp;ref=share&amp;embed=true")
+```
 
 ```{r, fig.cap="Figure 4 from [@Kang2011-ex](https://doi.org/10.1038/nature10523), in https://doi.org/10.1371/journal.pbio.1002045.g004", out.width="100%"}
 knitr::include_graphics("https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pbio.1002045/1/pbio.1002045.g004.PNG_L?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20230227%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230227T153304Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=b2a1a3eb31a62ade3d50937c07fc72219896d8f6e5697ec2f4bdfd2f9cb6544646b38253b161a3a3c9faea3c3ad60eaa3fa4f39eed3d6cfe9563182e78531069e169d95c2e494cab330acfacf8d514c2dc11540a793fa461580979fda4d2e44a11b27bd82340faa8719fd53adf03e0f18111a9bf9dab197f50bb3a0e4d9e48244370e15b650252b4fef3ce0458e277632fca82597633b46b155d7b76b24054e10b0d3c752232e1b21ac3a7fd3f7535885272c557e7b5ea907a6a03a0a73c27e067ab027ece73321ff0e351d2fd6546bb7be61662b2297b9bffbd8d4ecd0624d07d06d44d7b78a8279bbf10ae5efb203e97b605cf1bdb32347f5d615ae2f429b0")
@@ -470,7 +480,9 @@ knitr::include_graphics("include/img/synaptic-density-infant.jpg")
 
 #### Apoptosis (programmed cell death) {-}
 
-<iframe src="https://preview.redd.it/6dvk3gw8qik71.gif?format=mp4&s=41d7a053554d502f4ada44d7d512147e50924a22"></iframe>
+```{r, fig.align='center'}
+knitr::include_url("https://preview.redd.it/6dvk3gw8qik71.gif?format=mp4&s=41d7a053554d502f4ada44d7d512147e50924a22")
+```
 
 - 20-80% of all cells, varies by area
 - Spinal cord >> cortex
@@ -503,38 +515,35 @@ knitr::include_graphics("https://www.pnas.org/cms/10.1073/pnas.1009073107/asset/
 
 #### Structural/morphometric development {-}
 
-<div class="centered">
-<img src="http://www.jneurosci.org/content/jneuro/28/47/12176/F2.large.jpg" height=450px>
+```{r, fig.cap="Figure 2 from [@Knickmeyer2008-vl](http://doi.org/10.1523/JNEUROSCI.3479-08.2008)"}
+knitr::include_graphics("http://www.jneurosci.org/content/jneuro/28/47/12176/F2.large.jpg")
+```
 
-[[@Knickmeyer2008-vl]](http://doi.org/10.1523/JNEUROSCI.3479-08.2008)
-</div>
-    
 ##### Gyri & sulci {-}
 
 *(12-19 pcw)*
 
-```{r, fig.cap="[[@Chi1977-hm]](http://doi.org/10.1002/ana.410010109)", out.width="75%"}
+```{r, fig.cap="[@Chi1977-hm](http://doi.org/10.1002/ana.410010109)", out.width="75%"}
 knitr::include_graphics("include/img/chi-77-1.jpg")
 ```
 
 *(20-27 pcw)*
 
-```{r, fig.cap="[[@Chi1977-hm]](http://doi.org/10.1002/ana.410010109)", out.width="75%"}
+```{r, fig.cap="[@Chi1977-hm](http://doi.org/10.1002/ana.410010109)", out.width="75%"}
 knitr::include_graphics("include/img/chi-77-2.jpg")
 ```
 
 *(28-35 pcw)*
 
-```{r, fig.cap="[[@Chi1977-hm]](http://doi.org/10.1002/ana.410010109)", out.width="75%"}
+```{r, fig.cap="[@Chi1977-hm](http://doi.org/10.1002/ana.410010109)", out.width="75%"}
 knitr::include_graphics("include/img/chi-77-3.jpg")
 ```
 
 *(36-44 pcw)*
 
-```{r, fig.cap="[[@Chi1977-hm]](http://doi.org/10.1002/ana.410010109)", out.width="75%"}
+```{r, fig.cap="[@Chi1977-hm](http://doi.org/10.1002/ana.410010109)", out.width="75%"}
 knitr::include_graphics("include/img/chi-77-4.jpg")
 ```
-
 
 #### Functional brain development {-}
 
@@ -546,7 +555,7 @@ knitr::include_graphics("https://www.pnas.org/cms/10.1073/pnas.1323099111/asset/
 
 ##### Gene expression across development {-}
 
-```{r, fig.cap="[[@Kang2011-ex]](http://doi.org/10.1038/nature10523)", out.width="100%"}
+```{r, fig.cap="[@Kang2011-ex](http://doi.org/10.1038/nature10523)", out.width="100%"}
 knitr::include_graphics("https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnature10523/MediaObjects/41586_2011_Article_BFnature10523_Fig5_HTML.jpg?as=webp")
 ```
 
@@ -572,7 +581,7 @@ knitr::include_graphics("https://media.springernature.com/full/springer-static/i
 
 #### Timeline of milestones {-}
 
-```{r, fig.cap="[[@Silbereis2016-la]](http://dx.doi.org/10.1016/j.neuron.2015.12.008)", out.width="95%"}
+```{r, fig.cap="[@Silbereis2016-la](http://dx.doi.org/10.1016/j.neuron.2015.12.008)", out.width="95%"}
 knitr::include_graphics("https://ars.els-cdn.com/content/image/1-s2.0-S0896627315010806-gr1_lrg.jpg")
 ```
 
