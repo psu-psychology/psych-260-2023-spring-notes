@@ -432,3 +432,7 @@ c. Oxytocin release occurs during orgasm and triggers the milk let-down reflex i
 knitr::include_url("https://www.youtube.com/embed/gZpsVSVRsZk")
 ```
 
+```{r, fig.cap="[@Acapellascience2017-yt](https://www.youtube.com/watch?v=ydqReeTV_vk)"}
+knitr::include_graphics("https://www.youtube.com/embed/ydqReeTV_vk")
+```
+
