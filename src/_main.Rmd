@@ -3556,6 +3556,10 @@ knitr::include_graphics("https://www.samhsa.gov/data/sites/default/files/reports
 
 More recent data at <https://www.samhsa.gov/data/report/2021-nsduh-annual-national-report>, but no time series chart that I could find.
 
+```{r, out.width="100%", fig.cap="Source: https://www.nimh.nih.gov/health/statistics/mental-illness"}
+knitr::include_graphics("include/img/past-year-prevalence-of.png")
+```
+
 ### Neuroscience of psychiatric disorders {-}
 
 - Diagnosis via behavior & mood not specific "biomarker"
