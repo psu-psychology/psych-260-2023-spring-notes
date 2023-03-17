@@ -442,6 +442,11 @@ knitr::include_url("https://www.youtube.com/embed/ydqReeTV_vk")
 knitr::include_url("https://www.youtube.com/embed/lioWzrpCtGQ", height="600px")
 ```
 
+## 2023-03-19 {-}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YWwAOutgWBQ?start=85" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<!-- A Beautiful Mind movie trailer -->
+
 ## 2023-03-21 {- #suppl_2023_03_21}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yRUAzGQ3nSY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -455,3 +460,7 @@ knitr::include_url("https://www.youtube.com/embed/lioWzrpCtGQ", height="600px")
 - Quiz 3 today (on Canvas after class)
 - Blog post 2 (of 3) due today.
 - Exam 3 next Thursday, March 30, 2023.
+
+## 2023-03-23 {- #suppl_2023_03-23}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mMTkujnftIs?start=85" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
