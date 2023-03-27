@@ -4491,17 +4491,21 @@ knitr::include_graphics("include/img/lindquist-etal-2012-fig-s3.png")
 
 # Sensory and motor systems
 
-## Sensory systems
+## Sensory systems {-}
 
-### My smartphone and me...
+### My smartphone and me... {-}
 
-<div class="centered">
-<img src="https://pbs.twimg.com/media/CbI0CvqWcAAA27R.jpg" height=500px>
-</div>
+```{r, out.width="100%", fig.cap="https://www.trustedreviews.com/wp-content/uploads/sites/54/2023/02/Samsung-Galaxy-S23-Ultra-hands-on-10.jpg"}
+knitr::include_graphics("https://www.trustedreviews.com/wp-content/uploads/sites/54/2023/02/Samsung-Galaxy-S23-Ultra-hands-on-10.jpg")
+```
+
+#### Smartphone design goals {-}
 
 - What information do your users need to acquire? 
 - Why do they need to know it? In what context, for what purpose?
 - What types of information does your device need to gather, through which channels?
+
+#### Smartphone sensors {-}
 
 - Accelerometer
 - Gyroscope
@@ -4514,62 +4518,64 @@ knitr::include_graphics("include/img/lindquist-etal-2012-fig-s3.png")
 - Camera
 - Radios (Bluetooth, wifi, cellular, GPS)
 
-<http://www.phonearena.com/news/Did-you-know-how-many-different-kinds-of-sensors-go-inside-a-smartphone_id57885>
+[@Nick_undated-sr](http://www.phonearena.com/news/Did-you-know-how-many-different-kinds-of-sensors-go-inside-a-smartphone_id57885)
 
-### My turn...
+### My turn... {-}
 
 - What information do **I** need to acquire? 
 - Why do **I** need to know it? In what context & for what purpose?
 - What types of information do **I** need to gather, through which channels?
 
-### Dimensions of sensory processing
+### Dimensions of sensory processing {-}
 
 - *Interoceptive*
     + How am I?
 - *Exteroceptive*
     + What's in the world, where is it?
     
-#### Questions for interoception: How are you?
+#### Questions for interoception: How are you? {-}
 
->- Tired or rested?
->- Well or ill?
->- Hungry or thirsty or sated?
->- Stressed vs. coping?
->- Emotional state?
->- Where are you?
+- Tired or rested?
+- Well or ill?
+- Hungry or thirsty or sated?
+- Stressed vs. coping?
+- Emotional state?
+- Where am I?
 
-#### Questions for exteroception
+#### Questions for exteroception {-}
 
 - Who/What is out there?
 - Where is it?
 
-### Mrs. Potraz was wrong...there aren't 5 senses
+### Mrs. Potraz was wrong...there aren't 5 senses {-}
 
-<div class="centered">
-<img src="img/biopsych-table-8.1.jpg" height=450px>
-</div>
+```{r}
+knitr::include_graphics("include/img/biopsych-table-8.1.jpg")
+```
 
-#### How sensory channels differ
+- More than 5 senses!
+
+#### How sensory channels differ {-}
 
 - What is the energy/chemical source?
 - How does the channel inform...
     + What's there?
     + Where's it located or moving?
 
-## Somatosensation
+## Somatosensation {-}
 
 - Sensations about the body
 
-### Types of somatosensation
+### Types of somatosensation {-}
 
 - Internal (interoceptive)
-    + Where am I?  How do I feel?
+    + Where/how is my body positioned?  How do I feel?
     + Proprioception (perception of the self)
 - External (exteroceptive)
     + What’s in the world?
     + Where is it?
 
-### Internal senses
+### Internal senses {-}
 
 - Kinesthesia
     + Body position
@@ -4578,108 +4584,111 @@ knitr::include_graphics("include/img/lindquist-etal-2012-fig-s3.png")
 - Vestibular sense
     + Head position (relative to gravity)
     + Head movement (rotation, translation)
+    
+#### Vesibulo-ocular response (VOR) {-}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j_R0LcPnZ_w" frameborder="0" allowfullscreen></iframe>
-
-<div class="centered">
-<img src="https://www.mcgill.ca/vestibular-gazecontrol-lab/files/vestibular-gazecontrol-lab/images/222_0.gif">
-</div>
-
-#### Vesibulo-ocular response (VOR)
+```{r, out.width="100%", fig.cap="Vestibulo-ocular response (VOR): https://www.mcgill.ca/vestibular-gazecontrol-lab/files/vestibular-gazecontrol-lab/images/222_0.gif"}
+knitr::include_graphics("https://www.mcgill.ca/vestibular-gazecontrol-lab/files/vestibular-gazecontrol-lab/images/222_0.gif")
+```
 
 - Keeps eyes steady when head moves
+
+```{r, out.width="100%", fig.cap="[@Castilla2007-cq](https://www.youtube.com/watch?v=j_R0LcPnZ_w)"}
+knitr::include_url("https://www.youtube.com/embed/j_R0LcPnZ_w")
+```
+
 - Can't walk & text without it
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ynvd70b-uCY?start=35" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<!-- Walking & texting video -->
+```{r, out.width="100%", fig.cap="[@Top_Tens_World2017-gn](https://www.youtube.com/watch?v=ynvd70b-uCY)"}
+knitr::include_url("https://www.youtube.com/embed/ynvd70b-uCY")
+```
     
-### External senses
+### External senses {-}
 
-- Cutaneous senses (touch)
+- What's out there and where is it located?
+- Cutaneous (receptors in the skin) senses
     + Hot, cold
     + Pressure
     + Vibration
-    + Damage (pain)
 - Plus kinesthesia (why?)
 
-### Cutaneous (in the skin) receptors
+```{r, out.width="100%"}
+knitr::include_graphics("include/img/cuteneous-receptors.jpg")
+```
 
-<div class="centered">
-<img src="img/cuteneous-receptors.jpg" height=450px>
-</div>
+- Receptors specialize in different info types, properties
 
-## Receptors specialize
+```{r, out.width="100%"}
+knitr::include_graphics("include/img/pacinian-meissner.jpg")
+```
 
-<div class="centered">
-<img src="img/pacinian-meissner.jpg" height=450px>
-</div>
+```{r, out.width="100%"}
+knitr::include_graphics("include/img/merkel-ruffini.jpg")
+```
 
-<div class="centered">
-<img src="img/merkel-ruffini.jpg" height=450>
-</div>
+### Combined thermo (heat/cold) and chemo-receptors {-}
 
-## Combined thermo and chemo receptors
-
+- Taste dimension -> chemo receptor ≠ temperature dimension
 - Why are minty foods cool?
 - Why are spicy foods hot?
+- Receptors that sense chemicals AND temperature
 
-## Combined thermo (heat/cold) and chemo receptors
+```{r, out.width="100%"}
+knitr::include_graphics("include/img/menthol-vanilloid-receptors.jpg")
+```
 
 - Menthol/mint receptor (CMR1)
     + Also signals "cool" temperatures
 - Vanilloid Receptors (TrpV1/VR1, VRL1)
     + Respond to capsaicin (in peppers), allyl isothiocyanate (in mustard, wasabi)
     + Also signal "hot" temperatures
-
-```{r, out.height="550px"}
+    
+```{r, out.width="100%", fig.cap="Scoville heat scale: https://www.savoryexperiments.com/wp-content/uploads/2020/12/Scoville-Heat-Scale-Savory-Experiments2.jpg"}
 knitr::include_graphics("https://www.savoryexperiments.com/wp-content/uploads/2020/12/Scoville-Heat-Scale-Savory-Experiments2.jpg")
 ```
     
-## Menthol & vanilloid receptors
+### Size/speed trade-off {-}
 
-<div class="centered">
-<img src="img/menthol-vanilloid-receptors.jpg" height=450px>
-</div>
+- Not all info travels at the same speed
+- Thicker axons -> faster
+- Myelinated axons -> faster
 
-## Size/speed trade-off
+```{r, out.width="100%"}
+knitr::include_graphics("include/img/axon-size-speed-tradeoff.jpg")
+```
 
-<div class="centered">
-<img src="img/axon-size-speed-tradeoff.jpg" height=450px>
-</div>
+- Kinesthesia (from muscles and joints) the fastest
+- Pain/itch slow
 
-## From skin to brain
+### From skin to brain {-}
 
-- Cutaneous receptors
-- Dorsal root ganglion
-- Ventral posterior lateral thalamus
-- Primary somatosensory cortex (S-I)
+- Cutaneous receptors ->
+- Dorsal root ganglion in spinal cord ->
+- Ventral posterior lateral thalamus ->
+- Primary somatosensory cortex (S1) ->
     + Post-central gyrus of parietal lobe
     
-## Dermatomes
+#### Dermatomes {-}
 
-<div class="centered">
-<img src="img/skin-to-spinal-cord.jpg" height=450px>
-</div>
+- Patches of skin ennervated by a set of nerves
+
+```{r, out.width="100%"}
+knitr::include_graphics("include/img/skin-to-spinal-cord.jpg")
+```
+
+```{r, out.width="100%"}
+knitr::include_graphics("include/img/dermatomes.jpg")
+```
     
-## Dermatomes
+#### Functional segregation in spinal cord {-}
 
-<div class="centered">
-<img src="img/dermatomes.jpg" height=500px>
-</div>
+```{r, out.width="100%", fig.cap="http://teachmeanatomy.info/wp-content/uploads/Overview-of-the-Dorsal-Column-Medial-Lemniscal-Pathway-1.jpg"}
+knitr::include_graphics("http://teachmeanatomy.info/wp-content/uploads/Overview-of-the-Dorsal-Column-Medial-Lemniscal-Pathway-1.jpg")
+```
 
-## Functional segregation
-
-<div class="centered">
-<img src="http://teachmeanatomy.info/wp-content/uploads/Overview-of-the-Dorsal-Column-Medial-Lemniscal-Pathway-1.jpg" height=500px>
-</div>
-
-----
-
-<div class="centered">
-<img src="http://teachmeanatomy.info/wp-content/uploads/The-Spinothalamic-Tracts-Ascending-Sensory-1.jpg" height=500px>
-</div>
-
-## Functional segregation
+```{r, out.width="100%", fig.cap="http://teachmeanatomy.info/wp-content/uploads/The-Spinothalamic-Tracts-Ascending-Sensory-1.jpg"}
+knitr::include_graphics("http://teachmeanatomy.info/wp-content/uploads/The-Spinothalamic-Tracts-Ascending-Sensory-1.jpg")
+```
 
 - Separate pathways for different information types
 - Dorsal column/medial leminiscal pathway
@@ -4687,41 +4696,43 @@ knitr::include_graphics("https://www.savoryexperiments.com/wp-content/uploads/20
 - Spinothalamic tract
     - Pain, temperature
 
-## Somatatopic maps
+#### Somatatopic maps in thalamus & cerebral cortex {-}
 
-<div class="centered">
-<img src="img/s1.jpg" height=450px>
-</div>
+```{r, out.width="100%"}
+knitr::include_graphics("include/img/s1.jpg")
+```
 
-## Non-uniform mapping of skin surface
+- Some areas of skin activate disproportionately size areas of the cerebral cortex
 
-<div class="centered">
-<img src="img/homunculus.jpg" height=450px>
-</div>
+```{r, out.width="100%", fig.cap="Somatosensory homunculus"}
+knitr::include_graphics("include/img/homunculus.jpg")
+```
 
-## Non-uniform mapping of skin surface {.smaller}
+- Smallest discriminable distance between two-points (two-point threshold) varies
 
-<div class="centered">
-<img src="img/two-point-thresholds.jpg" height=450px>
+```{r, out.width="100%"}
+knitr::include_graphics("include/img/two-point-thresholds.jpg")
+```
 
-<http://jov.arvojournals.org/data/Journals/JOV/933499/jov-3-10-1-fig001.jpeg>
-</div>
+- Occupational Therapists (OTs) measure this
 
----
+```{r, fig.cap="[@OTGeddie2017-hf]()"}
+knitr::include_url("https://www.youtube.com/embed/vX35WDJohFo")
+```
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vX35WDJohFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+- S1 maintains functional segregation of input types
 
-## Columnar organization/functional segregation
+```{r}
+knitr::include_graphics("include/img/s1-columns.jpg")
+```
 
-<div class="centered">
-<img src="img/s1-columns.jpg" height=450px>
-</div>
+### Phantom Limbs {-}
 
-## Phantom Limbs
+```{r, out.width="100%", fig.cap="[@Cogmonaut2010-el](https://www.youtube.com/watch?v=1mHIv5ToMTM)"}
+knitr::include_url("https://www.youtube.com/embed/1mHIv5ToMTM")
+```
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/1mHIv5ToMTM" frameborder="0" allowfullscreen></iframe>
-
-##  What/where
+###  Summing up...perceiving what/where {-}
 
 - Perceiving Where
     + Somatotopic maps -- where on skin
@@ -4729,13 +4740,9 @@ knitr::include_graphics("https://www.savoryexperiments.com/wp-content/uploads/20
 - Perceiving What
     + Patterns of smoothness, roughness, shape, temperature
     
-## Somatosensation in other animals
-
-<div class="centered">
-<img src="http://www.bristol.ac.uk/media-library/sites/synaptic/migrated/images/somcort.gif" height=500px>
-</div>
-
-
+```{r}
+knitr::include_graphics("http://www.bristol.ac.uk/media-library/sites/synaptic/migrated/images/somcort.gif")
+```
 
 <!--chapter:end:13-sensory-motor.Rmd-->
 
@@ -4864,16 +4871,16 @@ knitr::include_graphics("https://www.savoryexperiments.com/wp-content/uploads/20
   
 ## Exam 3 {-}
 
-### Methods
+### Methods {-}
 
 - Diffusion Tensor Imaging (DTI)
 
-### Neuroanatomy
+### Neuroanatomy {-}
 
 - Location and names of cerebral ventricles
 - What sensory/motor areas are located in each lobe
 
-### Neurochemistry
+### Neurochemistry {-}
 
 - Events leading to release of neurotransmitter
 
@@ -4884,7 +4891,7 @@ knitr::include_graphics("https://www.savoryexperiments.com/wp-content/uploads/20
 - How mammalian brains compare
 - Human cerebellum size vs. non-human animals
 
-## Psychopathology
+### Psychopathology {-}
 
 - Monoamine hypothesis of depression
 - Evidence for link between serotonin dysfunction and depression
