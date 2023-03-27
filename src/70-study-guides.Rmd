@@ -123,4 +123,55 @@
   
 ## Exam 3 {-}
 
+### Methods
+
+- Diffusion Tensor Imaging (DTI)
+
+### Neuroanatomy
+
+- Location and names of cerebral ventricles
+- What sensory/motor areas are located in each lobe
+
+### Neurochemistry
+
+- Events leading to release of neurotransmitter
+
+### Evolution & Development {-}
+
+- What measure(s) of brain structure or function _decline_ in childhood and adolescence?
+- Where do cells that can make new neurons & glia in adult mammals reside?
+- How mammalian brains compare
+- Human cerebellum size vs. non-human animals
+
+## Psychopathology
+
+- Monoamine hypothesis of depression
+- Evidence for link between serotonin dysfunction and depression
+- SSRIs and SNRIs
+- What is ECT and how is it used
+- Treatments for bipolar disorder
+- Risk factors for depression, schizophrenia
+- Brain abnormalities in schizophrenia
+- Dopamine hypothesis of schizophrenia and its flaws and alternatives
+
+### Emotion {-}
+
+- Locationist vs. constructionist account
+- Focal points of Plutchik's perspective
+- Non-human animal behaviors/physiology vs. human
+- Neurotransmitters involved in affective states, responses
+- Effect of stimulation of "reward" pathway, main sites
+- Brain sites that release dopamine
+- Typical cortisol release patterns
+- Acute vs. chronic stressors
+
+### Sensory systems {-}
+
+- Interoception vs. exteroception
+- Properties of cutaneous (skin) receptors
+- Why spicy-tasting foods also seem hot
+- What sensory signals propagate quickly and which slowly
+- Receptive field sizes and relationship with sensitivity
+- Anatomy of somatosensory system
+
 ## Exam 4 {-}

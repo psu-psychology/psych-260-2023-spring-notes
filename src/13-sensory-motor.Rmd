@@ -1,0 +1,247 @@
+# Sensory and motor systems
+
+## Sensory systems
+
+### My smartphone and me...
+
+<div class="centered">
+<img src="https://pbs.twimg.com/media/CbI0CvqWcAAA27R.jpg" height=500px>
+</div>
+
+- What information do your users need to acquire? 
+- Why do they need to know it? In what context, for what purpose?
+- What types of information does your device need to gather, through which channels?
+
+- Accelerometer
+- Gyroscope
+- Magnetometer
+- Proximity sensor
+- Ambient light sensor
+- Barometer
+- Thermometer
+- Mic
+- Camera
+- Radios (Bluetooth, wifi, cellular, GPS)
+
+<http://www.phonearena.com/news/Did-you-know-how-many-different-kinds-of-sensors-go-inside-a-smartphone_id57885>
+
+### My turn...
+
+- What information do **I** need to acquire? 
+- Why do **I** need to know it? In what context & for what purpose?
+- What types of information do **I** need to gather, through which channels?
+
+### Dimensions of sensory processing
+
+- *Interoceptive*
+    + How am I?
+- *Exteroceptive*
+    + What's in the world, where is it?
+    
+#### Questions for interoception: How are you?
+
+>- Tired or rested?
+>- Well or ill?
+>- Hungry or thirsty or sated?
+>- Stressed vs. coping?
+>- Emotional state?
+>- Where are you?
+
+#### Questions for exteroception
+
+- Who/What is out there?
+- Where is it?
+
+### Mrs. Potraz was wrong...there aren't 5 senses
+
+<div class="centered">
+<img src="img/biopsych-table-8.1.jpg" height=450px>
+</div>
+
+#### How sensory channels differ
+
+- What is the energy/chemical source?
+- How does the channel inform...
+    + What's there?
+    + Where's it located or moving?
+
+## Somatosensation
+
+- Sensations about the body
+
+### Types of somatosensation
+
+- Internal (interoceptive)
+    + Where am I?  How do I feel?
+    + Proprioception (perception of the self)
+- External (exteroceptive)
+    + What’s in the world?
+    + Where is it?
+
+### Internal senses
+
+- Kinesthesia
+    + Body position
+    + Movement 
+- Pain
+- Vestibular sense
+    + Head position (relative to gravity)
+    + Head movement (rotation, translation)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j_R0LcPnZ_w" frameborder="0" allowfullscreen></iframe>
+
+<div class="centered">
+<img src="https://www.mcgill.ca/vestibular-gazecontrol-lab/files/vestibular-gazecontrol-lab/images/222_0.gif">
+</div>
+
+#### Vesibulo-ocular response (VOR)
+
+- Keeps eyes steady when head moves
+- Can't walk & text without it
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ynvd70b-uCY?start=35" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- Walking & texting video -->
+    
+### External senses
+
+- Cutaneous senses (touch)
+    + Hot, cold
+    + Pressure
+    + Vibration
+    + Damage (pain)
+- Plus kinesthesia (why?)
+
+### Cutaneous (in the skin) receptors
+
+<div class="centered">
+<img src="img/cuteneous-receptors.jpg" height=450px>
+</div>
+
+## Receptors specialize
+
+<div class="centered">
+<img src="img/pacinian-meissner.jpg" height=450px>
+</div>
+
+<div class="centered">
+<img src="img/merkel-ruffini.jpg" height=450>
+</div>
+
+## Combined thermo and chemo receptors
+
+- Why are minty foods cool?
+- Why are spicy foods hot?
+
+## Combined thermo (heat/cold) and chemo receptors
+
+- Menthol/mint receptor (CMR1)
+    + Also signals "cool" temperatures
+- Vanilloid Receptors (TrpV1/VR1, VRL1)
+    + Respond to capsaicin (in peppers), allyl isothiocyanate (in mustard, wasabi)
+    + Also signal "hot" temperatures
+
+```{r, out.height="550px"}
+knitr::include_graphics("https://www.savoryexperiments.com/wp-content/uploads/2020/12/Scoville-Heat-Scale-Savory-Experiments2.jpg")
+```
+    
+## Menthol & vanilloid receptors
+
+<div class="centered">
+<img src="img/menthol-vanilloid-receptors.jpg" height=450px>
+</div>
+
+## Size/speed trade-off
+
+<div class="centered">
+<img src="img/axon-size-speed-tradeoff.jpg" height=450px>
+</div>
+
+## From skin to brain
+
+- Cutaneous receptors
+- Dorsal root ganglion
+- Ventral posterior lateral thalamus
+- Primary somatosensory cortex (S-I)
+    + Post-central gyrus of parietal lobe
+    
+## Dermatomes
+
+<div class="centered">
+<img src="img/skin-to-spinal-cord.jpg" height=450px>
+</div>
+    
+## Dermatomes
+
+<div class="centered">
+<img src="img/dermatomes.jpg" height=500px>
+</div>
+
+## Functional segregation
+
+<div class="centered">
+<img src="http://teachmeanatomy.info/wp-content/uploads/Overview-of-the-Dorsal-Column-Medial-Lemniscal-Pathway-1.jpg" height=500px>
+</div>
+
+----
+
+<div class="centered">
+<img src="http://teachmeanatomy.info/wp-content/uploads/The-Spinothalamic-Tracts-Ascending-Sensory-1.jpg" height=500px>
+</div>
+
+## Functional segregation
+
+- Separate pathways for different information types
+- Dorsal column/medial leminiscal pathway
+    - Touch, proprioception
+- Spinothalamic tract
+    - Pain, temperature
+
+## Somatatopic maps
+
+<div class="centered">
+<img src="img/s1.jpg" height=450px>
+</div>
+
+## Non-uniform mapping of skin surface
+
+<div class="centered">
+<img src="img/homunculus.jpg" height=450px>
+</div>
+
+## Non-uniform mapping of skin surface {.smaller}
+
+<div class="centered">
+<img src="img/two-point-thresholds.jpg" height=450px>
+
+<http://jov.arvojournals.org/data/Journals/JOV/933499/jov-3-10-1-fig001.jpeg>
+</div>
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vX35WDJohFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Columnar organization/functional segregation
+
+<div class="centered">
+<img src="img/s1-columns.jpg" height=450px>
+</div>
+
+## Phantom Limbs
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/1mHIv5ToMTM" frameborder="0" allowfullscreen></iframe>
+
+##  What/where
+
+- Perceiving Where
+    + Somatotopic maps -- where on skin
+    + Kinesthesia -- configuration of limbs
+- Perceiving What
+    + Patterns of smoothness, roughness, shape, temperature
+    
+## Somatosensation in other animals
+
+<div class="centered">
+<img src="http://www.bristol.ac.uk/media-library/sites/synaptic/migrated/images/somcort.gif" height=500px>
+</div>
+
+
