@@ -464,3 +464,13 @@ knitr::include_url("https://www.youtube.com/embed/lioWzrpCtGQ", height="600px")
 ## 2023-03-23 {- #suppl_2023_03-23}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mMTkujnftIs?start=85" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## 2032-03-28 {- #suppl_2023_03-28}
+
+```{r, out.width="100%", fig.cap="See Me/Feel Me (The Who): [@Vidovic2010-od](https://www.youtube.com/embed/9TAp_p4oSV4)"}
+knitr::include_graphics("https://www.youtube.com/embed/9TAp_p4oSV4")
+```
+
+### Announcements
+
+- Exam 3 this Thursday, March 30 **in-class**

@@ -4726,13 +4726,7 @@ knitr::include_url("https://www.youtube.com/embed/vX35WDJohFo")
 knitr::include_graphics("include/img/s1-columns.jpg")
 ```
 
-### Phantom Limbs {-}
-
-```{r, out.width="100%", fig.cap="[@Cogmonaut2010-el](https://www.youtube.com/watch?v=1mHIv5ToMTM)"}
-knitr::include_url("https://www.youtube.com/embed/1mHIv5ToMTM")
-```
-
-###  Summing up...perceiving what/where {-}
+###  Summing up...somatosensory exteroception {-}
 
 - Perceiving Where
     + Somatotopic maps -- where on skin
@@ -4743,6 +4737,39 @@ knitr::include_url("https://www.youtube.com/embed/1mHIv5ToMTM")
 ```{r}
 knitr::include_graphics("http://www.bristol.ac.uk/media-library/sites/synaptic/migrated/images/somcort.gif")
 ```
+
+### Somatosensory interoception {-}
+
+#### [Interoception and emotion](http://dx.doi.org/10.1016/j.copsyc.2017.04.020) {-}
+
+Critchley, H. D. & Garfinkel, S. N. (2017). Interoception and emotion. *Current Opinion in Psychology*, *17*, 7–14. https://doi.org/10.1016/j.copsyc.2017.04.020
+
+```{r, out.width="100%", fig.cap="Figure 1 from [@Critchley2017-km](http://dx.doi.org/10.1016/j.copsyc.2017.04.020): Fear and neutral faces are time-locked to distinct parts of the cardiac cycle to determine how cardiac afferent signals alter neural activity and intensity judgements (a). A cardiac cycle by emotion interaction demonstrated enhanced bilateral amygdala activation in response to fear faces at systole (b). Fear faces presented at systole were also judged as significantly more intense (c)."}
+knitr::include_graphics("https://ars.els-cdn.com/content/image/1-s2.0-S2352250X17300106-gr1_lrg.jpg")
+```
+
+- Amygdala BOLD activity in response to fearful faces varies by cardiac phase
+- Subjective ratings of felt fear vary with cardiac phase
+
+#### [@Nummenmaa2023-uq](http://dx.doi.org/10.1080/02699931.2023.2183180) {-}
+
+Nummenmaa, L. & Hari, R. (2023). Bodily feelings and aesthetic experience of art. *Cognition & Emotion*, 1–14. https://doi.org/10.1080/02699931.2023.2183180.
+
+>Humans all around the world are drawn to creating and consuming art due to its capability to evoke emotions, but the mechanisms underlying art-evoked feelings remain poorly characterised. Here we show how embodiement contributes to emotions evoked by a large database of visual art pieces (n = 336). In four experiments, we mapped the subjective feeling space of art-evoked emotions (n = 244), quantified "bodily fingerprints" of these emotions (n = 615), and recorded the subjects' interest annotations (n = 306) and eye movements (n = 21) while viewing the art. We show that art evokes a wide spectrum of feelings, and that the bodily fingerprints triggered by art are central to these feelings, especially in artworks where human figures are salient. Altogether these results support the model that bodily sensations are central to the aesthetic experience.
+>
+>-- [@Nummenmaa2023-uq](http://dx.doi.org/10.1080/02699931.2023.2183180)
+
+```{r, out.width="100%", fig.cap="Figure 1 from [@Nummenmaa2023-uq](http://dx.doi.org/10.1080/02699931.2023.2183180)"}
+knitr::include_graphics("https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/pcem20/0/pcem20.ahead-of-print/02699931.2023.2183180/20230313/images/medium/pcem_a_2183180_f0001_oc.jpg")
+```
+
+#### Phantom Limbs {-}
+
+```{r, out.width="100%", fig.cap="[@Cogmonaut2010-el](https://www.youtube.com/watch?v=1mHIv5ToMTM)"}
+knitr::include_url("https://www.youtube.com/embed/1mHIv5ToMTM")
+```
+
+---
 
 <!--chapter:end:13-sensory-motor.Rmd-->
 
@@ -5392,6 +5419,16 @@ knitr::include_url("https://www.youtube.com/embed/lioWzrpCtGQ", height="600px")
 ## 2023-03-23 {- #suppl_2023_03-23}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mMTkujnftIs?start=85" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## 2032-03-28 {- #suppl_2023_03-28}
+
+```{r, out.width="100%", fig.cap="See Me/Feel Me (The Who): [@Vidovic2010-od](https://www.youtube.com/embed/9TAp_p4oSV4)"}
+knitr::include_graphics("https://www.youtube.com/embed/9TAp_p4oSV4")
+```
+
+### Announcements
+
+- Exam 3 this Thursday, March 30 **in-class**
 
 <!--chapter:end:80-supplemental.Rmd-->
 
