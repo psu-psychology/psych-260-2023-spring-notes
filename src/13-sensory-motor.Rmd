@@ -278,4 +278,376 @@ knitr::include_graphics("https://www.tandfonline.com/na101/home/literatum/publis
 knitr::include_url("https://www.youtube.com/embed/1mHIv5ToMTM")
 ```
 
----
+## Pain {-}
+
+### The neuroscience of pain {-}
+
+#### Nociceptors {-}
+
+- *Nociceptors* (Latin *nocere* to harm or hurt) detect harmful or potentially harmful stimuli of varied types:
+    - chemical
+    - mechanical
+    - thermal
+- External
+    - Skin, cornea (eye), mucosa
+- Internal
+    - Muscles, joints, bladder, gut
+
+##### Types {-}
+
+- metabolism (acidic pH, hypoxia, ...)
+- cell rupture (ATP and glutamate)
+- cutaneous parasite penetration (histamine)
+- mast cell (white blood cell) activation (serotonin, bradykinin, ...)
+- immune and hormonal activity (cytokines and somatostatin)
+
+#### Projections to CNS {-}
+
+- Fast ($A\delta$) and slow ($C$) transmission to CNS
+
+```{r, out.width="100%"}
+knitr::include_graphics("include/img/axon-size-speed-tradeoff.jpg")
+```
+
+- Via anterolateral system
+
+```{r, out.width="100%", fig.cap="Anterolateral system from http://teachmeanatomy.info/wp-content/uploads/The-Spinothalamic-Tracts-Ascending-Sensory-1.jpg"}
+knitr::include_graphics("http://teachmeanatomy.info/wp-content/uploads/The-Spinothalamic-Tracts-Ascending-Sensory-1.jpg")
+```
+
+```{r, out.width="100%", fig.cap="Figure 1 from [@Craig2002-ce](http://doi.org/10.1038/nrn894)"}
+knitr::include_graphics("https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn894/MediaObjects/41583_2002_Article_BFnrn894_Fig1_HTML.gif?as=webp")
+```
+
+#### Key CNS nodes in network {-}
+
+- Periaqueductal grey (PAG) in midbrain
+- Insular cortex (insula)
+- Hypothalamus
+- Amygdala
+- Thalamus
+    - Ventroposterior lateral nucleus
+    - Ventroposterior medial nucleus
+    - Ventromedial nucleus
+
+```{r, fig}
+knitr::include_graphics("http://www.annevanrossum.com/images/blog/thalamus1.jpg")
+```
+
+```{r, out.width="100%", fig.cap="Figure 2 from [@Craig2002-ce](http://doi.org/10.1038/nrn894)"}
+knitr::include_graphics("https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnrn894/MediaObjects/41583_2002_Article_BFnrn894_Fig2_HTML.gif?as=webp")
+```
+
+#### Pain (perception/activation) in the brain {-}
+
+```{r, out.width="100%", fig.cap="Figure 1 from [@Wager2013-uw](http://doi.org/10.1056/NEJMoa1204471)"}
+knitr::include_graphics("http://www.nejm.org/na101/home/literatum/publisher/mms/journals/content/nejm/2013/nejm_2013.368.issue-15/nejmoa1204471/20170324/images/large/nejmoa1204471_f1.jpeg")
+```
+
+
+>"*...we used machine-learning analyses to identify a pattern of fMRI activity across brain regions — a neurologic signature — that was associated with heat-induced pain. The pattern included the <span class="blue">thalamus, the posterior and anterior insulae, the secondary somatosensory cortex, the anterior cingulate cortex, the periaqueductal gray matter, and other areas...</span>*"
+>
+>-- [@Wager2013-uw](http://doi.org/10.1056/NEJMoa1204471)
+
+#### Pain relief {-}
+
+- *Prostaglandins*
+    - hormone-like effects, but released in many places
+    - trigger vasodilation and inflammation
+- *Paracetymol (acetaminophen)*
+    - Mechanism not fully understood
+    - inhibits synthesis of prostaglandins via cyclooxygenase (COX) enzyme
+    - may modulate endocannabinoid system
+- *Nonsteroidal anti-inflamatory drugs (NSAIDs)*: aspirin, ibuprofen
+    - Also inhibit prostaglandins via COX
+- *Opioids*
+    - Activate endogenous opioid systems
+    - multiple receptor types ($\delta$, $\kappa$, $\mu$,...)
+    - peripheral sensory neurons, amygdala, hypothalamus, PAG, spinal cord, cortex, medulla, pons,...
+    - brainstem opioid neurons provide *descending* inhibition of nociceptors
+    
+```{r, , out.width="100%", fig.cap="Figure 1 from [@Benarroch2012-ek](http://dx.doi.org/10.1212/WNL.0b013e3182662098)"}
+knitr::include_graphics("http://www.neurology.org/content/79/8/807/F1.large.jpg")
+```
+
+- Synthetic *Capsaicin*
+    - Binds to TrpV1/VR1 thermo/nociceptors
+    - Eventually causes decrease in TrpV1 response
+    - Alters how peripheral neuron responds to mechanical (rubbing) stimulation
+    - [@Borbiro2015-ik](http://doi.org/10.1126/scisignal.2005667)
+ 
+```{r, out.width="100%"}
+knitr::include_graphics("https://images-na.ssl-images-amazon.com/images/I/510PjwGtTpL._SY355_.jpg")
+```
+
+- Why rubbing can help
+
+<div class="centered">
+<img src="img/axon-size-speed-tradeoff.jpg" height=450px>
+</div>
+
+##### Gate control theory [@Melzack1965-va] {-}
+
+<p><a href="https://commons.wikimedia.org/wiki/File:Gate_control_no_A.svg#/media/File:Gate_control_no_A.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Gate_control_no_A.svg/1200px-Gate_control_no_A.svg.png" alt="Gate control no A.svg" height=450px></a><br>By self - self-made in Inkscape, <a href="http://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=3542661">Link</a></p>
+
+<p><a href="https://commons.wikimedia.org/wiki/File:Gate_control_A_firing.svg#/media/File:Gate_control_A_firing.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Gate_control_A_firing.svg/1200px-Gate_control_A_firing.svg.png" alt="Gate control A firing.svg" height=450px></a><br>By self - self-made in Inkscape, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=3542671">Link</a></p>
+    
+#### Psychological & physical components of pain {-}
+
+```{r, out.width="100%", fig.cap="Figure 1 from [@Papini2015-ed](http://dx.doi.org/10.1016/j.neubiorev.2014.11.012); A visual representation of some of the common and divergent aspects of psychological and physical pain discussed in this article. Following a parsimonious approach and for simplicity, social pain is considered here a special case of psychological pain. ACC, anterior cingulate cortex; HPA, hypothalamic-pituitary-adrenal axis; NMDA:,N-methyl-d-aspartate receptors; SNC, successive negative contrast."}
+knitr::include_graphics("https://ars.els-cdn.com/content/image/1-s2.0-S0149763414002978-gr1.jpg")
+```
+
+#### Summing up pain {-}
+
+- Multiple receptor channels
+- Highly interconnected CNS network
+- Multiple targets for modulation
+    
+## Action {-}
+
+### The neuroscience of action {-}
+
+- Nervous system "output" includes
+    + Movements
+    + Autonomic responses
+    + Endocrine responses
+- What types of actions are there?
+    - Reflexes
+        + Simple, highly stereotyped, unlearned, rapid
+    - vs. Planned or voluntary actions
+        + Complex, flexible, acquired, slower
+    - Discrete (reaching) vs. rhythmic (walking)
+    - Ballistic (no feedback) vs. controlled (feedback)
+- How are these produced?
+    + By the muscles
+    + By the nervous system
+   
+#### Muscles {-}
+
+##### Broad classes {-}
+
+- Axial
+    + Trunk, neck, hips
+- Proximal
+    + Shoulder/elbow, pelvis/knee
+- Distal
+    + Hands/fingers, feet/toes
+    
+```{r, out.width="100%", fig.cap="https://cdn.britannica.com/s:700x450/20/55620-004-0B8EF544.jpg"}
+knitr::include_graphics("https://cdn.britannica.com/s:700x450/20/55620-004-0B8EF544.jpg")
+```
+
+#### Types {-}
+
+- Smooth
+    + Arteries, hair follicles, uterus, intestines
+    + Regulated by ANS (involuntary)
+- Cardiac
+- Striated (striped)
+    + Skeletal
+    + Voluntary control, mostly connected to tendons and bones
+
+```{r, out.width="100%"}
+knitr::include_graphics("http://graphics8.nytimes.com/images/2007/08/01/health/adam/19917.jpg")
+```
+
+#### How skeletal muscles contract {-}
+
+- Skeletal muscles have no "reverse" gear--they only contract
+- Motoneuron (ventral horn of spinal cord)
+
+```{r, out.width="100%"}
+knitr::include_graphics("include/img/from-spinal-cord-to-muscle.jpg")
+```
+
+- Neuromuscular junction
+    + Releases acetylcholine (ACh) onto skeletal muscle fiber
+- Motor endplate
+    + Contains nicotinic ACh receptor
+    + Generates excitatory endplate potential (EPP)
+        + Muscle fiber depolarizes
+        + Depolarization spreads along fiber
+        + Causes release of Ca++ from stores inside muscle
+
+```{r, out.width="100%", fig.cap="http://www.siumed.edu/~dking2/ssb/images/NM040b.jpg"}
+knitr::include_graphics("http://www.siumed.edu/~dking2/ssb/images/NM040b.jpg")
+```
+
+- Muscle fibers segmented into sarcomeres
+- Myofibrils (w/in sarcomere)
+    + Paired actin & mysosin proteins
+    + “Molecular gears”
+- Bind, move, unbind in presence of Ca++ plus energy source (ATP)
+
+```{r, out.width="100%"}
+knitr::include_graphics("include/img/muscle-fibers-biopsych.jpg")
+```
+
+- Muscles often arranged in agonist/antagonist pairs
+
+```{r, out.width="100%"}
+knitr::include_graphics("http://2.bp.blogspot.com/-TpOC4my_NBc/T0J-MhEv29I/AAAAAAAAF88/dYLv7QzFwmg/s1600/Hamstring-Quad4.jpg")
+```
+
+##### Muscle fiber types {-}
+
+```{r, out.width="100%"}
+knitr::include_graphics("include/img/turkey.jpg")
+```
+
+- Fast twitch/fatiguing
+    + Type II
+    + White meat
+- Slow twitch/fatiguing
+    + Type I
+    + Red meat
+    
+#### Muscles are sensory organs, too! {-}
+
+```{r, out.width="100%", fig.cap="http://cdn.xl.thumbs.canstockphoto.com/canstock6466988.jpg"}
+knitr::include_graphics("http://cdn.xl.thumbs.canstockphoto.com/canstock6466988.jpg")
+```
+
+```{r, out.width="100%"}
+knitr::include_graphics("include/img/muscle-fiber-types.jpg")
+```
+
+- **Intrafusal** fibers
+    + Sense length/tension
+    + Ennervated (contract) via gamma ($\gamma$) motor neuron activation
+    + Contain muscle spindles (sensory organs linked to Ia afferents)
+- **Extrafusal** fibers
+    + Generate force
+    + Ennervated (contract) via alpha ($\alpha$) motor neurons
+  
+##### Monosynaptic stretch (myotatic) reflex {-}
+
+- Muscle stretched (length increases)
+- Muscle spindle in intrafusal fiber activates
+- Ia afferent sends signal to spinal cord
+    + Activates alpha ($\alpha$) motor neuron
+- Muscle contracts, shortens length
+
+```{r, out.width="100%"}
+knitr::include_graphics("include/img/intrafusal-extrafusal-fibers.jpg")
+```
+
+- Gamma ($\gamma$) motor neuron fires to take up intrafusal fiber slack
+
+::: {.infobox}
+
+```{r, out.width="100%"}
+knitr::include_graphics("include/img/harrington-free-climb-el-capitan.png")
+```
+
+https://www.nytimes.com/2020/11/09/sports/emily-harrington-free-climb-yosemite.html
+
+:::
+
+```{r, out.width="100%"}
+knitr::include_graphics("include/img/stretch-reflex.jpg")
+```
+
+- Polysynaptic *inhibition* of antagonist muscle
+- Prevents/dampens tremor
+
+- Brain gets fast(est) sensory info from spindles
+
+```{r, out.width="100%"}
+knitr::include_graphics("include/img/axon-size-speed-tradeoff.jpg")
+```
+
+#### CNS {-}
+
+```{r, out.width="100%"}
+knitr::include_graphics("include/img/motor-controllers-biopsych.jpg")
+```
+
+##### Pyramidal system {-}
+
++ Pyramidal cells (from Cerebral Cortex Layer 5) in primary motor cortex (M1)
+    + Corticobulbar (cortex -> brainstem) tract
+    + Corticospinal (cortex -> spinal cord) tract
+- Crossover (decussate) in medulla
+    + L side of brain ennervates R side of body
+- Spinal cord
+    - Corticospinal tract
+
+```{r, out.width="100%"}
+knitr::include_graphics("include/img/gray-corticospinal-tract.png")
+```
+
+##### Extrapyramidal system {-}
+
+- Involuntary movements
+    + Posture, balance, arousal
++ Tectospinal tract
++ Vestibulospinal tract
++ Reticulospinal tract
+    
+```{r, out.width="100%"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/be/Gray672.png")
+```
+    
+### Disorders of movement {-}
+
+#### Parkinson's Disease {-}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CqEwPqUO1Bw" frameborder="0" allowfullscreen></iframe>
+
+- Symptoms
+    - Slow, absent movement, resting tremor
+    - Cognitive deficits, depression
+- Biological correlates
+    - DA neurons in substantia nigra degenerate
+    - Autoimmune disorder? [@Garretti2019-sr](http://dx.doi.org/10.3389/fimmu.2019.00303)
+- Treatments
+    + DA agonists
+    + DA agonists linked to impulse control disorders in ~1/7 patients [@ramirez-zamora_treatment_2016](http://dx.doi.org/10.1586/14737175.2016.1158103)
+    + Levodopa (L-Dopa), DA precursor
+    - Deep brain stimulation
+
+```{r, fig.cap="https://mayfieldclinic.com/pe-dbs.htm"}
+knitr::include_graphics("https://dbmmu5j6lxew.cloudfront.net/pe-dbs_fig1.jpg")
+```
+
+#### Huntington's Disease {-}
+
+<div class="centered">
+<img src="http://cp91279.biography.com/1000509261001/1000509261001_1733824754001_woody-guthrie-centennial-1.jpg" height=450px>
+<http://cp91279.biography.com/1000509261001/1000509261001_1733824754001_woody-guthrie-centennial-1.jpg>
+</div>
+
+- Formerly Huntington’s Chorea
+    + "Chorea" from Greek for "dance"
+    + “Dance-like” pattern of involuntary movements
+    - Cognitive decline
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HBLrY_nXU_U" frameborder="0" allowfullscreen></iframe>
+
+- Genetic + environmental influences
+    - Gene fragment (CAG) duplication
+    - High levels of *huntingtin* protein accumulate in basal ganglia
+    - People with familial risk may want to consider genetic testing
+- No effective treatment
+    - Promising gene therapy trial halted recently [@Kwon2021-bj](http://dx.doi.org/10.1038/d41586-021-01177-7)
+    
+#### Amyotrophic Lateral Sclerosis (ALS; Lou Gehrig's Disease) {-}
+
+```{r, fig.cap="Stephen Hawking"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Stephen_Hawking.StarChild.jpg/220px-Stephen_Hawking.StarChild.jpg")
+```
+
+- Most common motor neuron disease
+- Most cases have no known cause
+- No cure
+
+```{r, fig.cap="Wikipedia: https://commons.wikimedia.org/wiki/File:UMN_vs_LMN.png#/media/File:UMN_vs_LMN.png"}
+knitr::include_graphics("https://commons.wikimedia.org/wiki/File:UMN_vs_LMN.png#/media/File:UMN_vs_LMN.png")
+```
+
+### Summing up: Action {-}
+
+- Control of movement determined by multiple sources
+- Cerebral cortex + basal ganglia + cerebellum + spinal circuits
