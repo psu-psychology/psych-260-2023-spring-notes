@@ -1,0 +1,20 @@
+---
+title: reddish-green
+output:
+  ioslides_presentation:
+    css: ../include/css/ioslides.css
+    widescreen: true
+    incremental: false
+---
+
+## What's a reddish-green look like? {.flexbox .vcenter}
+
+<div class="centered">
+<img src="../include/img/reddish-green.jpg">
+</div>
+
+## What's a reddish-green look like? {.flexbox .vcenter}
+
+<div class="centered">
+<img src="../include/img/fixation-cross.jpg">
+</div>

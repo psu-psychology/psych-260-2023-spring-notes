@@ -490,3 +490,44 @@ knitr::include_graphics("https://www.youtube.com/embed/9TAp_p4oSV4")
 <iframe width="420" height="315" src="https://www.youtube.com/embed/L0CVoFsUhC4" frameborder="0" allowfullscreen></iframe>
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/XaI5IRuS2aE" frameborder="0" allowfullscreen></iframe>
+
+## 2023-04-11 {-}
+
+### Prelude
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MrHxhQPOO2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<https://vimeo.com/117815404>
+
+### Announcements
+
+- Blog post 3 and papers due today
+- Quiz 4 next Thursday, April 20
+
+### Which type of muscle fiber is also a sensory organ?
+
+- extrafusal
+- intrafusal
+- exteroceptive
+- extrapyramidal
+
+### How many synapses are involved in the circuit connecting the Ia (stretch receptor) sensory afferent in a muscle to the $\alpha$ motor neuron activating the *same* muscle?
+
+- 1
+- 2
+- 10s
+- too many to count
+
+## Parkinson's and Huntington's disease are similar in that both affect this part of the brain.
+
+- Spinal cord
+- Primary motor cortex
+- Basal ganglia
+- Primary somatosensory cortex
+
+## 2023-04-13 {-}
+
+### Announcements
+
+- Quiz 4 next Thursday, April 20
+- Exam 4 on Tuesday, May 2, 10:10a-12:00p, **Health & Human Development 254**

@@ -452,7 +452,7 @@ schiz_df <- readr::read_csv("https://www.tandfonline.com/action/downloadTable?id
 names(schiz_df) <- c("category", "pct_risk")
 
 schiz_df |>
-  knitr::kable() |>
+  knitr::kable(format='html') |>
   kableExtra::kable_classic() |>
   kableExtra::add_footnote(label = "Data from (Tamminga & Medoff, 2000)")
 ```
