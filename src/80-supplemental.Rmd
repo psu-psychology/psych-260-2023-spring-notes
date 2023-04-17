@@ -535,7 +535,7 @@ knitr::include_graphics("https://www.youtube.com/embed/9TAp_p4oSV4")
 - Quiz 4 next Thursday, April 20
 - Exam 4 on Tuesday, May 2, 10:10a-12:00p, **Health & Human Development 254**
 
-::: {infobox}
+::: {.infobox}
 
 Lasik surgery reshapes this part of the eye that accounts for 2/3 of the eye's total refractive power.
 
@@ -546,7 +546,7 @@ C. Lens</br>
 :::
 
 
-::: {infobox}
+::: {.infobox}
 
 The fovea provides high acuity information about a ______ deg portion of the visual field.
 
@@ -557,7 +557,7 @@ C. 1-2</br>
 :::
 
 
-::: {infobox}
+::: {.infobox}
 
 The rod photoreceptors are ______ numerous than cones in the human retina.
 
@@ -565,3 +565,53 @@ A. more</br>
 B. less</br>
 
 :::
+
+## 2023-04-18 {-}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5mlllRdIfqw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<!-- 'Memory' from Cats -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hpTCZ-hO6iI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<!-- Marilu Henner - I remember my whole life! -->
+
+### Announcements
+
+- Quiz 4 this Thursday (on Canvas, after class)
+- Exam 4 on Tuesday, May 2, 10:10a-12:00p, **Health & Human Development 254**
+- In-class lab next Tuesday, April 25.
+
+::: {.infobox}
+
+Why does Gilmore say the retina is anatomically 'inside-out'?
+
+A. The dorsal stream and the ventral stream project to different cortical targets
+B. Information from the left visual field projects to the right hemisphere
+C. Photoreceptors lie at the back of the eye, away from the path of light
+D. Long wavelength 'red-ish' lights can only be seen outside
+
+:::
+
+::: {.infobox}
+
+Visual information from the retina projects to the ______ which controls circadian rhythms.
+
+A. Lateral geniculate nucleus (LGN) of the thalamus
+B. Dorso-medial nucleus of the thalamus
+C. Superior colliculus/optic tectum
+D. Suprachiasmatic nucleus of the hypothalamus
+
+:::
+
+::: {.infobox}
+
+Hubel and Wiesel did not find many cells in V1 that had center-surround receptive fields because
+
+A. Many cells in V1 have elongated, rectangular-shaped, receptive fields
+B. V1 cells don't have receptive fields
+C. V1 doesn't respond to visual information that strongly
+D. The visual cortex doesn't respond strongly under anesthesia
+
+:::
+
