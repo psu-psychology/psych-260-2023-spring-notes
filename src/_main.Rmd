@@ -6604,32 +6604,32 @@ knitr::include_graphics("https://www.youtube.com/embed/9TAp_p4oSV4")
 
 ## 2023-04-11 {-}
 
-### Prelude
+### Prelude {-}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MrHxhQPOO2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <https://vimeo.com/117815404>
 
-### Announcements
+### Announcements {-}
 
 - Blog post 3 and papers due today
 - Quiz 4 next Thursday, April 20
 
-### Which type of muscle fiber is also a sensory organ?
+### Which type of muscle fiber is also a sensory organ? {-}
 
 - extrafusal
 - intrafusal
 - exteroceptive
 - extrapyramidal
 
-### How many synapses are involved in the circuit connecting the Ia (stretch receptor) sensory afferent in a muscle to the $\alpha$ motor neuron activating the *same* muscle?
+### How many synapses are involved in the circuit connecting the Ia (stretch receptor) sensory afferent in a muscle to the $\alpha$ motor neuron activating the *same* muscle? {-}
 
 - 1
 - 2
 - 10s
 - too many to count
 
-## Parkinson's and Huntington's disease are similar in that both affect this part of the brain.
+## Parkinson's and Huntington's disease are similar in that both affect this part of the brain. {-}
 
 - Spinal cord
 - Primary motor cortex
@@ -6640,11 +6640,12 @@ knitr::include_graphics("https://www.youtube.com/embed/9TAp_p4oSV4")
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8oZ-t1DlKyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-
-### Announcements
+### Announcements {-}
 
 - Quiz 4 next Thursday, April 20
 - Exam 4 on Tuesday, May 2, 10:10a-12:00p, **Health & Human Development 254**
+
+### Warm-up {-}
 
 ::: {.infobox}
 
@@ -6687,19 +6688,21 @@ B. less</br>
 
 <!-- Marilu Henner - I remember my whole life! -->
 
-### Announcements
+### Announcements {-}
 
 - Quiz 4 this Thursday (on Canvas, after class)
 - Exam 4 on Tuesday, May 2, 10:10a-12:00p, **Health & Human Development 254**
 - In-class lab next Tuesday, April 25.
 
+### Warm-up {-}
+
 ::: {.infobox}
 
 Why does Gilmore say the retina is anatomically 'inside-out'?
 
-A. The dorsal stream and the ventral stream project to different cortical targets
-B. Information from the left visual field projects to the right hemisphere
-C. Photoreceptors lie at the back of the eye, away from the path of light
+A. The dorsal stream and the ventral stream project to different cortical targets</br>
+B. Information from the left visual field projects to the right hemisphere</br>
+C. Photoreceptors lie at the back of the eye, away from the path of light</br>
 D. Long wavelength 'red-ish' lights can only be seen outside
 
 :::
@@ -6708,9 +6711,9 @@ D. Long wavelength 'red-ish' lights can only be seen outside
 
 Visual information from the retina projects to the ______ which controls circadian rhythms.
 
-A. Lateral geniculate nucleus (LGN) of the thalamus
-B. Dorso-medial nucleus of the thalamus
-C. Superior colliculus/optic tectum
+A. Lateral geniculate nucleus (LGN) of the thalamus</br>
+B. Dorso-medial nucleus of the thalamus</br>
+C. Superior colliculus/optic tectum</br>
 D. Suprachiasmatic nucleus of the hypothalamus
 
 :::
@@ -6719,9 +6722,9 @@ D. Suprachiasmatic nucleus of the hypothalamus
 
 Hubel and Wiesel did not find many cells in V1 that had center-surround receptive fields because
 
-A. Many cells in V1 have elongated, rectangular-shaped, receptive fields
-B. V1 cells don't have receptive fields
-C. V1 doesn't respond to visual information that strongly
+A. Many cells in V1 have elongated, rectangular-shaped, receptive fields</br>
+B. V1 cells don't have receptive fields</br>
+C. V1 doesn't respond to visual information that strongly</br>
 D. The visual cortex doesn't respond strongly under anesthesia
 
 :::

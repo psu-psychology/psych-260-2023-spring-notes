@@ -357,10 +357,3 @@ amnesia
 exam-study-guides
 supplemental
 announcements-6
-prelude-1
-announcements-7
-which-type-of-muscle-fiber-is-also-a-sensory-organ
-how-many-synapses-are-involved-in-the-circuit-connecting-the-ia-stretch-receptor-sensory-afferent-in-a-muscle-to-the-alpha-motor-neuron-activating-the-same-muscle
-parkinsons-and-huntingtons-disease-are-similar-in-that-both-affect-this-part-of-the-brain.
-announcements-8
-announcements-9
