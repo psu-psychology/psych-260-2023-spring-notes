@@ -1,0 +1,204 @@
+# Speed lab
+
+<div class="centered">
+<img src="https://images-na.ssl-images-amazon.com/images/I/41tpdBq%2BPVL._SX327_BO1,204,203,200_.jpg" height=500px>
+</div>
+# Rigor Mortis
+
+[PSYCH 490 The Reproducibility Crisis in Science](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/)
+
+## Background {-}
+
+### Question {-}
+
+- How fast does the nervous system conduct information?
+- [Some prior evidence](https://psu-psychology.github.io/psych-260-spring-2017/lecture-notes/260-2017-03-29-somatosensation.html#15). [Spring 2017 data](https://psu-psychology.github.io/psych-260-spring-2017/lecture-notes/260-2017-04-24-speed-lab.html#18)
+    - Proprioception vs. touch
+    - Table of typical values from Wikipedia: <https://en.wikipedia.org/wiki/Nerve_conduction_velocity>
+- Why do we care?
+
+### Prediction {-}
+
+We predict that the speed of conduction will be ...
+
+Between ____ and ____  m/s.
+    
+### Method {-}
+
+- Speed ($s$) = Distance ($d$)/Time ($t$), then $t=d/s$
+- Chain of participants to make distance larger
+    + If typical person ~ 1.5 m, then 
+    + at $s=30$ m/s, $t = d/s \rightarrow 1.5/30$ = `r 1.5/30` secs.
+    - Helpful to have $n$ participants, where $n>20$ or so.
+
+#### Condition 1 (ankle) {-}
+
+- Squeeze (pull on) ankle
+- `ankle_shoulder` + `shoulder_brain` + `brain_decide` + `brain_shoulder` + `shoulder_hand`
+
+#### Condition 2 (shoulder) {-}
+
+- Squeeze (pull on) shoulder
+- `shoulder_brain` + `brain_decide` + `brain_shoulder` + `shoulder_hand`
+- Condition 1 - Condition 2
+- `ankle_shoulder` + ~~`shoulder_brain`~~ + ~~`brain_decide`~~ + ~~`brain_shoulder`~~ + ~~`shoulder_hand`~~
+
+#### Measure {-}
+
+- sum(`ankle_shoulder`) for all participants -> Distance
+- mean(time(Condition 1)) - mean(time(Condition 2)) -> Time
+- Speed = Distance/Time
+
+#### Materials {-}
+
+- Stop watch (or phone app)
+- Tape measure
+
+#### Decisions {-}
+
+- Same hand or dominant?
+- Alternate ankle/shoulder or one condition before the other?
+- How many trials?
+    + Fixed number?
+    + When reach asymptote?
+        - How decide asymptote?
+    
+#### Data files {-}
+
+- Google Sheets Data file with [body measurements](https://docs.google.com/spreadsheets/d/1Kt9Fny1HKy35MUYje-8yeFahR3LiHVEdycGVqPvBhfI/edit?usp=sharing)
+    + `participant`, `ankleshoulder` (cm)
+- Data file with [reaction times](https://docs.google.com/spreadsheets/d/1ZVbAXhs3K6LFU62FfsXNpqGjsEHDXya6oRf12uhDkMU/edit?usp=sharing) 
+    + trial {1...n}, condition {ankle, shoulder}, time (s)
+
+### Results {-}
+
+```{r set-up-r}
+# Load R packages
+suppressPackageStartupMessages(library("googledrive"))
+suppressPackageStartupMessages(library("magrittr"))
+suppressPackageStartupMessages(library("dplyr"))
+suppressPackageStartupMessages(library("ggplot2"))
+```
+
+#### Download data as CSV {-}
+
+```{r}
+# https://docs.google.com/spreadsheets/d/1ZVbAXhs3K6LFU62FfsXNpqGjsEHDXya6oRf12uhDkMU/edit?usp=sharing
+
+googledrive::drive_download(file = 'psych-260-bbh-203-2023-spring-distance', path = 'csv/psych-260-bbh-203-2023-spring-distance', type = 'csv', overwrite = TRUE)
+
+googledrive::drive_download(file = 'psych-260-bbh-203-2023-spring-time', path = 'csv/psych-260-bbh-203-2023-spring-time', type = 'csv', overwrite = TRUE)
+```
+
+#### Reimport data {-}
+
+```{r}
+distance_all <-readr::read_csv("csv/psych-260-bbh-203-2023-spring-distance.csv")
+
+distance <- distance_all %>%
+  select(participant.id, ankleshoulder)
+
+time <- readr::read_csv("csv/psych-260-bbh-203-2023-spring-time.csv")
+```
+
+#### Measuring distance {-}
+
+```{r load-distance}
+dist.hist <- ggplot(data = distance, aes(x=ankleshoulder)) +
+  geom_histogram(bins = 5) +
+  xlab("Ankle/Shoulder Distance (cm)")
+```
+
+```{r measuring-distance, echo = FALSE}
+dist.hist
+```
+
+#### Sum distance {-}
+
+```{r}
+with(distance, summary(ankleshoulder))
+
+# Calculate sum
+dist.sum = with(distance, sum(ankleshoulder, na.rm = TRUE))
+```
+
+The total distance is `r dist.sum` cm.
+
+#### Measuring time {-}
+
+```{r load-times}
+# Plot data
+time.plot = ggplot(data = time, aes(x=trial, y=time, color=condition)) +
+  geom_point() + 
+  geom_line()
+```
+
+```{r measuring-time, echo = FALSE}
+time.plot
+```
+
+#### Calculate time difference {-}
+
+```{r calc-time-diffs}
+ankle.times <- time %>% 
+  dplyr::filter(condition == "ankle", !is.na(time))
+
+shoulder.times <- time %>% 
+  dplyr::filter(condition == "shoulder", !is.na(time)) 
+
+trial_num <- time %>%
+  dplyr::select(., trial) %>%
+  dplyr::filter(., !is.na(trial)) |>
+  unique()
+
+time.diff <- tibble(trial_num,
+                        ankle_shoulder_time=ankle.times$time - shoulder.times$time)
+
+time.diff.plot = ggplot(data = time.diff, aes(x=trial, y=ankle_shoulder_time)) +
+  geom_point() + 
+  geom_line()
+```
+
+```{r condition-diff, echo = FALSE}
+time.diff.plot
+```
+
+#### Calculating speed {-}
+
+```{r}
+cm_to_m <- 1/100
+time.diff$speed <- (dist.sum)*(cm_to_m)/time.diff$ankle_shoulder_time
+
+speed.hist <- ggplot(data = time.diff, aes(x=speed)) +
+  geom_histogram(bins = 5) +
+  xlab("Speed (m/s)")
+```
+
+```{r speed-summary, echo = FALSE}
+speed.hist
+```
+
+#### Plot time series of speeds {-}
+
+```{r plot-speed}
+speed.plot <- ggplot(data = time.diff, aes(x=trial, y=speed)) +
+  geom_point() +
+  geom_line() +
+  ylab("Speed (m/s)")
+```
+
+```{r}
+speed.plot
+```
+
+## Discussion {-}
+
+- We tested the mean speed of neural propagation in a sample of $n$=`r dim(distance)[1]` college-age adults.
+- The mean speed of neural propagation over `r max(time.diff$trial)` trials was `r with(time.diff, summary(speed))['Mean']` m/s with a range of [`r with(time.diff, summary(speed))['Min.']`, `r with(time.diff, summary(speed))['Max.']`] m/s. However, the median was `r with(time.diff, summary(speed))['Median']` m/s.
+- These findings **are not** generally in accord with values we would expect from the literature.
+
+### Limitations {-}
+
+
+### How to replicate/extend/modify {-}
+
