@@ -518,7 +518,7 @@ knitr::include_graphics("https://www.youtube.com/embed/9TAp_p4oSV4")
 - 10s
 - too many to count
 
-## Parkinson's and Huntington's disease are similar in that both affect this part of the brain. {-}
+### Parkinson's and Huntington's disease are similar in that both affect this part of the brain. {-}
 
 - Spinal cord
 - Primary motor cortex
@@ -534,43 +534,26 @@ knitr::include_graphics("https://www.youtube.com/embed/9TAp_p4oSV4")
 - Quiz 4 next Thursday, April 20
 - Exam 4 on Tuesday, May 2, 10:10a-12:00p, **Health & Human Development 254**
 
-### Warm-up {-}
-
-::: {.infobox}
-
-Lasik surgery reshapes this part of the eye that accounts for 2/3 of the eye's total refractive power.
+### Lasik surgery reshapes this part of the eye that accounts for 2/3 of the eye's total refractive power. {-}
 
 A. Cornea</br>
 B. Retina</br>
 C. Lens</br>
 
-:::
-
-
-::: {.infobox}
-
-The fovea provides high acuity information about a ______ deg portion of the visual field.
+### The fovea provides high acuity information about a ______ deg portion of the visual field.  {-}
 
 A. 180</br>
 B. 360</br>
 C. 1-2</br>
 
-:::
-
-
-::: {.infobox}
-
-The rod photoreceptors are ______ numerous than cones in the human retina.
+### The rod photoreceptors are ______ numerous than cones in the human retina. {-}
 
 A. more</br>
 B. less</br>
 
-:::
-
 ## 2023-04-18 {-}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5mlllRdIfqw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 <!-- 'Memory' from Cats -->
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hpTCZ-hO6iI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -583,38 +566,54 @@ B. less</br>
 - Exam 4 on Tuesday, May 2, 10:10a-12:00p, **Health & Human Development 254**
 - In-class lab next Tuesday, April 25.
 
-### Warm-up {-}
-
-::: {.infobox}
-
-Why does Gilmore say the retina is anatomically 'inside-out'?
+### Why does Gilmore say the retina is anatomically 'inside-out'?  {-}
 
 A. The dorsal stream and the ventral stream project to different cortical targets</br>
 B. Information from the left visual field projects to the right hemisphere</br>
 C. Photoreceptors lie at the back of the eye, away from the path of light</br>
 D. Long wavelength 'red-ish' lights can only be seen outside
 
-:::
-
-::: {.infobox}
-
-Visual information from the retina projects to the ______ which controls circadian rhythms.
+### Visual information from the retina projects to the ______ which controls circadian rhythms.  {-}
 
 A. Lateral geniculate nucleus (LGN) of the thalamus</br>
 B. Dorso-medial nucleus of the thalamus</br>
 C. Superior colliculus/optic tectum</br>
 D. Suprachiasmatic nucleus of the hypothalamus
 
-:::
-
-::: {.infobox}
-
-Hubel and Wiesel did not find many cells in V1 that had center-surround receptive fields because
+### Hubel and Wiesel did not find many cells in V1 that had center-surround receptive fields because...  {-}
 
 A. Many cells in V1 have elongated, rectangular-shaped, receptive fields</br>
 B. V1 cells don't have receptive fields</br>
 C. V1 doesn't respond to visual information that strongly</br>
 D. The visual cortex doesn't respond strongly under anesthesia
 
-:::
+## 2023-04-20 {-}
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rq9eM4ZXRgs" frameborder="0" allowfullscreen></iframe>
+
+<!-- Trailer for the film, 'Memento' -->
+
+### Announcements {-}
+
+- Quiz 4 **TODAY** (on Canvas, after class)
+- Exam 4 on **Tuesday, May 2, 10:10a-12:00p, Health & Human Development 254**
+- In-class lab next Tuesday, April 25.
+
+### What neurotransmiter is the main [chemical trigger](#nmda-r) for the NMDA receptor? {-}
+
+A. Dopamine</br>
+B. Acetylcholine</br>
+C. Glutamate</br>
+D. Oxytocin
+
+### All of the following are [types of associative learning](#learning-types) EXCEPT {-}
+
+A. Instrumental conditioning</br>
+B. Observational learning</br>
+C. Sensitization</br>
+D. Implicit learning
+
+### The idea that memories are stored by [physical changes in the brain](#memory-mechanism-in-brain) is a relatively recent idea, TRUE or FALSE? {-}
+
+A. True
+B. False

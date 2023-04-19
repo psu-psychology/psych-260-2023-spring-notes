@@ -5566,7 +5566,7 @@ knitr::include_graphics("https://i2.wp.com/thedatascientist.com/wp-content/uploa
 
 ## Background {-}
 
-### What is learning? {-}
+### What is learning? {- #learning-types}
 
 - *A*: Acquisition of new or change in existing knowledge, skills, responses...
 - **Non-associative**
@@ -5626,7 +5626,7 @@ knitr::include_graphics("include/img/one-tb-flash-drives.png")
     - `00110000` == '0' (the character zero)
 - Write once, read many times
 
-#### Brain memory
+#### Brain memory {-}
 
 - Computers have separate memory stores
     - brains store info everywhere
@@ -5647,7 +5647,7 @@ knitr::include_graphics("include/img/one-tb-flash-drives.png")
 - Retrospective (from the past) vs. prospective (to be remembered)
 - Recognition (familiar or novel) vs. recall
 
-### Mechanism(s) {-}
+### Mechanism(s) {- #memory-mechanism-in-brain}
 
 >The idea that memory is stored as enduring changes in the brain dates back at least to the time of Plato and Aristotle (circa 350 BCE), but its scientific articulation emerged in the 20th century when Richard Semon introduced the term **“engram” to describe the neural substrate for storing and recalling memories**. Essentially, Semon proposed that an experience activates a population of neurons that undergo persistent chemical and/or physical changes to become an engram. Subsequent reactivation of the engram by cues available at the time of the experience induces memory retrieval. 
 >
@@ -5679,7 +5679,7 @@ knitr::include_graphics("include/img/squire-memory-systems.gif")
 - Hebbian learning is associative
 - Neuron A active + Neuron B active => associates/links co-activity
 
-#### [Long-term potentiation (LTP)](https://en.wikipedia.org/wiki/Long-term_potentiation)
+#### [Long-term potentiation (LTP)](https://en.wikipedia.org/wiki/Long-term_potentiation) {-}
 
 - Increase (potentiation) in synaptic strength based on recent co-activity
 - Change at synapse == physical basis of Hebbian learning
@@ -5688,35 +5688,35 @@ knitr::include_graphics("include/img/squire-memory-systems.gif")
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/LTP_exemplar.jpg/800px-LTP_exemplar.jpg")
 ```
 
-### 'Hebbian' learning via NMDA receptor {-}
+### 'Hebbian' learning via NMDA receptor {- #nmda-r}
 
 - *N-methyl-D-aspartate* receptor (NMDA-R)
 - 'Coincidence' detector
     + Sending cell has released NT
     + Receiving cell is/has been recently active
-    
-```{r, fig.cap="Wikipedia: https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Activated_NMDAR.svg/220px-Activated_NMDAR.svg.png"}
-knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Activated_NMDAR.svg/220px-Activated_NMDAR.svg.png")
+- NMDA-R chemically-gated
+    + Ligand-gated
+        - Glutamate
+        - Glycine (co-factor/co-agonist)
+    + Sending cell active
+- AND Voltage-gated
+    + Receiving cell depolarizes (EPSP or action potential)
+    + $Zn^{++}$ or $Mg^{++}$ ion 'plug' repelled under depolarization
+    + $Na^+$ & $Ca^{++}$ influx; $K^+$ outflux
+
+```{r, fig.cap="NMDA-R from [@pitt-medical-neurosci-glu]"}
+knitr::include_graphics("http://pittmedneuro.com/img/glut1.jpg")
 ```
 
-```{r, fig.cap='https://i2.wp.com/www.gatewaypsychiatric.com/wp-content/uploads/2015/02/NMDA-Receptor-and-Depression.jpg?ssl=1'}
+```{r, out.width="75%", fig.cap='https://i2.wp.com/www.gatewaypsychiatric.com/wp-content/uploads/2015/02/NMDA-Receptor-and-Depression.jpg?ssl=1'}
 knitr::include_graphics("https://i2.wp.com/www.gatewaypsychiatric.com/wp-content/uploads/2015/02/NMDA-Receptor-and-Depression.jpg?ssl=1")
 ```
-
-- Chemically-gated AND
-    + Ligand- (glutamate/aspartate + glycine) gated
-    + Sending cell active
-- Voltage-gated
-    + $Zn^{++}$ or $Mg^{++}$ ion 'plug' removed under depolarization
-    + $Na^+$ & $Ca^{++}$ influx; $K^+$ outflux
-    + Receiving cell responds
 
 #### NMDA receptors (NMDA-R) contribute to associative learning {-}
 
 - Associate (link)
     + Concept A -> Concept B
     + Neuron A -> Neuron B
-    
 - I say Donald...you say...
 
 #### How does LTP (& Long-term depression or LTD) work? {-}
@@ -5746,21 +5746,20 @@ knitr::include_graphics("https://i2.wp.com/www.gatewaypsychiatric.com/wp-content
 - lightning THEN thunder
 - unusual food THEN indigestion
 
-#### Spike-timing-dependent plasticity
+#### Spike-timing-dependent plasticity {-}
 
 - [*Neural Plasticity*](https://en.wikipedia.org/wiki/Neuroplasticity)
     + Lasting changes in neural firing, connectivity
+- A before B: strengthen $A \rightarrow B$
+- A after B: weaken $A \rightarrow B$
 
-```{r, fig.cap="Figure 1 from [@caporale2008spike]"}
+```{r, include=FALSE, fig.cap="Figure 1 from [@caporale2008spike]"}
 knitr::include_graphics("include/img/caporale-2008-fig-1.jpg")
 ```
 
-```{r, fig.cap="Figure 2 from [@caporale2008spike]"}
+```{r, include=FALSE, fig.cap="Figure 2 from [@caporale2008spike]"}
 knitr::include_graphics("include/img/caporale-2008-fig-2.jpg")
 ```
-
-- A before B: strengthen $A \rightarrow B$
-- A after B: weaken $A \rightarrow B$
 
 ### Summary {-}
 
@@ -5771,15 +5770,13 @@ knitr::include_graphics("include/img/caporale-2008-fig-2.jpg")
     + Molecular basis of one form of long-term potentiation (LTP)
 - Unlike computers, brains store different types of information stored in different brain systems
 
-## Memory systems in the brain {-}
-
 ```{r, fig.cap="[@squire_memory_2004]"}
 knitr::include_graphics("include/img/squire-memory-systems.gif")
 ```
 
 ## Disorders of memory {-}
 
-### Amnesia
+### Amnesia {-}
 
 - Acquired loss of memory
 - ≠ normal forgetting
@@ -5805,7 +5802,7 @@ knitr::include_graphics("https://www.pbs.org/wgbh/nova/media/images/corkin-hm-me
 ```
 
 ```{r, fig.cap="[@Grafe2019-mk]"}
-knitr::include_graphics("https://www.youtube.com/embed/aw6JmZuLhfA")
+knitr::include_url("https://www.youtube.com/embed/aw6JmZuLhfA")
 ```
 <!-- Brenda Milner on HM -->
 
@@ -5820,10 +5817,6 @@ knitr::include_graphics("https://www.youtube.com/embed/aw6JmZuLhfA")
 >
 >-- HM
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Rq9eM4ZXRgs" frameborder="0" allowfullscreen></iframe>
-
-<!-- Trailer for the film, 'Memento' -->
-    
 #### Other causes of amnesia {-}
 
 - Disease 
@@ -6836,7 +6829,7 @@ knitr::include_graphics("https://www.youtube.com/embed/9TAp_p4oSV4")
 - 10s
 - too many to count
 
-## Parkinson's and Huntington's disease are similar in that both affect this part of the brain. {-}
+### Parkinson's and Huntington's disease are similar in that both affect this part of the brain. {-}
 
 - Spinal cord
 - Primary motor cortex
@@ -6852,43 +6845,26 @@ knitr::include_graphics("https://www.youtube.com/embed/9TAp_p4oSV4")
 - Quiz 4 next Thursday, April 20
 - Exam 4 on Tuesday, May 2, 10:10a-12:00p, **Health & Human Development 254**
 
-### Warm-up {-}
-
-::: {.infobox}
-
-Lasik surgery reshapes this part of the eye that accounts for 2/3 of the eye's total refractive power.
+### Lasik surgery reshapes this part of the eye that accounts for 2/3 of the eye's total refractive power. {-}
 
 A. Cornea</br>
 B. Retina</br>
 C. Lens</br>
 
-:::
-
-
-::: {.infobox}
-
-The fovea provides high acuity information about a ______ deg portion of the visual field.
+### The fovea provides high acuity information about a ______ deg portion of the visual field.  {-}
 
 A. 180</br>
 B. 360</br>
 C. 1-2</br>
 
-:::
-
-
-::: {.infobox}
-
-The rod photoreceptors are ______ numerous than cones in the human retina.
+### The rod photoreceptors are ______ numerous than cones in the human retina. {-}
 
 A. more</br>
 B. less</br>
 
-:::
-
 ## 2023-04-18 {-}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5mlllRdIfqw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 <!-- 'Memory' from Cats -->
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hpTCZ-hO6iI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -6901,41 +6877,57 @@ B. less</br>
 - Exam 4 on Tuesday, May 2, 10:10a-12:00p, **Health & Human Development 254**
 - In-class lab next Tuesday, April 25.
 
-### Warm-up {-}
-
-::: {.infobox}
-
-Why does Gilmore say the retina is anatomically 'inside-out'?
+### Why does Gilmore say the retina is anatomically 'inside-out'?  {-}
 
 A. The dorsal stream and the ventral stream project to different cortical targets</br>
 B. Information from the left visual field projects to the right hemisphere</br>
 C. Photoreceptors lie at the back of the eye, away from the path of light</br>
 D. Long wavelength 'red-ish' lights can only be seen outside
 
-:::
-
-::: {.infobox}
-
-Visual information from the retina projects to the ______ which controls circadian rhythms.
+### Visual information from the retina projects to the ______ which controls circadian rhythms.  {-}
 
 A. Lateral geniculate nucleus (LGN) of the thalamus</br>
 B. Dorso-medial nucleus of the thalamus</br>
 C. Superior colliculus/optic tectum</br>
 D. Suprachiasmatic nucleus of the hypothalamus
 
-:::
-
-::: {.infobox}
-
-Hubel and Wiesel did not find many cells in V1 that had center-surround receptive fields because
+### Hubel and Wiesel did not find many cells in V1 that had center-surround receptive fields because...  {-}
 
 A. Many cells in V1 have elongated, rectangular-shaped, receptive fields</br>
 B. V1 cells don't have receptive fields</br>
 C. V1 doesn't respond to visual information that strongly</br>
 D. The visual cortex doesn't respond strongly under anesthesia
 
-:::
+## 2023-04-20 {-}
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rq9eM4ZXRgs" frameborder="0" allowfullscreen></iframe>
+
+<!-- Trailer for the film, 'Memento' -->
+
+### Announcements {-}
+
+- Quiz 4 **TODAY** (on Canvas, after class)
+- Exam 4 on **Tuesday, May 2, 10:10a-12:00p, Health & Human Development 254**
+- In-class lab next Tuesday, April 25.
+
+### What neurotransmiter is the main [chemical trigger](#nmda-r) for the NMDA receptor? {-}
+
+A. Dopamine</br>
+B. Acetylcholine</br>
+C. Glutamate</br>
+D. Oxytocin
+
+### All of the following are [types of associative learning](#learning-types) EXCEPT {-}
+
+A. Instrumental conditioning</br>
+B. Observational learning</br>
+C. Sensitization</br>
+D. Implicit learning
+
+### The idea that memories are stored by [physical changes in the brain](#memory-mechanism-in-brain) is a relatively recent idea, TRUE or FALSE? {-}
+
+A. True
+B. False
 
 <!--chapter:end:80-supplemental.Rmd-->
 

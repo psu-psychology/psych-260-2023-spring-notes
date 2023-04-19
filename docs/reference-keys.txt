@@ -311,8 +311,6 @@ fig:unnamed-chunk-299
 fig:unnamed-chunk-300
 fig:unnamed-chunk-301
 fig:unnamed-chunk-302
-fig:unnamed-chunk-303
-fig:unnamed-chunk-304
 fig:unnamed-chunk-305
 fig:unnamed-chunk-306
 fig:unnamed-chunk-307
@@ -350,10 +348,6 @@ psychopathology
 emotion
 sensory-and-motor-systems
 learning-memory
-brain-memory
-long-term-potentiation-ltp
-spike-timing-dependent-plasticity
-amnesia
 speed-lab
 rigor-mortis
 exam-study-guides
