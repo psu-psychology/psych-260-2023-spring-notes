@@ -5924,10 +5924,10 @@ knitr::include_graphics("https://media.springernature.com/full/springer-static/i
 
 # Speed lab
 
-<div class="centered">
-<img src="https://images-na.ssl-images-amazon.com/images/I/41tpdBq%2BPVL._SX327_BO1,204,203,200_.jpg" height=500px>
-</div>
-# Rigor Mortis
+```{r, fig.align='center', fig.cap="*Rigor Mortis* by Richard Harris", out.width="50%"}
+knitr::include_graphics("https://images-na.ssl-images-amazon.com/images/I/41tpdBq%2BPVL._SX327_BO1,204,203,200_.jpg")
+```
+<!-- Rigor Mortis -->
 
 [PSYCH 490 The Reproducibility Crisis in Science](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/)
 
