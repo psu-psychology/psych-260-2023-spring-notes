@@ -615,7 +615,7 @@ D. Implicit learning
 
 ### The idea that memories are stored by [physical changes in the brain](#memory-mechanism-in-brain) is a relatively recent idea, TRUE or FALSE? {-}
 
-A. True
+A. True</br>
 B. False
 
 ## 2023-04-25 {-}

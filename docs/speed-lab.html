@@ -717,7 +717,7 @@ Figure 15.1: <em>Rigor Mortis</em> by Richard Harris
 <div id="prediction" class="section level3 unnumbered hasAnchor">
 <h3>Prediction<a href="speed-lab.html#prediction" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>We predict that the speed of conduction will be …</p>
-<p>Between ____ and ____ m/s.</p>
+<p>Between 40 and 60 m/s.</p>
 </div>
 <div id="method" class="section level3 unnumbered hasAnchor">
 <h3>Method<a href="speed-lab.html#method" class="anchor-section" aria-label="Anchor link to header"></a></h3>
@@ -764,14 +764,14 @@ Figure 15.1: <em>Rigor Mortis</em> by Richard Harris
 <div id="decisions" class="section level4 unnumbered hasAnchor">
 <h4>Decisions<a href="speed-lab.html#decisions" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ul>
-<li>Same hand or dominant?</li>
-<li>Alternate ankle/shoulder or one condition before the other?</li>
+<li>Same hand <del>or dominant</del>?</li>
+<li>Alternate ankle/shoulder <del>or one condition before the other</del>?</li>
 <li>How many trials?
 <ul>
-<li>Fixed number?</li>
-<li>When reach asymptote?
+<li>Fixed number = 3</li>
+<li><del>When reach asymptote?</del>
 <ul>
-<li>How decide asymptote?</li>
+<li><del>How decide asymptote?</del></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -794,6 +794,9 @@ Figure 15.1: <em>Rigor Mortis</em> by Richard Harris
 <h3>Results<a href="speed-lab.html#results" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <div id="download-data-as-csv" class="section level4 unnumbered hasAnchor">
 <h4>Download data as CSV<a href="speed-lab.html#download-data-as-csv" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ul>
+<li>CSV = “comma-separated value”</li>
+</ul>
 <pre><code>## ! Using an auto-discovered, cached token.</code></pre>
 <pre><code>##   To suppress this message, modify your code or options to
 ##   clearly consent to the use of a cached token.</code></pre>
@@ -819,18 +822,19 @@ Figure 15.1: <em>Rigor Mortis</em> by Richard Harris
 <pre><code>## New names:
 ## Rows: 29 Columns: 4
 ## ── Column specification
-## ────────────────────────────────────── Delimiter: &quot;,&quot; dbl
-## (2): participant.id, ankleshoulder lgl (2): ...3, comment
-## ℹ Use `spec()` to retrieve the full column specification for
-## this data. ℹ Specify the column types or set `show_col_types
-## = FALSE` to quiet this message.
+## ───────────────────────────────── Delimiter: &quot;,&quot; chr
+## (1): comment dbl (2): participant.id, ankleshoulder lgl
+## (1): ...3
+## ℹ Use `spec()` to retrieve the full column specification
+## for this data. ℹ Specify the column types or set
+## `show_col_types = FALSE` to quiet this message.
 ## Rows: 34 Columns: 4
 ## ── Column specification
-## ────────────────────────────────────── Delimiter: &quot;,&quot; chr
-## (1): condition dbl (2): trial, time lgl (1): comments
-## ℹ Use `spec()` to retrieve the full column specification for
-## this data. ℹ Specify the column types or set `show_col_types
-## = FALSE` to quiet this message.
+## ───────────────────────────────── Delimiter: &quot;,&quot; chr
+## (2): condition, comments dbl (2): trial, time
+## ℹ Use `spec()` to retrieve the full column specification
+## for this data. ℹ Specify the column types or set
+## `show_col_types = FALSE` to quiet this message.
 ## • `` -&gt; `...3`</code></pre>
 </div>
 <div id="measuring-distance" class="section level4 unnumbered hasAnchor">
@@ -872,13 +876,25 @@ Figure 15.1: <em>Rigor Mortis</em> by Richard Harris
 <ul>
 <li>We tested the mean speed of neural propagation in a sample of <span class="math inline">\(n\)</span>=29 college-age adults.</li>
 <li>The mean speed of neural propagation over 2 trials was -1.02 m/s with a range of [-1.02, -1.02] m/s. However, the median was -1.02 m/s.</li>
+<li>This value is <em>not</em> in the range we predicted. It is slower by a factor of 2-3.</li>
 <li>These findings <strong>are not</strong> generally in accord with values we would expect from the literature.</li>
 </ul>
 <div id="limitations" class="section level3 unnumbered hasAnchor">
 <h3>Limitations<a href="speed-lab.html#limitations" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>Small sample size of participants.</li>
+<li>Timing was done by hand.</li>
+<li>Inexperienced group of participants. There was only 1 warm-up trial.</li>
+<li>Only did one ankle-shoulder measurement.</li>
+<li>Stopwatch had beep, could have alerted participants to coming squeeze.</li>
+</ul>
 </div>
 <div id="how-to-replicateextendmodify" class="section level3 unnumbered hasAnchor">
 <h3>How to replicate/extend/modify<a href="speed-lab.html#how-to-replicateextendmodify" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>Address measurement limitations.</li>
+<li>Recruiting could be clearer about what’s involved.</li>
+</ul>
 
 </div>
 </div>

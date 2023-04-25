@@ -5945,7 +5945,7 @@ knitr::include_graphics("https://images-na.ssl-images-amazon.com/images/I/41tpdB
 
 We predict that the speed of conduction will be ...
 
-Between ____ and ____  m/s.
+Between 40 and 60  m/s.
     
 ### Method {-}
 
@@ -5980,12 +5980,12 @@ Between ____ and ____  m/s.
 
 #### Decisions {-}
 
-- Same hand or dominant?
-- Alternate ankle/shoulder or one condition before the other?
+- Same hand ~~or dominant~~?
+- Alternate ankle/shoulder ~~or one condition before the other~~?
 - How many trials?
-    + Fixed number?
-    + When reach asymptote?
-        - How decide asymptote?
+    + Fixed number = 3
+    + ~~When reach asymptote?~~
+        - ~~How decide asymptote?~~
     
 #### Data files {-}
 
@@ -6006,6 +6006,8 @@ suppressPackageStartupMessages(library("ggplot2"))
 
 #### Download data as CSV {-}
 
+- CSV = "comma-separated value"
+
 ```{r}
 # https://docs.google.com/spreadsheets/d/1ZVbAXhs3K6LFU62FfsXNpqGjsEHDXya6oRf12uhDkMU/edit?usp=sharing
 
@@ -6017,7 +6019,7 @@ googledrive::drive_download(file = 'psych-260-bbh-203-2023-spring-time', path = 
 #### Reimport data {-}
 
 ```{r}
-distance_all <-readr::read_csv("csv/psych-260-bbh-203-2023-spring-distance.csv")
+distance_all <- readr::read_csv("csv/psych-260-bbh-203-2023-spring-distance.csv")
 
 distance <- distance_all %>%
   select(participant.id, ankleshoulder)
@@ -6052,7 +6054,7 @@ The total distance is `r dist.sum` cm.
 
 ```{r load-times}
 # Plot data
-time.plot = ggplot(data = time, aes(x=trial, y=time, color=condition)) +
+time.plot <- ggplot(data = time, aes(x=trial, y=time, color=condition)) +
   geom_point() + 
   geom_line()
 ```
@@ -6076,7 +6078,7 @@ trial_num <- time %>%
   unique()
 
 time.diff <- tibble(trial_num,
-                        ankle_shoulder_time=ankle.times$time - shoulder.times$time)
+                        ankle_shoulder_time = ankle.times$time - shoulder.times$time)
 
 time.diff.plot = ggplot(data = time.diff, aes(x=trial, y=ankle_shoulder_time)) +
   geom_point() + 
@@ -6119,13 +6121,22 @@ speed.plot
 
 - We tested the mean speed of neural propagation in a sample of $n$=`r dim(distance)[1]` college-age adults.
 - The mean speed of neural propagation over `r max(time.diff$trial)` trials was `r with(time.diff, summary(speed))['Mean']` m/s with a range of [`r with(time.diff, summary(speed))['Min.']`, `r with(time.diff, summary(speed))['Max.']`] m/s. However, the median was `r with(time.diff, summary(speed))['Median']` m/s.
+- This value is *not* in the range we predicted. It is slower by a factor of 2-3.
 - These findings **are not** generally in accord with values we would expect from the literature.
 
 ### Limitations {-}
 
+- Small sample size of participants.
+- Timing was done by hand.
+- Inexperienced group of participants. There was only 1 warm-up trial.
+- Only did one ankle-shoulder measurement.
+- Stopwatch had beep, could have alerted participants to coming squeeze.
+
 
 ### How to replicate/extend/modify {-}
 
+- Address measurement limitations.
+- Recruiting could be clearer about what's involved.
 
 <!--chapter:end:15-speed-lab.Rmd-->
 
@@ -6926,7 +6937,7 @@ D. Implicit learning
 
 ### The idea that memories are stored by [physical changes in the brain](#memory-mechanism-in-brain) is a relatively recent idea, TRUE or FALSE? {-}
 
-A. True
+A. True</br>
 B. False
 
 ## 2023-04-25 {-}
