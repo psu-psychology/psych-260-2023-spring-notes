@@ -1,5 +1,10 @@
 # Speed lab
 
+```{r}
+knitr::opts_chunk$set(cache=FALSE, 
+                      fig.align = "center")
+```
+
 ```{r, fig.align='center', fig.cap="*Rigor Mortis* by Richard Harris", out.width="50%"}
 knitr::include_graphics("https://images-na.ssl-images-amazon.com/images/I/41tpdBq%2BPVL._SX327_BO1,204,203,200_.jpg")
 ```
@@ -98,7 +103,8 @@ googledrive::drive_download(file = 'psych-260-bbh-203-2023-spring-time', path = 
 distance_all <- readr::read_csv("csv/psych-260-bbh-203-2023-spring-distance.csv")
 
 distance <- distance_all %>%
-  select(participant.id, ankleshoulder)
+  dplyr::select(participant.id, ankleshoulder) %>%
+  dplyr::filter(., !is.na(ankleshoulder))
 
 time <- readr::read_csv("csv/psych-260-bbh-203-2023-spring-time.csv")
 ```
@@ -129,6 +135,9 @@ The total distance is `r dist.sum` cm.
 #### Measuring time {-}
 
 ```{r load-times}
+time <- time %>%
+  dplyr::filter(., !is.na(trial))
+
 # Plot data
 time.plot <- ggplot(data = time, aes(x=trial, y=time, color=condition)) +
   geom_point() + 
@@ -207,7 +216,7 @@ speed.plot
 - Inexperienced group of participants. There was only 1 warm-up trial.
 - Only did one ankle-shoulder measurement.
 - Stopwatch had beep, could have alerted participants to coming squeeze.
-
+- The reaction time of the person timing may have played a larger role because of the smaller number of participants.
 
 ### How to replicate/extend/modify {-}
 
