@@ -174,4 +174,5 @@
 - Receptive field sizes and relationship with sensitivity
 - Anatomy of somatosensory system
 
-## Exam 4 {-}
+## [Exam 4](the-cerebral-symphony.html#exam-4-review) {-}
+

@@ -6482,7 +6482,8 @@ knitr::include_graphics("https://media.springernature.com/lw785/springer-static/
 - Receptive field sizes and relationship with sensitivity
 - Anatomy of somatosensory system
 
-## Exam 4 {-}
+## [Exam 4](the-cerebral-symphony.html#exam-4-review) {-}
+
 
 <!--chapter:end:70-study-guides.Rmd-->
 
