@@ -4,7 +4,7 @@ author: Rick Gilmore
 date: "`r Sys.time()`"
 output:
   ioslides_presentation:
-    css: ../css/ioslides.css
+    css: ../include/css/ioslides.css
     incremental: no
     transition: default
     widescreen: yes
@@ -18,10 +18,6 @@ output:
 ---
 
 ## The cerebral symphony
-
-This is my 25th year at Penn State, and at one point earlier in the year, it looked like this might be the last time I would teach this course. But fate had other ideas. 
-
----
 
 From very early on in teaching this course, I've enjoyed trying to wrap things up in a way that let's us all step back, reflect, and in some small way, try to put into perspective what a privilege it is to spend 15 weeks studying “The Neurological Bases of Human Behavior.” 
 
@@ -51,7 +47,7 @@ At the same time, your somatosensory system is receiving information about tempe
 
 All of this is happening at the same time in the same mind in the same brain.  
 
-There are more neurons in your brain than there are stars in our galaxy. And unlike the stars in the Milky Way, these radiant sources of thought and feeling are bound to one another by forces more powerful than gravity.
+There are more neurons in your brain than there are stars in our galaxy. And those radiant sources of thought and feeling are bound to one another by forces in some ways more powerful than gravity.
 
 ---
 
@@ -100,7 +96,8 @@ The thrill of this sort of combative musicianship suited Beethoven's personality
 
 Not only was he in great demand to give live performances, but he was incredibly productive in composition.  
 
-In all ways, Beethoven's future looked bright.  But, slowly, at first imperceptibly, and then, later more noticeably, his life began to change in the cruelest possible way. Beethoven had long suffered a list of maladies – diarrhea, abdominal pain, respiratory illness, and depression, and he was known for self-medicating with ample quantities of alcohol. 
+In all ways, Beethoven's future looked bright.  But, slowly, at first imperceptibly, and then, later more noticeably, his life began to change in the cruelest possible way.
+Beethoven had long suffered a list of maladies – diarrhea, abdominal pain, respiratory illness, and depression, and he was known for self-medicating with ample quantities of alcohol. 
 
 ---
 
@@ -166,7 +163,7 @@ As much as we ourselves might be moved by the story, this saga of creation Beeth
 
 ---
 
-What Beethoven's contemporaries saw as quirks of artistic temperament might in modern times be seen -- and treated -- as symptoms of mental illness. On top of his deafness, was Beethoven depressed, bipolar, schizophrenic, or dissociative?  We can never know for certain. We know from a post-mortem autopsy that he died of liver failure due to alcohol poisoning, and there is evidence that he may have been a victim of lead poisoning, as well.
+What Beethoven's contemporaries saw as quirks of artistic temperament might in modern times be seen -- and treated -- as symptoms of mental illness. On top of his deafness, was Beethoven depressed, bipolar, schizophrenic, or suffering from ADHD?  We can never know for certain. We know from a post-mortem autopsy that he died of liver failure due to alcohol poisoning, and there is evidence that he may have been a victim of lead poisoning, as well, possibly from lead-lined drinking glasses common in that era.
 
 ---
 
@@ -190,7 +187,7 @@ Maybe that sense of confusion has led you to doubt that it is even possible for 
 
 So, perhaps the task of understanding our own mind *is* beyond human ability.  Perhaps we neuroscientists are engaged in a fruitless and impossible pursuit, destined for eternal ignorance and frustration.
 
-If there is one lesson students of science should learn well and never forget, it is to be skeptical. 
+If there is one lesson students of science should learn well and never forget, it is to be skeptical.
 
 ---
 
@@ -220,4 +217,4 @@ I hope that that the insight and courage needed to help us understand our own na
 
 It will be...an ode to joy.
 
-Be well, do great work, take good care.
+Be well, do great work, and take good care.
